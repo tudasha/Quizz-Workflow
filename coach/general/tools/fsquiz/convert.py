@@ -252,6 +252,14 @@ def problem_body(question_id, text_markdown, image_names, options):
     return "\n".join(parts).rstrip() + "\n"
 
 
+def link_missing_images(markdown, failed_images):
+    """Point images that could not be downloaded ({file name: url}) back at FS Quiz,
+    so the file has no broken local link; the next import retries them."""
+    for file_name, url in failed_images.items():
+        markdown = markdown.replace("](images/" + file_name + ")", "](" + url + ")")
+    return markdown
+
+
 def render_problem(fields, body):
     return render_front_matter(fields) + "\n" + body
 

@@ -28,11 +28,11 @@ class ImportReport:
 
 
 def event_matches(event, names):
-    """A config entry names an event by its exact short name ("FSG") or by part of its
-    full name ("Alpe Adria"), ignoring case."""
-    short_name = event["short_name"].lower()
+    """A config entry names an event by its short name ("FSG", "fs-ihu") or by part of
+    its full name ("Alpe Adria"), ignoring case."""
+    short_name = convert.slugify(event["short_name"])
     event_name = (event.get("event_name") or "").lower()
-    return any(name.lower() == short_name or name.lower() in event_name for name in names)
+    return any(convert.slugify(name) == short_name or name.lower() in event_name for name in names)
 
 
 def selected_events(events, config):
@@ -107,14 +107,18 @@ def write_if_changed(path, content):
 
 
 def download_images(client, problem_dir, image_paths, inline_image_urls, report):
+    """Download the images; returns {file name: url} of the ones that failed."""
     downloads = [(convert.image_url(path), convert.image_file_name(path)) for path in image_paths]
     downloads += [(url, convert.image_file_name(url)) for url in inline_image_urls]
+    failed = {}
     for url, file_name in downloads:
         try:
             if client.download(url, problem_dir / "images" / file_name):
                 report.images_downloaded += 1
         except Exception as error:  # one broken image must not stop the whole import
             report.warnings.append("image " + url + ": " + str(error))
+            failed[file_name] = url
+    return failed
 
 
 def write_problem(client, problem_dir, folder, question, refs, topics, report):
@@ -129,11 +133,12 @@ def write_problem(client, problem_dir, folder, question, refs, topics, report):
     fields = convert.problem_fields(question, folder, refs, topics, existing_fields)
     image_names = [convert.image_file_name(path) for path in image_paths]
     body = convert.problem_body(question_id, text_markdown, image_names, fields["options"])
+    failed_images = download_images(client, problem_dir, image_paths, inline_image_urls, report)
+    body = convert.link_missing_images(body, failed_images)
     if write_if_changed(problem_file, convert.render_problem(fields, body)):
         report.problems_written += 1
     else:
         report.problems_unchanged += 1
-    download_images(client, problem_dir, image_paths, inline_image_urls, report)
 
     # The API spec calls it "solutions", the live API answers with "solution".
     solutions = question.get("solution") or question.get("solutions")
@@ -144,9 +149,9 @@ def write_problem(client, problem_dir, folder, question, refs, topics, report):
     hand_edited = solution_file.exists() and not solution_file.read_text(encoding="utf-8").startswith(convert.IMPORTED_MARKER)
     if hand_edited:
         return
-    if write_if_changed(solution_file, solution_text):
+    failed_images = download_images(client, problem_dir, solution_images, solution_inline_urls, report)
+    if write_if_changed(solution_file, convert.link_missing_images(solution_text, failed_images)):
         report.solutions_written += 1
-    download_images(client, problem_dir, solution_images, solution_inline_urls, report)
 
 
 def import_problems(client, coach_dir, config, log=print):

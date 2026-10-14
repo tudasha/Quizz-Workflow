@@ -77,7 +77,7 @@ def test_topic_checker_edits_survive_a_reimport(tmp_path):
 
 
 def test_event_filter_by_short_name_and_folder_names(tmp_path):
-    config = dict(CONFIG, events=["fsch"], folder_names={"FSCH": "fsch"})
+    config = dict(CONFIG, events=["Fsch"], folder_names={"FSCH": "fsch"})
     report, _ = run_import(tmp_path, config)
     assert report.problems_per_event == {"fsch": 2}
     assert not (tmp_path / "competitions" / "fs-netherlands").exists()
@@ -92,9 +92,14 @@ def test_event_filter_by_part_of_the_name(tmp_path):
     assert list(report.problems_per_event) == ["fs-switzerland"]
 
 
-def test_missing_image_is_a_warning_not_a_crash(tmp_path):
+def test_image_that_fails_to_download_stays_linked_to_fs_quiz(tmp_path):
     api_routes = routes()
     api_routes["quiz/1"]["questions"][0]["images"].append({"img_id": 2, "path": "gone.jpg"})
+    api_routes["quiz/1"]["questions"][0]["solution"][0]["images"].append({"img_id": 3, "path": "solutions/535_1.jpg"})
     report, _ = run_import(tmp_path, api_routes=api_routes)
     assert any("gone.jpg" in warning for warning in report.warnings)
     assert report.problems_written == 4
+    _, body = read_problem(tmp_path, "fs-netherlands", 1)
+    assert "![](https://img.fs-quiz.eu/gone.jpg)" in body and "![](images/12_1.jpg)" in body
+    solution = (tmp_path / "competitions" / "fs-netherlands" / "problems" / "1" / "solution.md").read_text(encoding="utf-8")
+    assert "![](https://img.fs-quiz.eu/solutions/535_1.jpg)" in solution

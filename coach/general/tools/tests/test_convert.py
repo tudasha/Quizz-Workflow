@@ -154,3 +154,9 @@ def test_split_number_reads_comma_decimals():
 ])
 def test_answers_match(printed, expected, match):
     assert convert.answers_match(printed, expected) is match
+
+
+def test_link_missing_images_points_back_at_fs_quiz():
+    markdown = "![](images/a.jpg)\n![](images/b.jpg)\n"
+    linked = convert.link_missing_images(markdown, {"b.jpg": "https://img.fs-quiz.eu/solutions/b.jpg"})
+    assert linked == "![](images/a.jpg)\n![](https://img.fs-quiz.eu/solutions/b.jpg)\n"
