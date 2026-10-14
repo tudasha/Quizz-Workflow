@@ -13,7 +13,7 @@ Licence: Open Database License (ODbL): credit FS Quiz, and a shared derived data
 | `/document`, `/quiz/{id}/documents` | rulebooks, handbooks, registration procedures, by event, year and version |
 
 ## A2.1 Licence and courtesy note — **Gion**
-- Add `SOURCES.md` with the FS Quiz credit and ODbL terms
+- `coach/SOURCES.md` with the FS Quiz credit and ODbL terms: done
 - Tell the FS Quiz owner how the data is used (courtesy, not a blocker)
 
 ## A2.2 Problem format

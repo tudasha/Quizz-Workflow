@@ -9,7 +9,7 @@ Branch: `feat/zip-build`
 Done when: a new commit on `main` produces a fresh zip in storage.
 
 ## A5.2 LOG.md
-Branch: `feat/log-instructions`
+First version done (`coach/LOG.md`: Claude Code, Gemini CLI, paste fallback). Branch for the rest: `feat/log-instructions`
 - How to connect the log: MCP URL and token, with steps for Claude Projects, Claude Code, ChatGPT and Gemini; fallback: print the entry and paste it into the app form
 - For Claude Code and Codex: a ready config for a local markdown MCP over the unzipped folder
 Done when: a member follows it on each agent type without help.
