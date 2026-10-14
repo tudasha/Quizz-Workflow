@@ -7,12 +7,12 @@ Branch: `feat/skill-solving-rules`
 - `general/skills/solving-rules/SKILL.md` from Gion's text. Expected topics: decimals and rounding, SI units, answer format, always compute in Python, state assumptions, check rule references
 Done when: Gion confirms the file says what they wrote.
 
-## A3.2 Log entry skill — **Gion**
-Branch: `feat/skill-log-entry`
-- `general/skills/log-entry/SKILL.md`: one file per solve `log/<yyyy-mm-dd>-<user>-<problem>.md`
-- Fields: problem, agent, result (correct / wrong / unknown), approach, what went wrong, why, rule for next time, status `unreviewed`
-- Agents with git push it to `log`; agents without git print it as text
-Done when: a sample entry from Claude Code and one from ChatGPT match the format.
+## A3.2 Log use skill — **Gion**
+Branch: `feat/skill-log-use`. After A4.3.
+- `general/skills/log-use/SKILL.md` from Gion's text: before each problem, read the log entries for that problem and topic; after it, write one entry
+- Entry fields: problem, agent, result (correct / wrong / unknown), approach, what went wrong, why, rule for next time
+- How: MCP tools when the agent supports them, otherwise print the entry for the member to paste into the app form
+Done when: Gion confirms the file says what they wrote.
 
 ## A3.3 Formula library
 Branch: `feat/formula-library`. Skill `tdd`.
@@ -22,5 +22,4 @@ Done when: pytest passes; `solution.py` files import from it.
 ## A3.4 Competition rules — **Gion**
 One branch per competition: `feat/competition-<event>`
 - `COMPETITION.md` and `skills/` from Gion's text. Expected topics: quiz format, decimals, time limit, scoring, answer submission rules
-- `skills/`: calculation conventions specific to that competition
-Done when: reviewed against that competition's handbook.
+Done when: Gion confirms the file says what they wrote.

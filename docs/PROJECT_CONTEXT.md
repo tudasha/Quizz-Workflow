@@ -10,13 +10,13 @@ Help the team train for Formula Student quizzes (math, physics, mechanics, elect
 Order (Gion, 2026-10-14): the AI coach repo is built and reviewed first, then the quiz workflow app. Plan: `docs/plans/README.md`.
 
 1. **Quiz workflow app** (this repo): quizzes, problem assignment, answers, documentation, AI coach panel.
-2. **AI coach knowledge repo** (separate repo, not created yet): shared rules, skills and past problems that each member loads into their own agent. No model training, no in-app chat.
+2. **AI coach**: a knowledge repo (separate, maintainers only) with shared rules, skills and past problems, handed to members as a zip per competition; plus a live log in this app's database that every agent reads and writes through MCP or a REST API. No model training, no in-app chat.
 
 ## Quiz workflow app
 
 ### Decisions
 - Stack (Gion, 2026-10-14): Next.js + TypeScript, PostgreSQL + Drizzle, Better Auth, Tailwind + shadcn/ui, Vitest + Playwright, Cloudflare R2 for files, GitHub API for the coach repo. No Firebase or Firestore.
-- Hosting: still open (candidates: Railway, Vercel + Neon, own server).
+- Hosting: still open (candidates: Railway, Vercel + Neon, own server); needed before the coach trial (A4.0).
 - App repo: https://github.com/tudasha/Quizz-Workflow (Gion's account; the ARTTU-Software/Quiz-Workflow repo held the firmware template)
 - Admin rights from a server-side role; admin passkey checked on the server.
 - Departments: Accumulator, Electrical, Mechanical, Dynamics, Marketing.
@@ -27,7 +27,7 @@ Order (Gion, 2026-10-14): the AI coach repo is built and reviewed first, then th
 - Home: list of quizzes; admins create and save quizzes
 - Quiz page: problem gallery and problem detail
 - Documentation: collections per department or for the whole team
-- AI coach panel: competition selector, setup prompt, zip download, log entry form
+- AI coach panel: competition selector, zip download, MCP URL and token, paste form, log browser
 - Admin only: Departments, Assignments, All Answers
 
 ### Build steps
@@ -45,40 +45,40 @@ Order (Gion, 2026-10-14): the AI coach repo is built and reviewed first, then th
 4. Admin views: Departments (assign, relocate, delete users), Assignments (per user with date and time), All Answers (grouped by problem, similarity highlighting)
 5. Notifications: action toasts 3 s; queued "assigned to you" notifications 5 s each; connection status indicator
 6. Documentation page: PDFs, .md files, images; title, description, creator
-7. AI coach panel: competition selector, setup prompt with Copy button, zip download of `general/` + chosen competition, log entry form that saves to the coach repo `log` branch, request push access to the `log` branch (admin approves)
+7. AI coach panel: competition selector, zip download, MCP URL and API token request (admin approves), paste form, log browser
 8. Usage tutorial (last)
 
 ### Open points
 - Hosting
 - How answer similarity is measured (exact, numeric tolerance or AI)
 - Which AI model does the answer check
-- Where the AI coach repo is hosted
 
-## AI coach knowledge repo (for reference)
+## AI coach (Part A, built first)
+
+Data source: FS Quiz API v2 `https://api.fs-quiz.eu/2/` (events, quizzes, questions with answers and `is_correct`, solutions, images, rulebooks and handbooks). Licence ODbL: credit FS Quiz; a shared derived database stays ODbL.
 
 ```
-AGENTS.md            shared prompt: order of work, folders to read, when to log
+AGENTS.md            shared prompt (Gion's text)
 CLAUDE.md            points to AGENTS.md
+SOURCES.md           FS Quiz credit, ODbL
 general/
-  skills/            solving rules (decimals, units, answer format), log entry
-  rules/             FS Rules, by version
-  tools/             formula library, checks
+  skills/            solving rules, log use
+  rules/             FS Rules, by year
+  tools/             formula library, FS Quiz import script
 competitions/
   fsa/ fs-alpe-adria/ fsg/ ...
     COMPETITION.md   quiz format, decimals, time limit, scoring
     skills/          competition-specific calculation rules
     handbook/        by year
     problems/<id>/   problem.md, solution.py, solution.md
-log/                 one file per solve (on the log branch)
 ```
 
-- Agents with git (Claude Code, Codex) get a setup prompt: clone or pull, read AGENTS.md, use `general/` + one competition, pull before each problem, push a log entry after.
-- Agents without git (Claude Project, ChatGPT, Gemini) get a zip; the agent writes the log entry as text and the member pastes it into the app's log form.
-- Log entry: correct or not, approach, what went wrong, why, rule for next time.
-- `main` protected with PRs; agents push only to the `log` branch. Entries are unreviewed until a topic checker confirms them; skills win over log entries.
+- Members never need git (not everyone has access). They download a zip per competition (`AGENTS.md` + `general/` + that competition + `LOG.md`) and load it into their own agent.
+- The log is in this app's PostgreSQL. Agents read lessons before each problem and write an entry after it, live, through the MCP server or REST API with a personal token; agents without MCP print the entry and the member pastes it into the app.
+- Log entry: problem, agent, correct or not, approach, what went wrong, why, rule for next time. Entries are `unreviewed` until a topic checker confirms them; skills win over log entries.
+- Rules and skills are written from Gion's text, not invented.
 - About 100 verified problems are kept as a test set outside the repo.
-- Problems imported from the FS Quiz site only with the owner's permission.
-- CI: pytest plus running every `solution.py`.
+- Coach repo CI: pytest plus running every `solution.py`.
 
 ## Later
 - Agents argue with each other until they agree

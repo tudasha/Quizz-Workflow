@@ -1,6 +1,6 @@
 # AGENTS.md - FS Quiz Workflow app
 
-Web app for the Formula Student team: admins build quizzes from problems, members get problems assigned and submit answers, and each member gets the AI coach repo for a competition.
+Web app for the Formula Student team: admins build quizzes from problems, members get problems assigned and submit answers, and each member gets the AI coach zip for a competition and a live log their agent reads and writes.
 
 Project context and decisions: @docs/PROJECT_CONTEXT.md
 Build plan, one file per step: `docs/plans/` (start with `docs/plans/README.md`).
@@ -13,7 +13,7 @@ Coding guidelines: `docs/CODING_GUIDELINES.md`. Claude Code also loads the same 
 - Tailwind CSS + shadcn/ui
 - Vitest (logic), Playwright (browser tests)
 - Files (images, PDFs): Cloudflare R2 (S3 API)
-- AI coach repo access: GitHub API (Octokit)
+- Coach log for agents: REST API + remote MCP server (`@modelcontextprotocol/sdk`), personal API tokens
 - Package manager: pnpm
 - Hosting: not chosen yet. Do not pick one; ask. Code must not depend on a specific host.
 - Never Firebase or Firestore.
