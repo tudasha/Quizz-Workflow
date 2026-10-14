@@ -1,6 +1,6 @@
 # AGENTS.md - FS Quiz Workflow app
 
-Web app for the Formula Student team: admins build quizzes from problems, members get problems assigned and submit answers, and each member gets the AI coach repo for a competition.
+Web app for the Formula Student team: admins build quizzes from problems, members get problems assigned and submit answers, and each member gets the AI coach zip and a live log and solve history their agent reads and writes.
 
 Project context and decisions: @docs/PROJECT_CONTEXT.md
 Build plan, one file per step: `docs/plans/` (start with `docs/plans/README.md`).
@@ -13,7 +13,7 @@ Coding guidelines: `docs/CODING_GUIDELINES.md`. Claude Code also loads the same 
 - Tailwind CSS + shadcn/ui
 - Vitest (logic), Playwright (browser tests)
 - Files (images, PDFs): Cloudflare R2 (S3 API)
-- AI coach repo access: GitHub API (Octokit)
+- Coach log for agents: REST API + remote MCP server (`@modelcontextprotocol/sdk`), personal API tokens
 - Package manager: pnpm
 - Hosting: not chosen yet. Do not pick one; ask. Code must not depend on a specific host.
 - Never Firebase or Firestore.
@@ -25,6 +25,7 @@ Coding guidelines: `docs/CODING_GUIDELINES.md`. Claude Code also loads the same 
 - `src/server/`: database, auth, storage, GitHub and other services
 - `drizzle/`: migrations
 - `tests/e2e/`: Playwright tests
+- `coach/`: AI coach content (shipped to members as a zip; see below)
 
 ## Commands
 - Install: `pnpm install`
@@ -43,7 +44,7 @@ Coding guidelines: `docs/CODING_GUIDELINES.md`. Claude Code also loads the same 
 - Run the full checks at milestones, not after every small edit.
 - Never push to `main` or `dev`. Open a draft PR early with `gh pr create --draft --base dev --title "<task> <title>" --body-file <file>`.
 - Never commit build output or secrets.
-- Tasks marked **Decision** in `docs/plans/` wait for Gion.
+- Tasks marked **Decision** or **Gion** in `docs/plans/` wait for Gion. Part A (AI coach: `coach/` folder and log service) comes before Part B (rest of the app).
 
 ## Before every PR
 1. Branch is `feat/`, `fix/`, `refactor/`, `test/` or `docs/`, based on `dev`.

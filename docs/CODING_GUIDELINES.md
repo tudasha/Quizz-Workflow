@@ -50,15 +50,16 @@ Team coding guidelines, adapted from the ARTTU firmware guidelines for this web 
 - Never commit build output or binaries (`dist/`, `build/`, `node_modules/`, `.venv/`, `*.zip`, compiled files). Release builds go in GitHub Releases.
 - Never commit secrets: passwords, API keys, the admin passkey, database URLs. They live in environment variables; `.env` is in `.gitignore`, `.env.example` lists the names only.
 - Shared code is reused through a package or submodule, never copied in.
-- The AI coach knowledge repo is separate. The app links to it (setup prompt, zip, log form); its content is not copied into this repo.
+- The AI coach content lives in `coach/` in this repo (Gion, 2026-10-14). It is shipped to members as a zip; app code never imports from it.
 
 ## Security
 
 - Admin rights come from a server-side role. The admin passkey is checked on the server, never in the client.
-- Every admin action (delete, relocate, mark available, approve log push access) checks the role on the server.
+- Every admin action (delete, relocate, mark available, approve API tokens, review log entries) checks the role on the server.
 - Assigning a problem to another user checks that the username exists, on the server.
 - Passwords are hashed with a standard library (bcrypt or argon2), never stored or logged in plain text.
 - All SQL uses parameters, never string concatenation.
+- API tokens are stored hashed, shown once, revocable; every API and MCP call checks the token on the server.
 
 ## Using AI tools (Claude Code included)
 

@@ -1,15 +1,26 @@
 # Build plan
 
-One file per step. Do the steps in order; tasks inside a step can run in parallel unless a task says "after".
+One file per step. Do the parts and steps in order; tasks inside a step can run in parallel unless a task says "after".
 
 ## How to work a task
-- One task = one branch = one PR into `dev`. Branch name is given in the task.
+- One task = one branch = one PR. Branch name is given in the task. Every PR goes into `dev`, coach tasks included.
 - Read the task's "Done when" before starting; that is the acceptance test.
 - Write the tests first where the task has logic (skill `tdd`).
 - PR title starts with the task number, e.g. `3.4 Assign problem to another user`.
-- A task marked **Decision** needs Gion's answer first. Do not decide it.
+- A task marked **Decision** or **Gion** needs Gion first. Do not decide or do it.
 
-## Steps
+## Part A: AI coach (first)
+Everything is in this repo: coach content in `coach/`, log service and download page in the app.
+- A1. [Coach folder setup](coach/A1-repo-setup.md)
+- A2. [Data import from FS Quiz](coach/A2-data-import.md)
+- A3. [Rules and skills](coach/A3-rules-skills.md)
+- A4. [Log service: log, solve sessions, dashboard, MCP](coach/A4-log-service.md)
+- A5. [One zip for all competitions](coach/A5-zip.md)
+- A6. [Trial and review](coach/A6-trial-review.md)
+
+Part B starts only after Gion approves Part A (A6.4).
+
+## Part B: Quiz workflow app
 1. [Setup](01-setup.md)
 2. [Accounts](02-accounts.md)
 3. [Quizzes and problems](03-quizzes-problems.md)
