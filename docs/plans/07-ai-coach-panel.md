@@ -14,13 +14,13 @@ Done when: unit test on the template; e2e copies the prompt.
 
 ## 7.3 Zip download
 Branch: `feat/coach-zip`. After 7.1.
-- Server builds a zip of `general/` + `competitions/<chosen>/` from the repo's `main` and streams it
-Done when: test checks the zip holds exactly those two folders.
+- Links to the zip the coach repo already builds per competition (A4.2)
+Done when: the button downloads the latest zip for the chosen competition.
 
 ## 7.4 Log entry form
 Branch: `feat/coach-log-form`. After 7.1.
 - Paste field for the log entry the agent wrote; checks required fields (result, approach, what went wrong, why, rule for next time)
-- Commits one file to the coach repo's `log` branch: `log/<yyyy-mm-dd>-<username>-<problem>.md`, author = the member
+- Replaces the issue form from A4.3. Commits one file to the coach repo's `log` branch: `log/<yyyy-mm-dd>-<username>-<problem>.md`, author = the member
 Done when: unit test on validation; integration test with a mocked GitHub API.
 
 ## 7.5 Log push access

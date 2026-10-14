@@ -7,6 +7,8 @@ If something here conflicts with a newer instruction from Gion, the instruction 
 Help the team train for Formula Student quizzes (math, physics, mechanics, electronics, rulebook, marketing) using past quizzes and verified solutions.
 
 ## Two parts
+Order (Gion, 2026-10-14): the AI coach repo is built and reviewed first, then the quiz workflow app. Plan: `docs/plans/README.md`.
+
 1. **Quiz workflow app** (this repo): quizzes, problem assignment, answers, documentation, AI coach panel.
 2. **AI coach knowledge repo** (separate repo, not created yet): shared rules, skills and past problems that each member loads into their own agent. No model training, no in-app chat.
 

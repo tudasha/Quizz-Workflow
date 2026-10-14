@@ -43,7 +43,7 @@ Coding guidelines: `docs/CODING_GUIDELINES.md`. Claude Code also loads the same 
 - Run the full checks at milestones, not after every small edit.
 - Never push to `main` or `dev`. Open a draft PR early with `gh pr create --draft --base dev --title "<task> <title>" --body-file <file>`.
 - Never commit build output or secrets.
-- Tasks marked **Decision** in `docs/plans/` wait for Gion.
+- Tasks marked **Decision** or **Gion** in `docs/plans/` wait for Gion. Part A (AI coach repo) comes before Part B (this app).
 
 ## Before every PR
 1. Branch is `feat/`, `fix/`, `refactor/`, `test/` or `docs/`, based on `dev`.
