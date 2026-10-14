@@ -15,14 +15,14 @@ coach/
   general/
     skills/            solving-rules, log-use
     rules/             FS Rules: current/ (2026) for agents, older years for reference
-    tools/             import script, checks
+    tools/             import, checks, zip build (not in the zip)
     scripts/           shared calculation scripts (filled after the trial)
   competitions/
     fsa/ fs-alpe-adria/ fsg/ ...
       COMPETITION.md   quiz format, decimals, time limit, scoring
       skills/          competition calculation rules
       handbook/        current/ (2026) for agents, older years for reference
-      problems/<id>/   problem.md, solution.py, solution.md
+      problems/<id>/   problem.md, images/, solution.md, solution.py
 ```
 - `coach/AGENTS.md`, `CLAUDE.md`, `LOG.md`, `SOURCES.md` and `competitions/README.md`: done (Claude wrote them, Gion reviews). Points covered: find the competition folder the member names and read only `general/` + that folder; two modes: quick (one agent alone, for easy questions under quiz time) and deep (a coordinator with sub-agents, using the quick answer as a reference); check the log before each problem and write to it after (A4); answers rely on the current-year rules and handbook; skills win over log entries
 Done when: an agent given only `AGENTS.md` can say which files to read for a chosen competition.
@@ -30,7 +30,7 @@ Done when: an agent given only `AGENTS.md` can say which files to read for a cho
 ## A1.3 Branches
 - Same as the app: branches from `dev`, PRs into `dev`, a lead merges `dev` into `main`
 
-## A1.4 CI
-Branch: `feat/coach-ci`. After A1.2.
+## A1.4 CI — done
+Done in `feat/coach-import` (`.github/workflows/coach-ci.yml`).
 - GitHub Actions on PRs that change `coach/` (path filter): pytest on `coach/general/tools/`, run every `solution.py` and compare with the answer in `problem.md`, check `problem.md` labels
 Done when: a broken `solution.py` fails CI.

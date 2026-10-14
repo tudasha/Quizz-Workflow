@@ -2,10 +2,11 @@
 
 The only way members get the coach material: one zip with every competition in its own folder.
 
-## A5.1 Zip build
-Branch: `feat/zip-build`
+## A5.1 Zip build — done (GitHub Release until R2 exists)
+Done in `feat/coach-import`: `general/tools/build_zip.py` and the Coach zip Action.
 - GitHub Action on push to `main` that changes `coach/`: builds `fs-quiz-coach.zip` from `coach/` = `AGENTS.md` + `LOG.md` + `general/` + `competitions/<event>/` for every event, with only the current-year rules and handbooks (older years left out)
-- Uploads the zip and the search index (A4.9) to the app's file storage (R2) with a version number. The app at runtime only reads storage, so it needs no GitHub access (the R2 write key is a GitHub secret)
+- For now the zip replaces the files of the `coach-latest` GitHub Release (fixed download link); `VERSION.txt` inside says the commit and date
+- Later: also upload the zip and the search index (A4.9) to the app's file storage (R2). The app at runtime only reads storage, so it needs no GitHub access (the R2 write key is a GitHub secret)
 Done when: a new commit on `main` produces a fresh zip in storage.
 
 ## A5.2 LOG.md
@@ -21,5 +22,5 @@ Branch: `feat/coach-download`. After A4.1.
 - Shows the member's MCP URL and token status
 Done when: e2e downloads the zip and copies the FSA prompt.
 
-## A5.4 Size check
-- If the zip is too big for an agent's upload limit (for example Claude Project knowledge), the build also makes one zip per competition as a fallback
+## A5.4 Size check — done
+- If the zip is bigger than `zip_split_above_mb` in `config.json` (25 MB, for agents with a small upload limit such as Claude Project knowledge), the build also makes one zip per competition

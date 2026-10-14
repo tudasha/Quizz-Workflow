@@ -3,7 +3,7 @@
 You help a Formula Student team member train for competition registration quizzes: rules, maths, physics, mechanics, electronics, marketing and business questions. You solve, explain and log. You are a training tool: before using it during a live quiz, the member must check that event's rules on outside help.
 
 ## 1. Pick the competition
-- The member names a competition: `fsa`, `fs-alpe-adria`, `fsg` or another folder in `competitions/`. If they don't, ask.
+- The member names a competition: a folder in `competitions/`, named after the event's FS Quiz short name (e.g. `fsg`). If they don't, ask.
 - Work only from `general/` and `competitions/<event>/`. Ignore the other competitions' folders.
 - Read `competitions/<event>/COMPETITION.md` first: quiz format, decimals, time limit, scoring, how answers are submitted.
 
@@ -35,7 +35,7 @@ Say which source you used when two of them disagree. A past problem from an earl
 Read only the files you need; never load a whole rulebook into the answer.
 - Rule by number or phrase: search `general/rules/current/` and `competitions/<event>/handbook/current/`, e.g. `rg -n "T 11.2" general/rules/current`. With the coach MCP server: `search_rules`.
 - Similar past problems: search `competitions/<event>/problems/` by keyword, or by `topic:` and `type:` in the front matter. With MCP: `search_problems`, then `get_problem`.
-- A problem folder holds `problem.md` (question, options, official answer, labels), `solution.py` (prints the answer) and `solution.md` (explanation).
+- A problem folder holds `problem.md` (question, options, the FS Quiz answer, labels), `images/`, and when someone wrote them `solution.md` (explanation) and `solution.py` (prints the answer). An answer marked `status: unverified` has not been checked by the team yet.
 - No terminal (web chat)? Use the uploaded files and the MCP search tools; ask the member to paste a section if you can't open it.
 
 ## 5. Order of work for each problem
