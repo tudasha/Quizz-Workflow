@@ -43,7 +43,7 @@ Done when: every competition folder has its 2026 handbook in Markdown, and `gene
 ## A2.8 Weekly docs check
 Branch: `feat/docs-sync`. After A2.4.
 - Scheduled GitHub Action (weekly) asks the FS Quiz API `/document` for new current-year rulebook or handbook versions
-- When one appears: download it, convert to Markdown, move the old version to `<year>/`, open a PR in the coach repo
+- When one appears: download it, convert to Markdown, move the old version to `<year>/`, open a PR into `dev`
 - A maintainer approves; the merge rebuilds the zips (A5.1)
 Done when: a fake new version in a test run opens a PR.
 

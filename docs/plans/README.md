@@ -3,15 +3,15 @@
 One file per step. Do the parts and steps in order; tasks inside a step can run in parallel unless a task says "after".
 
 ## How to work a task
-- One task = one branch = one PR. Branch name is given in the task. This repo: PR into `dev`. Coach repo: PR into `main`.
+- One task = one branch = one PR. Branch name is given in the task. Every PR goes into `dev`, coach tasks included.
 - Read the task's "Done when" before starting; that is the acceptance test.
 - Write the tests first where the task has logic (skill `tdd`).
 - PR title starts with the task number, e.g. `3.4 Assign problem to another user`.
 - A task marked **Decision** or **Gion** needs Gion first. Do not decide or do it.
 
 ## Part A: AI coach (first)
-Coach repo tasks are done in the coach repo; log service and download page in this repo.
-- A1. [Coach repo setup](coach/A1-repo-setup.md)
+Everything is in this repo: coach content in `coach/`, log service and download page in the app.
+- A1. [Coach folder setup](coach/A1-repo-setup.md)
 - A2. [Data import from FS Quiz](coach/A2-data-import.md)
 - A3. [Rules and skills](coach/A3-rules-skills.md)
 - A4. [Log service: log, solve sessions, dashboard, MCP](coach/A4-log-service.md)

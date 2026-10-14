@@ -7,15 +7,15 @@ If something here conflicts with a newer instruction from Gion, the instruction 
 Help the team train for Formula Student quizzes (math, physics, mechanics, electronics, rulebook, marketing) using past quizzes and verified solutions.
 
 ## Two parts
-Order (Gion, 2026-10-14): the AI coach repo is built and reviewed first, then the quiz workflow app. Plan: `docs/plans/README.md`.
+Order (Gion, 2026-10-14): the AI coach is built and reviewed first, then the quiz workflow app. Plan: `docs/plans/README.md`.
 
 1. **Quiz workflow app** (this repo): quizzes, problem assignment, answers, documentation, AI coach panel.
-2. **AI coach**: a knowledge repo (separate, maintainers only) with shared rules, skills and past problems, handed to members as a zip per competition; plus a live log in this app's database that every agent reads and writes through MCP or a REST API. No model training, no in-app chat.
+2. **AI coach**: content in `coach/` in this repo (maintainers edit it by PR) with shared rules, skills and past problems, handed to members as one zip; plus a live log in this app's database that every agent reads and writes through MCP or a REST API. No model training, no in-app chat.
 
 ## Quiz workflow app
 
 ### Decisions
-- Stack (Gion, 2026-10-14): Next.js + TypeScript, PostgreSQL + Drizzle, Better Auth, Tailwind + shadcn/ui, Vitest + Playwright, Cloudflare R2 for files, GitHub API for the coach repo. No Firebase or Firestore.
+- Stack (Gion, 2026-10-14): Next.js + TypeScript, PostgreSQL + Drizzle, Better Auth, Tailwind + shadcn/ui, Vitest + Playwright, Cloudflare R2 for files. No Firebase or Firestore.
 - Hosting: still open (candidates: Railway, Vercel + Neon, own server); needed before the coach trial (A4.0).
 - App repo: https://github.com/tudasha/Quizz-Workflow (Gion's account; the ARTTU-Software/Quiz-Workflow repo held the firmware template)
 - Admin rights from a server-side role; admin passkey checked on the server.
@@ -58,20 +58,21 @@ Order (Gion, 2026-10-14): the AI coach repo is built and reviewed first, then th
 Data source: FS Quiz API v2 `https://api.fs-quiz.eu/2/` (events, quizzes, questions with answers and `is_correct`, solutions, images, rulebooks and handbooks). Licence ODbL: credit FS Quiz; a shared derived database stays ODbL.
 
 ```
-AGENTS.md            shared prompt (Gion's text)
-CLAUDE.md            points to AGENTS.md
-SOURCES.md           FS Quiz credit, ODbL
-general/
-  skills/            solving rules, log use
-  rules/             FS Rules: current/ (2026) for agents, older years for reference
-  tools/             FS Quiz import script, checks
-  scripts/           shared calculation scripts (filled after the trial)
-competitions/
-  fsa/ fs-alpe-adria/ fsg/ ...
-    COMPETITION.md   quiz format, decimals, time limit, scoring
-    skills/          competition-specific calculation rules
-    handbook/        current/ (2026) for agents, older years for reference
-    problems/<id>/   problem.md, solution.py, solution.md
+coach/
+  AGENTS.md            shared prompt (Gion's text)
+  CLAUDE.md            points to AGENTS.md
+  SOURCES.md           FS Quiz credit, ODbL
+  general/
+    skills/            solving rules, log use
+    rules/             FS Rules: current/ (2026) for agents, older years for reference
+    tools/             FS Quiz import script, checks
+    scripts/           shared calculation scripts (filled after the trial)
+  competitions/
+    fsa/ fs-alpe-adria/ fsg/ ...
+      COMPETITION.md   quiz format, decimals, time limit, scoring
+      skills/          competition-specific calculation rules
+      handbook/        current/ (2026) for agents, older years for reference
+      problems/<id>/   problem.md, solution.py, solution.md
 ```
 
 - Members never need git (not everyone has access). They download one zip with every competition in its own folder (`AGENTS.md` + `LOG.md` + `general/` + `competitions/*`) and copy a short prompt from the app naming their competition. The zip holds only the current-year rules and handbook, and agents rely on them.
@@ -82,7 +83,7 @@ competitions/
 - Log entry: problem, agent, correct or not, approach, what went wrong, why, rule for next time. Entries are `unreviewed` until a topic checker confirms them; skills win over log entries.
 - Rules and skills are written from Gion's text, not invented.
 - About 100 verified problems are kept as a test set outside the repo.
-- Coach repo CI: pytest plus running every `solution.py`.
+- Coach CI (only when `coach/` changes): pytest plus running every `solution.py`.
 
 ## Later
 - Local fine-tuned model

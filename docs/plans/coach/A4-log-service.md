@@ -37,7 +37,7 @@ Done when: e2e shows the scores of a seeded session.
 
 ## A4.9 Search tools for agents
 Branch: `feat/mcp-search`. After A4.3.
-- The coach repo's GitHub Action (A5.1) also uploads a search index of its content (rules and handbook sections, problems, solutions)
+- The zip build Action (A5.1) also uploads a search index of its content (rules and handbook sections, problems, solutions)
 - MCP tools: `search_rules(query or rule number)`, `search_problems(query, topic?, competition?)`, `get_problem(id)` (problem, solution.py, solution.md)
 - Same tools for every agent with MCP, not only Claude Code
 Done when: `search_rules("T 11.2")` returns that rule's text; `search_problems` finds a problem by a phrase from it.
@@ -56,5 +56,5 @@ Done when: a pasted entry appears in `GET /api/log`.
 ## A4.6 Log review
 Branch: `feat/log-review`. After A4.2.
 - Admin and topic checkers list unreviewed entries and mark them confirmed or rejected
-- A lesson that repeats is moved into a skill in the coach repo by a maintainer
+- A lesson that repeats is moved into a skill in `coach/` by a maintainer
 Done when: e2e: an entry goes from unreviewed to confirmed.
