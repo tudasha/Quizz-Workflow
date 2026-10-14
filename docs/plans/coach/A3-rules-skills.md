@@ -9,8 +9,8 @@ Done when: Gion has reviewed it.
 
 ## A3.2 Log use skill — done
 Done in `feat/coach-agent-files`; tool names follow A4.3.
-- `coach/general/skills/log-use/SKILL.md`: before each problem, read the log entries and answers for that problem and topic; write one entry after the quick answer and one after the team answer
-- Entry fields: problem, agent, mode (quick / team), answer, result (correct / wrong / unknown), approach, what went wrong, why, rule for next time, feedback (team entries: which logged answers are right and why)
+- `coach/general/skills/log-use/SKILL.md`: join the shared live session; before each question, read every member's answers to it and the lessons for its topic; write an entry after the quick answer, the team answer and each review
+- Entry fields: session, question number, problem (or the question text in a live quiz), agent, mode (quick / team / review), answer, result (correct / wrong / unknown; unknown during a live quiz), approach, what went wrong, why, rule for next time, feedback (which of the other answers are right and why)
 - How: MCP tools when the agent supports them, otherwise print the entry for the member to paste into the app form
 Done when: Gion has reviewed it.
 
@@ -19,7 +19,7 @@ Moved to A6.3: filled from solved problems after the trial, not written up front
 
 ## A3.5 Quick and team answers — done
 Done in `feat/coach-agent-files`.
-- `coach/general/skills/solve-modes/SKILL.md`: both modes on every problem (Gion, 2026-10-14). A quick answer from one agent, logged at once; then a team of 2–3 sub-agents solves independently, reads the log again, compares its answer with the quick answer, every other logged answer and the FS Quiz answer, and logs which is right and why. Web chats do the same steps one after another
+- `coach/general/skills/solve-modes/SKILL.md`: both modes on every question, made for the live quiz where nobody knows the answer yet (Gion, 2026-10-14). Members join one live session. A quick answer from one agent, logged at once; then a team of 2–3 sub-agents solves independently, compares its answer with every answer the other members logged for that question, and logs which is right and why; each new disagreeing answer triggers a re-check and a review entry, until the answers agree or time is up; the agent says what to submit. Practice on past problems works the same way, with the FS Quiz answer used only afterwards. Web chats do the same steps one after another
 Done when: Gion has reviewed it.
 
 ## A3.4 Competition rules — **Gion**

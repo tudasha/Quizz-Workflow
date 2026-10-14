@@ -12,27 +12,29 @@ Same as app tasks 1.1, 1.2 and 1.4 (skeleton, database, CI). Done here first.
 
 ## A4.2 Log table and REST API
 Branch: `feat/log-api`. After A4.1.
-- Table `log_entry`: id, user_id, competition, problem_id, topic, agent, mode (`quick` | `team`), answer, result, approach, what_went_wrong, why, rule_for_next_time, feedback, status (`unreviewed` | `confirmed` | `rejected`), reviewed_by, created_at
-- `GET /api/log?competition=&problem=&topic=&status=` (newest first, paged); `POST /api/log` validates the fields
+- Table `log_entry`: id, user_id, session_id, question (number in the quiz), competition, problem_id, question_text, topic, agent, mode (`quick` | `team` | `review`), answer, result, approach, what_went_wrong, why, rule_for_next_time, feedback, status (`unreviewed` | `confirmed` | `rejected`), reviewed_by, created_at
+- `GET /api/log?competition=&problem=&topic=&status=&session=&question=` (newest first, paged); `POST /api/log` validates the fields
 - Auth: personal API token per member (`Authorization: Bearer`), stored hashed
 Done when: unit tests on validation; integration test writes and reads an entry with a token.
 
 ## A4.3 MCP server
 Branch: `feat/log-mcp`. After A4.2. Skill `mcp-builder`.
 - Remote MCP endpoint (`/api/mcp`, streamable HTTP) on the same app, same token
-- Tools: `get_lessons(competition, problem_id?, topic?)`, `add_log_entry(...)`, `start_session(competition, year)`, `record_answer(session, problem_id, answer, correct?, time_s)`; `get_lessons` for a problem also returns every logged answer, with its mode and feedback, so a team can compare; entries marked `unreviewed` are labelled as such in results
-Done when: Claude Code and one web agent connect, open a session, record an answer and write an entry.
+- Tools: `start_session(competition, year, live?)` (returns a code), `join_session(code)`, `get_answers(session, question)` (every member's answers, reviews and feedback for that question, newest first, so the agents of a live quiz can compare), `get_lessons(competition, topic?, problem_id?)`, `add_log_entry(...)`, `record_answer(session, question, answer, time_s)`; entries marked `unreviewed` are labelled as such in results
+Done when: two agents (Claude Code and one web agent) join the same live session, each logs an answer to question 1 and each sees the other's with `get_answers`.
 
 ## A4.7 Solve sessions
 Branch: `feat/solve-sessions`. After A4.2.
-- Table `solve_session`: id, user_id, agent, competition, year, started_at (one day or one sitting); filed automatically by competition and year
-- Table `solve_answer`: session_id, problem_id, answer, correct (true / false / unknown), time_s, log_entry_id
+- Table `solve_session`: id, code, live (true for a real quiz), created_by, competition, year, started_at; filed automatically by competition and year
+- Table `session_member`: session_id, user_id, agent, joined_at
+- Table `solve_answer`: session_id, user_id, question, problem_id, answer, correct (true / false / unknown; unknown until the official answers are out), time_s, log_entry_id
 - REST endpoints mirror the MCP tools; the paste form also accepts a session summary
 Done when: integration test records a session with three answers and links a log entry.
 
 ## A4.8 Dashboard
 Branch: `feat/coach-dashboard`. After A4.7.
 - Visible to every member: scores per competition, year, topic and agent; weak topics; latest sessions; unreviewed log entries count
+- Live view of a session: for each question, every member's latest answer and whether they agree, so the member who submits sees it at a glance
 Done when: e2e shows the scores of a seeded session.
 
 ## A4.9 Search tools for agents
