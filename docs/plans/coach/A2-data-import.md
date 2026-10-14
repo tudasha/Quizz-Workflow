@@ -18,7 +18,7 @@ Licence: Open Database License (ODbL): credit FS Quiz, and a shared derived data
 
 ## A2.2 Problem format
 Branch: `feat/problem-format`
-- `problem.md` front matter: id (FS Quiz question_id), event, year, quiz_id, class, topic, type, time_s, options, answer, unit, rule_refs, source, status (`unverified` | `verified`), verified_by
+- `problem.md` front matter: id (FS Quiz question_id), event, year, quiz_id, class, topic, type, time_s, options, answer, unit, rule_refs, rules_year, source, status (`unverified` | `verified`), verified_by
 - Body: question text; images saved next to it
 - `solution.md`: FS Quiz solution text when there is one; `solution.py`: written later, prints the final answer
 - JSON schema for the front matter, checked by CI
@@ -35,9 +35,10 @@ Done when: a full import runs without errors and CI passes.
 
 ## A2.4 Rules and handbooks
 Branch: `feat/rules-handbooks`. After A2.3.
-- Download documents from `/document` (the same PDFs are in the fs-quiz.eu GitHub repo `doc/`, up to 2025)
-- FS Rules in `general/rules/<year>/`, handbooks in `competitions/<event>/handbook/<year>/`; PDF plus a Markdown conversion for agents
-Done when: every competition folder has its current handbook in Markdown.
+- Current year (2026) is the source agents rely on: FS Rules 2026 in `general/rules/current/`, each competition's 2026 handbook in `competitions/<event>/handbook/current/`; PDF plus a Markdown conversion
+- 2026 documents come from the API `/document` (the fs-quiz.eu GitHub repo `doc/` only goes up to 2025) or the event websites
+- Older years stay in the repo under `rules/<year>/` and `handbook/<year>/`, not in the zip; they are used only when checking an old problem whose answer depended on an older rule (`rules_year` in `problem.md`)
+Done when: every competition folder has its 2026 handbook in Markdown, and `general/rules/current/` holds FS Rules 2026.
 
 ## A2.5 Topic labels
 - Each problem gets a `topic` (math, physics, mechanics, electronics, rules, marketing...); script suggests, topic checkers confirm

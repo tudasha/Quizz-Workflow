@@ -63,17 +63,17 @@ CLAUDE.md            points to AGENTS.md
 SOURCES.md           FS Quiz credit, ODbL
 general/
   skills/            solving rules, log use
-  rules/             FS Rules, by year
+  rules/             FS Rules: current/ (2026) for agents, older years for reference
   tools/             formula library, FS Quiz import script
 competitions/
   fsa/ fs-alpe-adria/ fsg/ ...
     COMPETITION.md   quiz format, decimals, time limit, scoring
     skills/          competition-specific calculation rules
-    handbook/        by year
+    handbook/        current/ (2026) for agents, older years for reference
     problems/<id>/   problem.md, solution.py, solution.md
 ```
 
-- Members never need git (not everyone has access). They download a zip per competition (`AGENTS.md` + `general/` + that competition + `LOG.md`) and load it into their own agent.
+- Members never need git (not everyone has access). They download a zip per competition (`AGENTS.md` + `general/` + that competition + `LOG.md`) and load it into their own agent. The zip holds only the current-year rules and handbook, and agents rely on them.
 - The log is in this app's PostgreSQL. Agents read lessons before each problem and write an entry after it, live, through the MCP server or REST API with a personal token; agents without MCP print the entry and the member pastes it into the app.
 - Log entry: problem, agent, correct or not, approach, what went wrong, why, rule for next time. Entries are `unreviewed` until a topic checker confirms them; skills win over log entries.
 - Rules and skills are written from Gion's text, not invented.

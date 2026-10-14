@@ -13,16 +13,16 @@ CLAUDE.md            points to AGENTS.md
 SOURCES.md           data sources and licence (FS Quiz, ODbL)
 general/
   skills/            solving-rules, log-use
-  rules/             FS Rules, by version
+  rules/             FS Rules: current/ (2026) for agents, older years for reference
   tools/             formula library, import script, checks
 competitions/
   fsa/ fs-alpe-adria/ fsg/ ...
     COMPETITION.md   quiz format, decimals, time limit, scoring
     skills/          competition calculation rules
-    handbook/        by year
+    handbook/        current/ (2026) for agents, older years for reference
     problems/<id>/   problem.md, solution.py, solution.md
 ```
-- `AGENTS.md` from Gion's text; expected points: read `general/` + one competition folder; check the log before each problem and write to it after (A4); skills win over log entries
+- `AGENTS.md` from Gion's text; expected points: read `general/` + one competition folder; check the log before each problem and write to it after (A4); answers rely on the current-year rules and handbook; skills win over log entries
 Done when: an agent given only `AGENTS.md` can say which files to read for a chosen competition.
 
 ## A1.3 Branches

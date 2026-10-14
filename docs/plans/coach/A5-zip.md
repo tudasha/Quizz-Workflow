@@ -4,7 +4,7 @@ The only way members get the coach material.
 
 ## A5.1 Zip build
 Branch (coach repo): `feat/zip-build`
-- GitHub Action on push to `main`: builds `<event>.zip` = `AGENTS.md` + `general/` + `competitions/<event>/` + `LOG.md`
+- GitHub Action on push to `main`: builds `<event>.zip` = `AGENTS.md` + `LOG.md` + `general/` + `competitions/<event>/`, with only the current-year rules and handbook (older years left out)
 - Uploads the zips to the app's file storage (R2) with a version number
 Done when: a new commit on `main` produces fresh zips in storage.
 
