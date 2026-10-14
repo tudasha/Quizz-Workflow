@@ -1,0 +1,13 @@
+{
+    "current_year": 2026,
+    "quiz_statuses": ["complete"],
+    "events": ["Alpe Adria", "Austria", "Germany", "Balkan", "Greece"],
+    "skip_events": [],
+    "folder_names": {},
+    "document_types": {
+        "general": ["Rulebook"],
+        "competition": ["Handbook", "Additional Rules"]
+    },
+    "general_rulebook_pattern": "^FS[-_ ]?Rules",
+    "zip_split_above_mb": 25
+}

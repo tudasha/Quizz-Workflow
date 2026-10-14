@@ -10,3 +10,8 @@ test-results/
 .env*.local
 *.log
 .DS_Store
+__pycache__/
+.pytest_cache/
+*.pyc
+coach/general/tools/.cache/
+.venv/
