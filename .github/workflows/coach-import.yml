@@ -1,0 +1,101 @@
+name: Coach import
+
+# Pulls problems, solutions, images and the current-year rules and handbooks from the
+# FS Quiz API, then opens (or refreshes) one PR into dev for a maintainer to review.
+# On a PR that changes the import tools it only does a dry run and reports.
+on:
+  schedule:
+    - cron: "0 5 * * 1" # Mondays 05:00 UTC
+  workflow_dispatch:
+  push:
+    branches: [dev]
+    paths:
+      - "coach/general/tools/**"
+      - ".github/workflows/coach-import.yml"
+  pull_request:
+    paths:
+      - "coach/general/tools/**"
+      - ".github/workflows/coach-import.yml"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: coach-import-${{ github.event_name == 'pull_request' && github.ref || 'dev' }}
+  cancel-in-progress: false
+
+env:
+  IMPORT_BRANCH: feat/coach-data-import
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Scheduled and manual runs start on main (GitHub only runs them from the
+          # default branch), but new data always goes to dev.
+          ref: ${{ github.event_name != 'pull_request' && 'dev' || '' }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: coach/general/tools/requirements.txt
+      - name: Install
+        run: pip install -r coach/general/tools/requirements.txt
+      - name: Import from FS Quiz
+        working-directory: coach/general/tools
+        run: python -m fsquiz all --no-cache --summary "$RUNNER_TEMP/import-summary.md"
+      - name: Check the imported problems
+        id: check
+        # A real import still opens its PR when a check fails, so a maintainer sees why.
+        continue-on-error: ${{ github.event_name != 'pull_request' }}
+        working-directory: coach/general/tools
+        run: |
+          python -m pytest -q
+          python check_problems.py
+          python build_zip.py --out "$RUNNER_TEMP/dist" --version import-check
+      - name: Report
+        run: |
+          git add -A coach
+          {
+            cat "$RUNNER_TEMP/import-summary.md"
+            echo
+            echo "Changed files: $(git diff --cached --name-only | wc -l)"
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Open or refresh the import PR into dev
+        if: github.event_name != 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CHECK_OUTCOME: ${{ steps.check.outcome }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if git diff --cached --quiet; then
+            echo "Nothing new from FS Quiz."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B "$IMPORT_BRANCH"
+          git commit -q -m "Import FS Quiz problems, rules and handbooks"
+          git push --force origin "$IMPORT_BRANCH"
+          {
+            echo "Automatic import from the FS Quiz API (ODbL, see coach/SOURCES.md)."
+            echo
+            echo "Checks in the import run: **$CHECK_OUTCOME** ($RUN_URL)."
+            echo "PRs opened by an Action do not start Coach CI by themselves; the import run above ran the same checks."
+            echo
+            echo "Each import rewrites this branch: fix labels or answers after merging, in a normal branch."
+            echo
+            cat "$RUNNER_TEMP/import-summary.md"
+          } > "$RUNNER_TEMP/pr-body.md"
+          existing=$(gh pr list --head "$IMPORT_BRANCH" --base dev --state open --json number --jq '.[0].number')
+          if [ -n "$existing" ]; then
+            gh pr edit "$existing" --body-file "$RUNNER_TEMP/pr-body.md"
+          else
+            gh pr create --base dev --head "$IMPORT_BRANCH" \
+              --title "Import FS Quiz problems, rules and handbooks" \
+              --body-file "$RUNNER_TEMP/pr-body.md"
+          fi
