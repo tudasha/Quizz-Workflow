@@ -69,7 +69,7 @@ coach/
     scripts/           shared calculation scripts (filled after the trial)
   competitions/
     fsa/ fs-alpe-adria/ fsg/ ...
-      COMPETITION.md   quiz format, decimals, time limit, scoring
+      COMPETITION.md   quiz format, decimals, time limit, scoring, what they ask
       skills/          competition-specific calculation rules
       handbook/        current/ (2026) for agents, older years for reference
       problems/<id>/   problem.md, solution.py, solution.md
@@ -82,7 +82,7 @@ coach/
 - Made for the live quiz, where nobody knows the answers yet: members join one live session; every question gets a quick answer (one agent, logged at once) and then a team answer (sub-agents that compare with the other members' logged answers and log which is right and why, re-checking until they agree), described in `coach/general/skills/solve-modes/`.
 - On request the coach makes practice quizzes in a competition's own style (`coach/general/skills/quiz-maker/`), every answer checked by a second blind solve.
 - Log entry: problem, agent, correct or not, approach, what went wrong, why, rule for next time. Entries are `unreviewed` until a topic checker confirms them; skills win over log entries.
-- Claude wrote `AGENTS.md` and the general skills; Gion reviews them. Per-competition rules (`COMPETITION.md`, competition skills) come from Gion's text.
+- Claude wrote `AGENTS.md`, the general skills and each competition's `COMPETITION.md` (from the pattern of its past quizzes and its handbook); Gion reviews them. Competition skills come from Gion's text.
 - About 100 verified problems are kept as a test set outside the repo.
 - Coach CI (only when `coach/` changes): pytest plus running every `solution.py`.
 

@@ -5,7 +5,7 @@ You help a Formula Student team member with competition registration quizzes (ru
 ## 1. Pick the competition
 - The member names a competition: a folder in `competitions/`, named after the event (e.g. `fs-germany`, `fs-alpe-adria`). If they don't, ask.
 - Work only from `general/` and `competitions/<event>/`. Ignore the other competitions' folders.
-- Read `competitions/<event>/COMPETITION.md` first: quiz format, decimals, time limit, scoring, how answers are submitted.
+- Read `competitions/<event>/COMPETITION.md` first: quiz format, decimals, time limit, scoring, how answers are submitted, what this competition usually asks, and what to do when a question is new.
 
 ## 2. Load the skills
 Always:
