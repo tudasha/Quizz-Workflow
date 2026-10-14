@@ -18,21 +18,21 @@ Order (Gion, 2026-10-14): the AI coach repo is built and reviewed first, then th
 - Stack (Gion, 2026-10-14): Next.js + TypeScript, PostgreSQL + Drizzle, Better Auth, Tailwind + shadcn/ui, Vitest + Playwright, Cloudflare R2 for files, GitHub API for the coach repo. No Firebase or Firestore.
 - Hosting: still open (candidates: Railway, Vercel + Neon, own server); needed before the coach trial (A4.0).
 - App repo: https://github.com/tudasha/Quizz-Workflow (Gion's account; the ARTTU-Software/Quiz-Workflow repo held the firmware template)
-- Everyone has their own username and password and can see everything. Admin (moderator) is a role on the account, checked on the server for admin actions only. No passkey.
+- Admin rights from a server-side role; admin passkey checked on the server.
 - Departments: Accumulator, Electrical, Mechanical, Dynamics, Marketing.
 - No AI chat for now.
 
 ### Pages
-- Login: username and password, department on first login
+- Login: username and password, department on first login, admin passkey
 - Home: list of quizzes; admins create and save quizzes
 - Quiz page: problem gallery and problem detail
 - Documentation: collections per department or for the whole team
 - AI coach panel: one zip download, copy prompt per competition, MCP URL and token, paste form, log browser, dashboard
-- Admin pages (everyone can view, admins act): Departments, Assignments, All Answers, API tokens, log review
+- Admin only: Departments, Assignments, All Answers
 
 ### Build steps
 1. Setup: choose stack, create repo with branch protection and CI, design DB (users, departments, quizzes, problems, assignments, answers, documentation)
-2. Accounts: sign up / log in, auto-login through a proper auth service, department on first login, admin role on the account (no passkey), logout, username badge
+2. Accounts: sign up / log in, auto-login through a proper auth service, department on first login, server-side admin role and passkey, logout, username badge
 3. Quizzes and problems:
    - Gallery cards by number, status badge (Available, N Assigned, Completed), final answer once completed
    - Highlights: red = assigned to me, gold = my department, green = completed and relevant to me

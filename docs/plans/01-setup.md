@@ -30,7 +30,7 @@ Tables (Better Auth adds its own user, session and account tables; extend its us
 - `document`: id, collection_id, title, description, file_key, file_type, created_by, created_at
 - `notification`: id, user_id, type, payload (json), created_at, read_at
 - `log_entry` and `api_token`: added in A4
-Done when: migration applies; a seed script creates departments and the first admin account from env.
+Done when: migration applies; a seed script creates departments and one admin from env.
 
 ## 1.4 CI
 Done in A4.1.

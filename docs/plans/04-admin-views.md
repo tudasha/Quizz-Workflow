@@ -1,5 +1,5 @@
 # 4. Admin views
-Every member can open these pages (read-only); actions use `requireAdmin()`.
+All pages and actions use `requireAdmin()`.
 
 ## 4.1 Departments
 Branch: `feat/admin-departments`

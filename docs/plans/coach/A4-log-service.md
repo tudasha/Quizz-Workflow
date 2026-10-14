@@ -1,6 +1,6 @@
 # A4. Log service
 
-The log and every solve live in the quiz workflow app's PostgreSQL database, not in git. Agents read and write them live through an MCP server or a REST API. Built in this repo as the first slice of the app. Every member can see everything; only admins review and approve.
+The log and every solve live in the quiz workflow app's PostgreSQL database, not in git. Agents read and write them live through an MCP server or a REST API. Built in this repo as the first slice of the app. Every member sees the log and the dashboard; only admins review entries and approve tokens.
 
 ## A4.0 Hosting — **Decision**
 Moved here from 1.6: the log must be online for the trial.
