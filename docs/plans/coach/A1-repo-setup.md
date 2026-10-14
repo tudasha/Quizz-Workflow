@@ -9,7 +9,7 @@ The coach content lives in `coach/` in this repo (Gion, 2026-10-14: everything i
 Branch: `feat/coach-layout`
 ```
 coach/
-  AGENTS.md            shared prompt (from Gion's text)
+  AGENTS.md            shared prompt (done)
   CLAUDE.md            points to AGENTS.md
   SOURCES.md           data sources and licence (FS Quiz, ODbL)
   general/
@@ -24,7 +24,7 @@ coach/
       handbook/        current/ (2026) for agents, older years for reference
       problems/<id>/   problem.md, solution.py, solution.md
 ```
-- `AGENTS.md` from Gion's text; expected points: find the competition folder the member names and read only `general/` + that folder; two modes: quick (one agent alone, for easy questions under quiz time) and deep (a coordinator with sub-agents, using the quick answer as a reference); check the log before each problem and write to it after (A4); answers rely on the current-year rules and handbook; skills win over log entries
+- `coach/AGENTS.md`, `CLAUDE.md`, `LOG.md`, `SOURCES.md` and `competitions/README.md`: done (Claude wrote them, Gion reviews). Points covered: find the competition folder the member names and read only `general/` + that folder; two modes: quick (one agent alone, for easy questions under quiz time) and deep (a coordinator with sub-agents, using the quick answer as a reference); check the log before each problem and write to it after (A4); answers rely on the current-year rules and handbook; skills win over log entries
 Done when: an agent given only `AGENTS.md` can say which files to read for a chosen competition.
 
 ## A1.3 Branches

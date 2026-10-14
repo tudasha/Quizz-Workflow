@@ -59,7 +59,7 @@ Data source: FS Quiz API v2 `https://api.fs-quiz.eu/2/` (events, quizzes, questi
 
 ```
 coach/
-  AGENTS.md            shared prompt (Gion's text)
+  AGENTS.md            shared prompt
   CLAUDE.md            points to AGENTS.md
   SOURCES.md           FS Quiz credit, ODbL
   general/
@@ -81,7 +81,7 @@ coach/
 - The MCP server also offers search over rules, handbooks and past problems.
 - Agents have a quick mode (one agent) and a deep mode (coordinator plus sub-agents), described in AGENTS.md.
 - Log entry: problem, agent, correct or not, approach, what went wrong, why, rule for next time. Entries are `unreviewed` until a topic checker confirms them; skills win over log entries.
-- Rules and skills are written from Gion's text, not invented.
+- Claude wrote `AGENTS.md` and the general skills; Gion reviews them. Per-competition rules (`COMPETITION.md`, competition skills) come from Gion's text.
 - About 100 verified problems are kept as a test set outside the repo.
 - Coach CI (only when `coach/` changes): pytest plus running every `solution.py`.
 
