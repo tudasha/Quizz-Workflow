@@ -1,0 +1,59 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "problem.md front matter",
+    "type": "object",
+    "required": ["id", "event", "year", "quizzes", "type", "topic", "options", "answer", "source", "status"],
+    "properties": {
+        "id": {"type": "integer"},
+        "event": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+        "year": {"type": ["integer", "null"]},
+        "rules_year": {"type": ["integer", "null"]},
+        "quizzes": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": ["quiz_id"],
+                "properties": {
+                    "quiz_id": {"type": "integer"},
+                    "year": {"type": ["integer", "null"]},
+                    "class": {"type": ["string", "null"]},
+                    "position": {"type": ["integer", "null"]}
+                }
+            }
+        },
+        "type": {"enum": ["single-choice", "multi-choice", "input", "input-range"]},
+        "time_s": {"type": ["integer", "null"], "minimum": 0},
+        "topic": {
+            "type": "array",
+            "items": {
+                "enum": [
+                    "math", "physics", "mechanics", "electronics", "rules", "marketing",
+                    "static-events", "dynamic-events", "scoring", "other"
+                ]
+            }
+        },
+        "options": {"type": "array", "items": {"type": "string"}},
+        "answer": {
+            "anyOf": [
+                {"type": "string"},
+                {"type": "number"},
+                {"type": "array", "items": {"type": ["string", "number"]}, "minItems": 1},
+                {"type": "null"}
+            ]
+        },
+        "unit": {"type": ["string", "null"]},
+        "rule_refs": {"type": "array", "items": {"type": "string"}},
+        "source": {"type": "string"},
+        "status": {"enum": ["unverified", "verified"]},
+        "verified_by": {"type": ["string", "null"]},
+        "locked": {"type": "boolean"}
+    },
+    "if": {"properties": {"status": {"const": "verified"}}},
+    "then": {
+        "required": ["verified_by"],
+        "properties": {
+            "verified_by": {"type": "string", "minLength": 1},
+            "answer": {"not": {"type": "null"}}
+        }
+    }
+}

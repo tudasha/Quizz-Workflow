@@ -1,0 +1,20 @@
+[
+    {
+        "doc_id": 159,
+        "type": "Handbook",
+        "year": 2026,
+        "version": "1.0",
+        "file": "Formula_IHU_2026_Competition_Handbook_v1.0.pdf",
+        "markdown": "Formula_IHU_2026_Competition_Handbook_v1.0.md",
+        "source": "https://doc.fs-quiz.eu/Formula_IHU_2026_Competition_Handbook_v1.0.pdf"
+    },
+    {
+        "doc_id": 160,
+        "type": "Additional Rules",
+        "year": 2026,
+        "version": "1.0",
+        "file": "Formula_IHU_2026_Grey_Areas_Clarification.pdf",
+        "markdown": "Formula_IHU_2026_Grey_Areas_Clarification.md",
+        "source": "https://doc.fs-quiz.eu/Formula_IHU_2026_Grey_Areas_Clarification.pdf"
+    }
+]
