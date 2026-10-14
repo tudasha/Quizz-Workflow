@@ -68,13 +68,15 @@ def slugify(name):
     return slug or "event"
 
 
-def event_folder(short_name, folder_overrides=None):
-    """Competition folder for an FS Quiz event: its short name in lower case unless
-    the config maps it to another name."""
+def event_folder(event, folder_overrides=None):
+    """Competition folder for an FS Quiz event, from its full name so members can read
+    it ("Formula Student Alpe Adria" -> "fs-alpe-adria"), unless the config maps its
+    short name to another folder."""
     folder_overrides = folder_overrides or {}
-    if short_name in folder_overrides:
-        return folder_overrides[short_name]
-    return slugify(short_name)
+    if event["short_name"] in folder_overrides:
+        return folder_overrides[event["short_name"]]
+    name = event.get("event_name") or event["short_name"]
+    return slugify(re.sub(r"^formula student\b", "FS", name.strip(), flags=re.IGNORECASE))
 
 
 def image_file_name(path):

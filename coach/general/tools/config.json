@@ -1,7 +1,7 @@
 {
     "current_year": 2026,
     "quiz_statuses": ["complete"],
-    "events": [],
+    "events": ["Alpe Adria", "Austria", "Germany", "Balkan", "Greece"],
     "skip_events": [],
     "folder_names": {},
     "document_types": {

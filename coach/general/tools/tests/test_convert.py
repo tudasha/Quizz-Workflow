@@ -5,10 +5,11 @@ import pytest
 from fsquiz import convert
 
 
-def test_event_folder_uses_lower_case_short_name_unless_overridden():
-    assert convert.event_folder("FSG") == "fsg"
-    assert convert.event_folder("FS East") == "fs-east"
-    assert convert.event_folder("FSAA", {"FSAA": "fs-alpe-adria"}) == "fs-alpe-adria"
+def test_event_folder_comes_from_the_full_event_name_unless_overridden():
+    assert convert.event_folder({"short_name": "FSAA", "event_name": "Formula Student Alpe Adria"}) == "fs-alpe-adria"
+    assert convert.event_folder({"short_name": "FSG", "event_name": "Formula Student Germany"}) == "fs-germany"
+    assert convert.event_folder({"short_name": "FSEast", "event_name": ""}) == "fseast"
+    assert convert.event_folder({"short_name": "FSG", "event_name": "Formula Student Germany"}, {"FSG": "fsg"}) == "fsg"
 
 
 def test_to_markdown_turns_breaks_and_scripts_into_text():

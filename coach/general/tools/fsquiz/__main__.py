@@ -18,6 +18,8 @@ DEFAULT_CACHE_DIR = TOOLS_DIR / ".cache" / "fsquiz"
 def problems_summary(report):
     lines = [
         "### Problems",
+        "- Competitions: " + ("; ".join(report.events_imported) or "none"),
+        "- Other FS Quiz events, not imported: " + ("; ".join(report.events_left_out) or "none"),
         "- Quizzes imported: " + str(report.quizzes_imported) + " (skipped by status: " + str(report.quizzes_skipped) + ")",
         "- Problem files written: " + str(report.problems_written) + ", unchanged: " + str(report.problems_unchanged)
         + ", verified or locked (left alone): " + str(report.problems_protected),

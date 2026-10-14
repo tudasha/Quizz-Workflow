@@ -25,8 +25,8 @@ python build_zip.py --out ../../../dist   # the zip, in dist/ (ignored by git)
 ## config.json
 - `current_year`: the rules and handbooks agents use. Change it when next season's FS Rules come out; the old files move to `<year>/` folders on the next import.
 - `quiz_statuses`: FS Quiz quiz statuses to import (`complete`, `missing_questions`, `missing_correct_answer`, `incomplete`).
-- `events`: FS Quiz short names to import (`["FSG", "FSA"]`); empty means all. `skip_events` leaves some out.
-- `folder_names`: a different folder for an event, e.g. `{"FSAA": "fs-alpe-adria"}`. Without it the folder is the short name in lower case.
+- `events`: competitions to import, each by its exact FS Quiz short name (`FSG`) or part of its full name (`Alpe Adria`); empty means all. Now: Alpe Adria, Austria, Germany, Balkans, Greece (Gion, 2026-10-14). `skip_events` leaves some out. Each import lists the events it took and the ones it left out.
+- `folder_names`: a different folder for an event, by short name, e.g. `{"FSG": "fsg"}`. Without it the folder comes from the full name: `Formula Student Alpe Adria` becomes `fs-alpe-adria`.
 - `document_types`: FS Quiz document types for `general/rules/` and for each competition's `handbook/`.
 - `zip_split_above_mb`: above this size the build also makes one zip per competition.
 

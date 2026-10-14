@@ -22,23 +22,36 @@ class ImportReport:
     quizzes_imported: int = 0
     quizzes_skipped: int = 0
     problems_per_event: dict = field(default_factory=dict)
+    events_imported: list = field(default_factory=list)
+    events_left_out: list = field(default_factory=list)
     warnings: list = field(default_factory=list)
+
+
+def event_matches(event, names):
+    """A config entry names an event by its exact short name ("FSG") or by part of its
+    full name ("Alpe Adria"), ignoring case."""
+    short_name = event["short_name"].lower()
+    event_name = (event.get("event_name") or "").lower()
+    return any(name.lower() == short_name or name.lower() in event_name for name in names)
 
 
 def selected_events(events, config):
     """Events to import with their competition folder, as (event, folder) pairs."""
-    only_events = set(config.get("events") or [])
-    skip_events = set(config.get("skip_events") or [])
+    only_events = config.get("events") or []
+    skip_events = config.get("skip_events") or []
     folder_names = config.get("folder_names") or {}
     chosen = []
     for event in events:
-        short_name = event["short_name"]
-        if only_events and short_name not in only_events:
+        if only_events and not event_matches(event, only_events):
             continue
-        if short_name in skip_events:
+        if event_matches(event, skip_events):
             continue
-        chosen.append((event, convert.event_folder(short_name, folder_names)))
+        chosen.append((event, convert.event_folder(event, folder_names)))
     return chosen
+
+
+def event_label(event):
+    return event["short_name"] + " (" + (event.get("event_name") or "") + ")"
 
 
 def quizzes_by_id(events_with_folders, quiz_statuses, report):
@@ -140,6 +153,9 @@ def import_problems(client, coach_dir, config, log=print):
     report = ImportReport()
     events = client.get_json("event/all").get("events") or []
     events_with_folders = selected_events(events, config)
+    chosen_ids = {event["id"] for event, _ in events_with_folders}
+    report.events_imported = [event_label(event) + " -> " + folder for event, folder in events_with_folders]
+    report.events_left_out = [event_label(event) for event in events if event["id"] not in chosen_ids]
     quiz_statuses = set(config.get("quiz_statuses") or ["complete"])
     quizzes = quizzes_by_id(events_with_folders, quiz_statuses, report)
     log("events: " + str(len(events_with_folders)) + ", quizzes to import: " + str(len(quizzes)))

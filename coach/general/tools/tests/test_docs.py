@@ -71,7 +71,7 @@ def test_sync_downloads_converts_and_records_documents(tmp_path):
     assert "<!-- page 2 -->" in markdown and "T 11.2 Main hoop" in markdown
     manifest = json.loads((rules_dir / "documents.json").read_text(encoding="utf-8"))
     assert manifest[0]["version"] == "1.0" and manifest[0]["year"] == 2026
-    assert (tmp_path / "competitions" / "fsn" / "handbook" / "current" / "FSN26_Handbook_v1.0.md").exists()
+    assert (tmp_path / "competitions" / "fs-netherlands" / "handbook" / "current" / "FSN26_Handbook_v1.0.md").exists()
     assert len(report.added) == 2
 
 
@@ -82,7 +82,7 @@ def test_new_version_moves_the_old_one_to_its_year_folder(tmp_path):
         document(5, "Handbook", "FSN26_Handbook_v1.1.pdf", "1.1", [FSN]),
     ]})
     report = run_sync(tmp_path, newer)
-    handbook_dir = tmp_path / "competitions" / "fsn" / "handbook"
+    handbook_dir = tmp_path / "competitions" / "fs-netherlands" / "handbook"
     assert sorted(path.name for path in (handbook_dir / "current").iterdir()) == [
         "FSN26_Handbook_v1.1.md", "FSN26_Handbook_v1.1.pdf", "documents.json",
     ]

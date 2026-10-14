@@ -1,6 +1,6 @@
 # Competitions
 
-One folder per competition, named after the event's FS Quiz short name in lower case (`fsg`, `fsa`, ...). A different name can be set in `general/tools/config.json`.
+One folder per competition, named after the event's full FS Quiz name (`fs-alpe-adria`, `fs-germany`, ...). Which competitions are imported, and a different folder name, are set in `general/tools/config.json`.
 
 ```
 <event>/
