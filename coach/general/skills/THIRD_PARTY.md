@@ -1,6 +1,6 @@
 # Third-party skills
 
-Copied unchanged from public repositories (MIT licence), approved by Gion on 2026-10-14. Our own skills (`solving-rules`, `log-use`, `solve-modes`) sit next to them.
+Copied unchanged from public repositories (MIT licence), approved by Gion on 2026-10-14. Our own skills (`solving-rules`, `log-use`, `solve-modes`, `quiz-maker`) sit next to them.
 
 | Skill | Use in the coach | Source |
 |---|---|---|

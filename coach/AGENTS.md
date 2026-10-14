@@ -20,6 +20,7 @@ When the task needs them (see `general/skills/THIRD_PARTY.md`):
 - `markitdown`: a PDF, image or Office file the member gives you
 - `verification-before-completion`: run the check before you state an answer
 - `dispatching-parallel-agents`: sub-agents for the team answer
+- `quiz-maker`: the member asks for a practice quiz or new questions for a competition
 
 ## 3. What wins when sources disagree
 1. The question itself: its given values and the answer format it asks for
