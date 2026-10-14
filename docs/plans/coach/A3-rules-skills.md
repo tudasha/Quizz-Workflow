@@ -1,6 +1,6 @@
 # A3. Rules and skills
 
-Gion, 2026-10-14: Claude writes `AGENTS.md` and the general skills (A3.1, A3.2, A3.5), Gion reviews them. The per-competition rules (A3.4) come from Gion's text: agents format them, keep the wording and ask about gaps instead of filling them.
+Gion, 2026-10-14: Claude writes `AGENTS.md` and the general skills (A3.1, A3.2, A3.5, A3.6), Gion reviews them. The per-competition rules (A3.4) come from Gion's text: agents format them, keep the wording and ask about gaps instead of filling them.
 
 ## A3.1 General solving rules — done
 Done in `feat/coach-agent-files`.
@@ -9,17 +9,22 @@ Done when: Gion has reviewed it.
 
 ## A3.2 Log use skill — done
 Done in `feat/coach-agent-files`; tool names follow A4.3.
-- `coach/general/skills/log-use/SKILL.md`: before each problem, read the log entries for that problem and topic; after it, write one entry
-- Entry fields: problem, agent, result (correct / wrong / unknown), approach, what went wrong, why, rule for next time
+- `coach/general/skills/log-use/SKILL.md`: join the shared live session; before each question, read every member's answers to it and the lessons for its topic; write an entry after the quick answer, the team answer and each review
+- Entry fields: session, question number, problem (or the question text in a live quiz), agent, mode (quick / team / review), answer, result (correct / wrong / unknown; unknown during a live quiz), approach, what went wrong, why, rule for next time, feedback (which of the other answers are right and why)
 - How: MCP tools when the agent supports them, otherwise print the entry for the member to paste into the app form
 Done when: Gion has reviewed it.
 
 ## A3.3 Shared calculation scripts
 Moved to A6.3: filled from solved problems after the trial, not written up front.
 
-## A3.5 Quick and deep solving — done
+## A3.5 Quick and team answers — done
 Done in `feat/coach-agent-files`.
-- `coach/general/skills/solve-modes/SKILL.md`: quick mode (one agent, fast, for easy questions) and deep mode (coordinator plus sub-agents where the agent supports them; the quick answer is the reference)
+- `coach/general/skills/solve-modes/SKILL.md`: both modes on every question, made for the live quiz where nobody knows the answer yet (Gion, 2026-10-14). Members join one live session. A quick answer from one agent, logged at once; then a team of 2–3 sub-agents solves independently, compares its answer with every answer the other members logged for that question, and logs which is right and why; each new disagreeing answer triggers a re-check and a review entry, until the answers agree or time is up; the agent says what to submit. Practice on past problems works the same way, with the FS Quiz answer used only afterwards. Web chats do the same steps one after another
+Done when: Gion has reviewed it.
+
+## A3.6 Practice quiz maker — done
+Gion, 2026-10-14.
+- `coach/general/skills/quiz-maker/SKILL.md`: makes a practice quiz for one competition in its own style (types, topics, time limits and answer format from `COMPETITION.md`, the handbook's quiz section and its past problems): variants of past problems, rules questions with rule numbers, new calculations; options built from real mistakes; every answer from Python and checked by a blind second solve; run one question at a time or as a sheet, scored in a practice session. Generated questions never go into `problems/` or the test set
 Done when: Gion has reviewed it.
 
 ## A3.4 Competition rules — **Gion**

@@ -1,6 +1,6 @@
 # Connecting the shared log
 
-The team's solve log and solve sessions live in the quiz workflow app. Your agent reads lessons and writes entries live through the app's MCP server. What to read and write is in `general/skills/log-use/`.
+The team's solve log and solve sessions live in the quiz workflow app. Your agent reads lessons and the other members' answers and writes entries live through the app's MCP server; during a live quiz this is how the members' agents compare answers. What to read and write is in `general/skills/log-use/`.
 
 ## What you need
 - **MCP URL**: `https://<app address>/api/mcp`. The exact address is on the AI coach page of the app.
@@ -29,13 +29,15 @@ In `~/.gemini/settings.json`:
 Add a remote MCP server with the URL above, if your agent and plan allow custom connectors. The AI coach page lists the steps that work for each agent once they are tested.
 
 ## No MCP
-Use the agent as is. At the end of each problem it prints the log entry as a YAML block (see `general/skills/log-use/`); paste it into the Log entry form on the AI coach page.
+Use the agent as is. It prints each log entry as a YAML block (see `general/skills/log-use/`). During a live quiz, share it in the team chat and paste the other members' entries into your agent; afterwards paste every entry into the Log entry form on the AI coach page.
 
 ## Tools the server offers
 | Tool | Use |
 |---|---|
-| `get_lessons` | lessons for a competition, problem or topic |
-| `add_log_entry` | write one entry after a problem |
-| `start_session`, `record_answer` | keep score in a quiz run |
+| `start_session`, `join_session` | open a live or practice session, or join one with its code |
+| `get_answers` | every answer, review and feedback logged for a question in the session |
+| `get_lessons` | lessons for a competition, topic or past problem |
+| `add_log_entry` | write an entry after the quick answer, the team answer and each review |
+| `record_answer` | keep score in the session |
 | `search_rules` | find a rule by number or phrase |
 | `search_problems`, `get_problem` | find similar past problems and open one |
