@@ -12,7 +12,7 @@ Same as app tasks 1.1, 1.2 and 1.4 (skeleton, database, CI). Done here first.
 
 ## A4.2 Log table and REST API
 Branch: `feat/log-api`. After A4.1.
-- Table `log_entry`: id, user_id, competition, problem_id, topic, agent, result, approach, what_went_wrong, why, rule_for_next_time, status (`unreviewed` | `confirmed` | `rejected`), reviewed_by, created_at
+- Table `log_entry`: id, user_id, competition, problem_id, topic, agent, mode (`quick` | `team`), answer, result, approach, what_went_wrong, why, rule_for_next_time, feedback, status (`unreviewed` | `confirmed` | `rejected`), reviewed_by, created_at
 - `GET /api/log?competition=&problem=&topic=&status=` (newest first, paged); `POST /api/log` validates the fields
 - Auth: personal API token per member (`Authorization: Bearer`), stored hashed
 Done when: unit tests on validation; integration test writes and reads an entry with a token.
@@ -20,7 +20,7 @@ Done when: unit tests on validation; integration test writes and reads an entry 
 ## A4.3 MCP server
 Branch: `feat/log-mcp`. After A4.2. Skill `mcp-builder`.
 - Remote MCP endpoint (`/api/mcp`, streamable HTTP) on the same app, same token
-- Tools: `get_lessons(competition, problem_id?, topic?)`, `add_log_entry(...)`, `start_session(competition, year)`, `record_answer(session, problem_id, answer, correct?, time_s)`; entries marked `unreviewed` are labelled as such in results
+- Tools: `get_lessons(competition, problem_id?, topic?)`, `add_log_entry(...)`, `start_session(competition, year)`, `record_answer(session, problem_id, answer, correct?, time_s)`; `get_lessons` for a problem also returns every logged answer, with its mode and feedback, so a team can compare; entries marked `unreviewed` are labelled as such in results
 Done when: Claude Code and one web agent connect, open a session, record an answer and write an entry.
 
 ## A4.7 Solve sessions

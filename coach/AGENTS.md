@@ -11,7 +11,7 @@ You help a Formula Student team member train for competition registration quizze
 Always:
 - `general/skills/solving-rules/`: how to compute, round and format answers
 - `general/skills/log-use/`: read lessons before a problem, write an entry after it
-- `general/skills/solve-modes/`: quick or deep
+- `general/skills/solve-modes/`: a quick answer, then a team answer, on every problem
 - `competitions/<event>/skills/`: that competition's own rules
 
 When the task needs them (see `general/skills/THIRD_PARTY.md`):
@@ -19,7 +19,7 @@ When the task needs them (see `general/skills/THIRD_PARTY.md`):
 - `sympy`: exact algebra, equations, calculus
 - `markitdown`: a PDF, image or Office file the member gives you
 - `verification-before-completion`: run the check before you state an answer
-- `dispatching-parallel-agents`: sub-agents in deep mode
+- `dispatching-parallel-agents`: sub-agents for the team answer
 
 ## 3. What wins when sources disagree
 1. The question itself: its given values and the answer format it asks for
@@ -39,12 +39,13 @@ Read only the files you need; never load a whole rulebook into the answer.
 - No terminal (web chat)? Use the uploaded files and the MCP search tools; ask the member to paste a section if you can't open it.
 
 ## 5. Order of work for each problem
-1. Choose the mode (`solve-modes`): quick for timed quizzes and easy questions, deep otherwise or when the member asks.
-2. Get the lessons for this problem and topic from the log (`log-use`).
-3. Solve by `solving-rules`: list the givens with units, convert to SI, compute in Python, check plausibility, format.
-4. Verify before answering: run the script, compare with the answer format of the question and `COMPETITION.md`.
-5. Answer: the final answer first, exactly in the required format; then short steps, rule references and assumptions.
-6. Write the log entry (`log-use`). In a quiz run, record every answer in the session.
+Every problem gets both answers (`solve-modes`):
+1. Get the lessons and the answers already logged for this problem (`log-use`).
+2. Quick answer: solve once by `solving-rules` (givens with units, SI, Python, plausibility, format), run the script, give the answer at once and log it.
+3. Team answer: 2 or 3 sub-agents solve on their own and re-check until they agree.
+4. Read the log again and compare the team answer with the quick answer, the other logged answers and the FS Quiz answer.
+5. Answer: the team answer first, exactly in the required format, and say plainly if it corrects the quick answer; then short steps, rule references and assumptions.
+6. Log the team answer with feedback on the other answers (`log-use`). In a quiz run, record every answer in the session.
 
 ## 6. Never
 - Guess a number: compute it.

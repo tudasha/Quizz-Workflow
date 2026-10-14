@@ -24,7 +24,7 @@ coach/
       handbook/        current/ (2026) for agents, older years for reference
       problems/<id>/   problem.md, images/, solution.md, solution.py
 ```
-- `coach/AGENTS.md`, `CLAUDE.md`, `LOG.md`, `SOURCES.md` and `competitions/README.md`: done (Claude wrote them, Gion reviews). Points covered: find the competition folder the member names and read only `general/` + that folder; two modes: quick (one agent alone, for easy questions under quiz time) and deep (a coordinator with sub-agents, using the quick answer as a reference); check the log before each problem and write to it after (A4); answers rely on the current-year rules and handbook; skills win over log entries
+- `coach/AGENTS.md`, `CLAUDE.md`, `LOG.md`, `SOURCES.md` and `competitions/README.md`: done (Claude wrote them, Gion reviews). Points covered: find the competition folder the member names and read only `general/` + that folder; both modes on every problem: a quick answer from one agent, logged at once, then a team answer from sub-agents compared with every logged answer; check the log before each problem and write to it after (A4); answers rely on the current-year rules and handbook; skills win over log entries
 Done when: an agent given only `AGENTS.md` can say which files to read for a chosen competition.
 
 ## A1.3 Branches

@@ -79,7 +79,7 @@ coach/
 - The log is in this app's PostgreSQL. Agents read lessons before each problem and write an entry after it, live, through the MCP server or REST API with a personal token; agents without MCP print the entry and the member pastes it into the app.
 - Every solve is stored in a session (member, agent, competition, year; answer, correct or not, time) and shown on a dashboard everyone can see.
 - The MCP server also offers search over rules, handbooks and past problems.
-- Agents have a quick mode (one agent) and a deep mode (coordinator plus sub-agents), described in AGENTS.md.
+- Every problem gets a quick answer (one agent, logged at once) and then a team answer (sub-agents that compare with every logged answer and log which is right and why), described in `coach/general/skills/solve-modes/`.
 - Log entry: problem, agent, correct or not, approach, what went wrong, why, rule for next time. Entries are `unreviewed` until a topic checker confirms them; skills win over log entries.
 - Claude wrote `AGENTS.md` and the general skills; Gion reviews them. Per-competition rules (`COMPETITION.md`, competition skills) come from Gion's text.
 - About 100 verified problems are kept as a test set outside the repo.

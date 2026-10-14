@@ -9,17 +9,17 @@ Done when: Gion has reviewed it.
 
 ## A3.2 Log use skill — done
 Done in `feat/coach-agent-files`; tool names follow A4.3.
-- `coach/general/skills/log-use/SKILL.md`: before each problem, read the log entries for that problem and topic; after it, write one entry
-- Entry fields: problem, agent, result (correct / wrong / unknown), approach, what went wrong, why, rule for next time
+- `coach/general/skills/log-use/SKILL.md`: before each problem, read the log entries and answers for that problem and topic; write one entry after the quick answer and one after the team answer
+- Entry fields: problem, agent, mode (quick / team), answer, result (correct / wrong / unknown), approach, what went wrong, why, rule for next time, feedback (team entries: which logged answers are right and why)
 - How: MCP tools when the agent supports them, otherwise print the entry for the member to paste into the app form
 Done when: Gion has reviewed it.
 
 ## A3.3 Shared calculation scripts
 Moved to A6.3: filled from solved problems after the trial, not written up front.
 
-## A3.5 Quick and deep solving — done
+## A3.5 Quick and team answers — done
 Done in `feat/coach-agent-files`.
-- `coach/general/skills/solve-modes/SKILL.md`: quick mode (one agent, fast, for easy questions) and deep mode (coordinator plus sub-agents where the agent supports them; the quick answer is the reference)
+- `coach/general/skills/solve-modes/SKILL.md`: both modes on every problem (Gion, 2026-10-14). A quick answer from one agent, logged at once; then a team of 2–3 sub-agents solves independently, reads the log again, compares its answer with the quick answer, every other logged answer and the FS Quiz answer, and logs which is right and why. Web chats do the same steps one after another
 Done when: Gion has reviewed it.
 
 ## A3.4 Competition rules — **Gion**

@@ -29,13 +29,13 @@ In `~/.gemini/settings.json`:
 Add a remote MCP server with the URL above, if your agent and plan allow custom connectors. The AI coach page lists the steps that work for each agent once they are tested.
 
 ## No MCP
-Use the agent as is. At the end of each problem it prints the log entry as a YAML block (see `general/skills/log-use/`); paste it into the Log entry form on the AI coach page.
+Use the agent as is. For each problem it prints the log entries as YAML blocks (see `general/skills/log-use/`); paste them into the Log entry form on the AI coach page.
 
 ## Tools the server offers
 | Tool | Use |
 |---|---|
-| `get_lessons` | lessons for a competition, problem or topic |
-| `add_log_entry` | write one entry after a problem |
+| `get_lessons` | lessons and every logged answer for a competition, problem or topic |
+| `add_log_entry` | write an entry after the quick answer and after the team answer |
 | `start_session`, `record_answer` | keep score in a quiz run |
 | `search_rules` | find a rule by number or phrase |
 | `search_problems`, `get_problem` | find similar past problems and open one |
