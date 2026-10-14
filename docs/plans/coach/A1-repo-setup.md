@@ -20,7 +20,7 @@ competitions/
     problems/<id>/   problem.md, solution.py, solution.md
 log/                 one file per solve (log branch only)
 ```
-- `AGENTS.md`: read `general/` + one competition folder; solve with Python in `solution.py` style; skills win over log entries; pull before each problem, write a log entry after each one
+- `AGENTS.md` from Gion's text; expected points: read `general/` + one competition folder; solve with Python in `solution.py` style; skills win over log entries; pull before each problem, write a log entry after each one
 Done when: an agent given only `AGENTS.md` can say which files to read for a chosen competition.
 
 ## A1.3 Branches
