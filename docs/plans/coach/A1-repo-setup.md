@@ -19,7 +19,7 @@ coach/
     scripts/           shared calculation scripts (filled after the trial)
   competitions/
     fsa/ fs-alpe-adria/ fsg/ ...
-      COMPETITION.md   quiz format, decimals, time limit, scoring
+      COMPETITION.md   quiz format, decimals, time limit, scoring, what they ask
       skills/          competition calculation rules
       handbook/        current/ (2026) for agents, older years for reference
       problems/<id>/   problem.md, images/, solution.md, solution.py

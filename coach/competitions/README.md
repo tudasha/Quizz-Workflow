@@ -4,19 +4,21 @@ One folder per competition, named after the event's full FS Quiz name (`fs-alpe-
 
 ```
 <event>/
-  COMPETITION.md      quiz rules for this event (written by Gion)
+  COMPETITION.md      this event's quiz: pattern of past quizzes + handbook rules (written by Claude, reviewed by Gion)
   skills/             this event's calculation and answer rules (written by Gion)
   handbook/current/   this year's handbook (PDF + Markdown); older years in handbook/<year>/, not in the zip
   problems/<id>/      problem.md, images/, solution.md (imported from FS Quiz), solution.py (written by a checker)
 ```
 
 ## COMPETITION.md headings
-Gion fills these in for each event:
-- Quiz format: number of questions, question types, open-book or not
+Written from the competition's past FS Quiz questions and its current handbook, every fact with its source:
+- When something is new: the pattern is a guide; the question, the newest handbook and the organiser's announcements win; new kinds of questions are re-checked and logged as a note
+- Quiz format: number of questions, separate quizzes per class, question types, open-book or not
 - Time limit: total and per question
 - Decimals and answer format: decimal places, separator, units, rounding or truncation
 - Scoring: points, penalties for wrong answers, partial credit on multi-choice
 - Submission: how answers are entered, what counts as one attempt
+- What they ask: topic shares, recurring question themes with example problem ids, common traps
 - Event specifics: anything that differs from FS Rules
 
 ## problem.md
