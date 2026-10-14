@@ -14,10 +14,13 @@ Branch: `feat/skill-log-use`. After A4.3.
 - How: MCP tools when the agent supports them, otherwise print the entry for the member to paste into the app form
 Done when: Gion confirms the file says what they wrote.
 
-## A3.3 Formula library
-Branch: `feat/formula-library`. Skill `tdd`.
-- `general/tools/`: tested Python functions for recurring formulas (mechanics, electronics, vehicle dynamics), added as problems need them
-Done when: pytest passes; `solution.py` files import from it.
+## A3.3 Shared calculation scripts
+Moved to A6.3: filled from solved problems after the trial, not written up front.
+
+## A3.5 Quick and deep solving — **Gion**
+Branch: `feat/skill-solve-modes`
+- Skill from Gion's text: quick mode (one agent, fast, for easy questions) and deep mode (coordinator plus sub-agents where the agent supports them; the quick answer is the reference)
+Done when: Gion confirms the file says what they wrote.
 
 ## A3.4 Competition rules — **Gion**
 One branch per competition: `feat/competition-<event>`

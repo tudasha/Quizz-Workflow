@@ -1,6 +1,6 @@
 # AGENTS.md - FS Quiz Workflow app
 
-Web app for the Formula Student team: admins build quizzes from problems, members get problems assigned and submit answers, and each member gets the AI coach zip for a competition and a live log their agent reads and writes.
+Web app for the Formula Student team: admins build quizzes from problems, members get problems assigned and submit answers, and each member gets the AI coach zip and a live log and solve history their agent reads and writes.
 
 Project context and decisions: @docs/PROJECT_CONTEXT.md
 Build plan, one file per step: `docs/plans/` (start with `docs/plans/README.md`).

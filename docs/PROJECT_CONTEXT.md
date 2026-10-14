@@ -18,21 +18,21 @@ Order (Gion, 2026-10-14): the AI coach repo is built and reviewed first, then th
 - Stack (Gion, 2026-10-14): Next.js + TypeScript, PostgreSQL + Drizzle, Better Auth, Tailwind + shadcn/ui, Vitest + Playwright, Cloudflare R2 for files, GitHub API for the coach repo. No Firebase or Firestore.
 - Hosting: still open (candidates: Railway, Vercel + Neon, own server); needed before the coach trial (A4.0).
 - App repo: https://github.com/tudasha/Quizz-Workflow (Gion's account; the ARTTU-Software/Quiz-Workflow repo held the firmware template)
-- Admin rights from a server-side role; admin passkey checked on the server.
+- Everyone has their own username and password and can see everything. Admin (moderator) is a role on the account, checked on the server for admin actions only. No passkey.
 - Departments: Accumulator, Electrical, Mechanical, Dynamics, Marketing.
 - No AI chat for now.
 
 ### Pages
-- Login: username and password, department on first login, admin passkey
+- Login: username and password, department on first login
 - Home: list of quizzes; admins create and save quizzes
 - Quiz page: problem gallery and problem detail
 - Documentation: collections per department or for the whole team
-- AI coach panel: competition selector, zip download, MCP URL and token, paste form, log browser
-- Admin only: Departments, Assignments, All Answers
+- AI coach panel: one zip download, copy prompt per competition, MCP URL and token, paste form, log browser, dashboard
+- Admin pages (everyone can view, admins act): Departments, Assignments, All Answers, API tokens, log review
 
 ### Build steps
 1. Setup: choose stack, create repo with branch protection and CI, design DB (users, departments, quizzes, problems, assignments, answers, documentation)
-2. Accounts: sign up / log in, auto-login through a proper auth service, department on first login, server-side admin role and passkey, logout, username badge
+2. Accounts: sign up / log in, auto-login through a proper auth service, department on first login, admin role on the account (no passkey), logout, username badge
 3. Quizzes and problems:
    - Gallery cards by number, status badge (Available, N Assigned, Completed), final answer once completed
    - Highlights: red = assigned to me, gold = my department, green = completed and relevant to me
@@ -45,7 +45,7 @@ Order (Gion, 2026-10-14): the AI coach repo is built and reviewed first, then th
 4. Admin views: Departments (assign, relocate, delete users), Assignments (per user with date and time), All Answers (grouped by problem, similarity highlighting)
 5. Notifications: action toasts 3 s; queued "assigned to you" notifications 5 s each; connection status indicator
 6. Documentation page: PDFs, .md files, images; title, description, creator
-7. AI coach panel: competition selector, zip download, MCP URL and API token request (admin approves), paste form, log browser
+7. AI coach panel: competition selector, one zip download, copy prompt per competition, MCP URL and API token request (admin approves), paste form, log browser, dashboard
 8. Usage tutorial (last)
 
 ### Open points
@@ -64,7 +64,8 @@ SOURCES.md           FS Quiz credit, ODbL
 general/
   skills/            solving rules, log use
   rules/             FS Rules: current/ (2026) for agents, older years for reference
-  tools/             formula library, FS Quiz import script
+  tools/             FS Quiz import script, checks
+  scripts/           shared calculation scripts (filled after the trial)
 competitions/
   fsa/ fs-alpe-adria/ fsg/ ...
     COMPETITION.md   quiz format, decimals, time limit, scoring
@@ -73,13 +74,15 @@ competitions/
     problems/<id>/   problem.md, solution.py, solution.md
 ```
 
-- Members never need git (not everyone has access). They download a zip per competition (`AGENTS.md` + `general/` + that competition + `LOG.md`) and load it into their own agent. The zip holds only the current-year rules and handbook, and agents rely on them.
+- Members never need git (not everyone has access). They download one zip with every competition in its own folder (`AGENTS.md` + `LOG.md` + `general/` + `competitions/*`) and copy a short prompt from the app naming their competition. The zip holds only the current-year rules and handbook, and agents rely on them.
 - The log is in this app's PostgreSQL. Agents read lessons before each problem and write an entry after it, live, through the MCP server or REST API with a personal token; agents without MCP print the entry and the member pastes it into the app.
+- Every solve is stored in a session (member, agent, competition, year; answer, correct or not, time) and shown on a dashboard everyone can see.
+- The MCP server also offers search over rules, handbooks and past problems.
+- Agents have a quick mode (one agent) and a deep mode (coordinator plus sub-agents), described in AGENTS.md.
 - Log entry: problem, agent, correct or not, approach, what went wrong, why, rule for next time. Entries are `unreviewed` until a topic checker confirms them; skills win over log entries.
 - Rules and skills are written from Gion's text, not invented.
 - About 100 verified problems are kept as a test set outside the repo.
 - Coach repo CI: pytest plus running every `solution.py`.
 
 ## Later
-- Agents argue with each other until they agree
-- AI chat in the app
+- Local fine-tuned model

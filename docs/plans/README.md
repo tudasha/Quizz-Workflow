@@ -14,11 +14,11 @@ Coach repo tasks are done in the coach repo; log service and download page in th
 - A1. [Coach repo setup](coach/A1-repo-setup.md)
 - A2. [Data import from FS Quiz](coach/A2-data-import.md)
 - A3. [Rules and skills](coach/A3-rules-skills.md)
-- A4. [Log service: database, API, MCP](coach/A4-log-service.md)
-- A5. [Zip per competition](coach/A5-zip.md)
+- A4. [Log service: log, solve sessions, dashboard, MCP](coach/A4-log-service.md)
+- A5. [One zip for all competitions](coach/A5-zip.md)
 - A6. [Trial and review](coach/A6-trial-review.md)
 
-Part B starts only after Gion approves Part A (A6.3).
+Part B starts only after Gion approves Part A (A6.4).
 
 ## Part B: Quiz workflow app
 1. [Setup](01-setup.md)

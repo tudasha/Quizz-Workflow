@@ -1,20 +1,25 @@
-# A5. Zip per competition
+# A5. One zip for all competitions
 
-The only way members get the coach material.
+The only way members get the coach material: one zip with every competition in its own folder.
 
 ## A5.1 Zip build
 Branch (coach repo): `feat/zip-build`
-- GitHub Action on push to `main`: builds `<event>.zip` = `AGENTS.md` + `LOG.md` + `general/` + `competitions/<event>/`, with only the current-year rules and handbook (older years left out)
-- Uploads the zips to the app's file storage (R2) with a version number. The repo pushes to the app; the app never reads the repo, so it needs no GitHub access (only an R2 write key stored as a GitHub secret)
-- The app lists the zips in storage and serves them to logged-in members
-Done when: a new commit on `main` produces fresh zips in storage.
+- GitHub Action on push to `main`: builds `fs-quiz-coach.zip` = `AGENTS.md` + `LOG.md` + `general/` + `competitions/<event>/` for every event, with only the current-year rules and handbooks (older years left out)
+- Uploads the zip and the search index (A4.9) to the app's file storage (R2) with a version number. The repo pushes to the app; the app never reads the repo, so it needs no GitHub access (only an R2 write key stored as a GitHub secret)
+Done when: a new commit on `main` produces a fresh zip in storage.
 
 ## A5.2 LOG.md
 Branch (coach repo): `feat/log-instructions`
 - How to connect the log: MCP URL and token, with steps for Claude Projects, Claude Code, ChatGPT and Gemini; fallback: print the entry and paste it into the app form
+- For Claude Code and Codex: a ready config for a local markdown MCP over the unzipped folder
 Done when: a member follows it on each agent type without help.
 
 ## A5.3 Download page
 Branch (this repo): `feat/coach-download`. After A4.1.
-- Page listing competitions with the latest zip and its version; shows the member's MCP URL and token status
-Done when: e2e downloads `fsa.zip`.
+- One download button for the latest zip and its version
+- Per competition, a Copy button with a short prompt: "Use competitions/<event>/ for every problem I give you"
+- Shows the member's MCP URL and token status
+Done when: e2e downloads the zip and copies the FSA prompt.
+
+## A5.4 Size check
+- If the zip is too big for an agent's upload limit (for example Claude Project knowledge), the build also makes one zip per competition as a fallback

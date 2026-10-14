@@ -14,7 +14,8 @@ SOURCES.md           data sources and licence (FS Quiz, ODbL)
 general/
   skills/            solving-rules, log-use
   rules/             FS Rules: current/ (2026) for agents, older years for reference
-  tools/             formula library, import script, checks
+  tools/             import script, checks
+  scripts/           shared calculation scripts (filled after the trial)
 competitions/
   fsa/ fs-alpe-adria/ fsg/ ...
     COMPETITION.md   quiz format, decimals, time limit, scoring
@@ -22,7 +23,7 @@ competitions/
     handbook/        current/ (2026) for agents, older years for reference
     problems/<id>/   problem.md, solution.py, solution.md
 ```
-- `AGENTS.md` from Gion's text; expected points: read `general/` + one competition folder; check the log before each problem and write to it after (A4); answers rely on the current-year rules and handbook; skills win over log entries
+- `AGENTS.md` from Gion's text; expected points: find the competition folder the member names and read only `general/` + that folder; two modes: quick (one agent alone, for easy questions under quiz time) and deep (a coordinator with sub-agents, using the quick answer as a reference); check the log before each problem and write to it after (A4); answers rely on the current-year rules and handbook; skills win over log entries
 Done when: an agent given only `AGENTS.md` can say which files to read for a chosen competition.
 
 ## A1.3 Branches
