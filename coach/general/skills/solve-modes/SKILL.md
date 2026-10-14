@@ -11,7 +11,7 @@ Made for the live quiz: several members solve the same questions at the same tim
 At the start, one member opens a live session: `start_session(competition, year, live: true)` returns a code. The others join with `join_session(code)`. Every entry for a question carries the session and the question's number in the quiz, so all members' answers to it line up.
 
 ## 1. Quick answer
-1. The member gives the question number, the text and any images. Read the answers already logged for it (`get_answers(session, question)`) and the lessons for its topic (`get_lessons`).
+1. The member gives the question number, the text and any images. Read the answers already logged for it (`get_answers(session, question)`) and the lessons for its topic (`get_lessons`). Check it against `COMPETITION.md`: if it is of a kind that file does not cover, follow its "When something is new".
 2. One agent solves once by `solving-rules`: givens with units, SI, Python, plausibility, format.
 3. Give the member the answer at once, marked **Quick answer**, with confidence.
 4. Log it right away with `mode: quick` (`log-use`), so the other members see it.
