@@ -13,6 +13,10 @@ def fake_page_texts(pdf_path):
     return ["Page one of " + pdf_path.name, "T 11.2 Main hoop"]
 
 
+def fake_outline(pdf_path):
+    return []
+
+
 def make_client(documents_by_type, year=2026):
     api_routes = {"event/all": event_all()}
     for doc_type, documents in documents_by_type.items():
@@ -25,7 +29,9 @@ def make_client(documents_by_type, year=2026):
 
 
 def run_sync(coach_dir, client, config=CONFIG):
-    return docs.sync_documents(client, coach_dir, config, log=lambda message: None, page_texts=fake_page_texts)
+    return docs.sync_documents(
+        client, coach_dir, config, log=lambda message: None, page_texts=fake_page_texts, outline=fake_outline
+    )
 
 
 def test_series_name_ignores_the_version():
@@ -124,3 +130,55 @@ def test_pdf_page_texts_reads_every_page(tmp_path):
     with open(pdf_path, "wb") as pdf_file:
         writer.write(pdf_file)
     assert docs.pdf_page_texts(pdf_path) == ["", ""]
+
+
+def changelog_page_texts(pdf_path):
+    return ["CHANGELOG\nRule Version Change\nT 11.2 1.0 Raised the hoop", "T 11 MAIN HOOP\nT 11.2 Main hoop"]
+
+
+def hoop_outline(pdf_path):
+    return [(0, "Main hoop", 2)]
+
+
+def test_sync_writes_the_index_and_the_changes_when_the_pdf_has_them(tmp_path):
+    client = make_client({"Rulebook": [document(1, "Rulebook", "FS-Rules_2026_v1.0.pdf", "1.0", [])]})
+    docs.sync_documents(client, tmp_path, CONFIG, log=lambda message: None, page_texts=changelog_page_texts, outline=hoop_outline)
+    rules_dir = tmp_path / "general" / "rules" / "current"
+    assert "- T 11 Main hoop, p. 2" in (rules_dir / "FS-Rules_2026_v1.0.index.md").read_text(encoding="utf-8")
+    assert "| T 11.2 | 1.0 | Raised the hoop |" in (rules_dir / "FS-Rules_2026_v1.0.changes.md").read_text(encoding="utf-8")
+    manifest = json.loads((rules_dir / "documents.json").read_text(encoding="utf-8"))
+    assert manifest[0]["extras"] == ["FS-Rules_2026_v1.0.index.md", "FS-Rules_2026_v1.0.changes.md"]
+    assert manifest[0]["converter"] == docs.CONVERTER_VERSION
+
+
+def test_new_version_moves_the_extras_too(tmp_path):
+    first = make_client({"Rulebook": [document(1, "Rulebook", "FS-Rules_2026_v1.0.pdf", "1.0", [])]})
+    docs.sync_documents(first, tmp_path, CONFIG, log=lambda message: None, page_texts=changelog_page_texts, outline=hoop_outline)
+    second = make_client({"Rulebook": [document(2, "Rulebook", "FS-Rules_2026_v1.1.pdf", "1.1", [])]})
+    docs.sync_documents(second, tmp_path, CONFIG, log=lambda message: None, page_texts=changelog_page_texts, outline=hoop_outline)
+    archive_dir = tmp_path / "general" / "rules" / "2026"
+    assert (archive_dir / "FS-Rules_2026_v1.0.index.md").exists()
+    assert (archive_dir / "FS-Rules_2026_v1.0.changes.md").exists()
+
+
+def test_sync_converts_again_what_an_older_converter_made(tmp_path):
+    client = make_client({"Rulebook": [document(1, "Rulebook", "FS-Rules_2026_v1.0.pdf", "1.0", [])]})
+    run_sync(tmp_path, client)
+    rules_dir = tmp_path / "general" / "rules" / "current"
+    manifest = json.loads((rules_dir / "documents.json").read_text(encoding="utf-8"))
+    manifest[0]["converter"] = 1
+    (rules_dir / "documents.json").write_text(json.dumps(manifest), encoding="utf-8")
+    report = docs.sync_documents(client, tmp_path, CONFIG, log=lambda message: None, page_texts=changelog_page_texts, outline=hoop_outline)
+    assert report.reconverted == [str(rules_dir / "FS-Rules_2026_v1.0.pdf")]
+    assert (rules_dir / "FS-Rules_2026_v1.0.changes.md").exists()
+
+
+def test_reconvert_local_needs_no_api(tmp_path):
+    run_sync(tmp_path, make_client({"Handbook": [document(2, "Handbook", "FSN26_Handbook_v1.0.pdf", "1.0", [FSN])]}))
+    unchanged = docs.reconvert_local(tmp_path, page_texts=changelog_page_texts, outline=hoop_outline)
+    assert unchanged.reconverted == [] and unchanged.unchanged == 1
+    forced = docs.reconvert_local(tmp_path, force=True, page_texts=changelog_page_texts, outline=hoop_outline)
+    handbook_dir = tmp_path / "competitions" / "fs-netherlands" / "handbook" / "current"
+    assert forced.reconverted == [str(handbook_dir / "FSN26_Handbook_v1.0.pdf")]
+    assert "T 11.2 Main hoop" in (handbook_dir / "FSN26_Handbook_v1.0.md").read_text(encoding="utf-8")
+    assert (handbook_dir / "FSN26_Handbook_v1.0.index.md").exists()

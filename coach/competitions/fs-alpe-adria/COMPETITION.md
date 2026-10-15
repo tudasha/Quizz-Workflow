@@ -1,6 +1,6 @@
 # Formula Student Alpe Adria — registration quiz
 
-Pattern from the FS Quiz history (2023, 2024 and 2026, 43 questions, 24 with a written solution) and the 2026 handbook (FSAA2026_Competition_Handbook_v1.0.md, III.5 FSAA 2026 Quiz Registration, pages 7–8). Written by Claude on 2026-10-14; reviewed by: pending.
+Pattern from the FS Quiz history (2023, 2024 and 2026, 43 questions, 24 with a written solution) and the 2026 handbook (FSAA2026_Competition_Handbook_v1.0.md, III.5 FSAA 2026 Quiz Registration, pages 7–8). Written by Claude on 2026-10-14 ("Differs from FS Rules" on 2026-10-15); reviewed by: pending.
 
 ## When something is new
 This file is the pattern of past quizzes and the 2026 handbook: a guide, not a rule.
@@ -8,6 +8,34 @@ This file is the pattern of past quizzes and the 2026 handbook: a guide, not a r
 - Live quiz: when a question is of a kind this file does not cover (new type, new topic, new answer format, a scoring or submission detail not listed here), say so, solve it from the question and the current rules and handbook, and re-check your answer once more before giving it. Then log a note (`log-use`, `problem_id: note`) naming this competition and what was new, so a maintainer updates this file.
 - Before a live quiz: check that `handbook/current/` is the newest handbook version and read the organiser's latest quiz announcement and FAQ. Where they differ from this file, they win; tell the member and log a note.
 - When the weekly import brings a new handbook or new quiz questions for this competition, re-check this file against them.
+
+## Differs from FS Rules 2026
+Where this competition's 2026 handbook changes FS Rules 2026. For these points the handbook wins; check here before applying an FS Rules rule.
+- **Points per discipline:** Skidpad 75, Acceleration 75, Endurance 325, Efficiency 100 (use as Pmax in the FS D 9 formulas; others as FS, total 1000, no DV disciplines), instead of 50, 50, 250 and 75 [Handbook V.1; FS A 1.2.5 table 3].
+- **BPP score:** non-finalists get 71 × Pteam / Pminf (Pminf = initial score of the lowest-scoring finalist), then normalised and scaled; up to 6 finalists, instead of 70 × Pteam / Pmax and finalists 75–71 [Handbook VII.1; FS S 2.4.6–S 2.4.7].
+- **Design score:** Aerodynamics, Chassis and Ergonomics, Electrical and Control Systems, Overall Vehicle Concept and Management, Powertrain, Vehicle Dynamics 24 each, EDR 6, normalised and scaled, instead of FS table 7 [Handbook VII.3; FS S 4.5.3].
+- **Runs in Acceleration, Skidpad, Autocross:** 4 each, 2 drivers with 2 runs each, fastest completed run counts; a car stalling before the timing may be pushed back once per run, instead of 2 runs in Acceleration and Skidpad [Handbook VIII.3; FS D 1.3.1 table 9].
+- **Drivers:** each team registers 4 to 6 drivers, all with a valid driving licence (copies sent before the event), instead of 3 to 4 drivers [Handbook VIII.2; FS D 1.2.1].
+- **Endurance running order:** reverse order of Autocross results, 3 to 4 cars on track, be ready and at least 4th in the queue, instead of FS's "similar speeds together" with the procedure left to the handbook [Handbook VIII.3; FS D 7.3.1–D 7.3.3].
+- **Endurance out-of-order:** a team not ready when called, or whose car won't start, runs at the end if time permits with a 2-min penalty (the case FS leaves to the handbook), instead of DQ if not started within 30 s [Handbook VIII.3, VIII.4; FS D 10.2.1, D 10.1.11].
+- **Post-event inspection:** a team must pass it to score points in the discipline, instead of FS's graded post-inspection penalties (time penalties per violation, DQ for safety violations) [Handbook VIII.1; FS IN 12.1.4–IN 12.1.5].
+- **Track walks:** analogue measuring devices and handheld cameras allowed; only the day's drivers, 1 more team member and 1 press member; touching or moving cones means immediate DQ, instead of FS's analogue-devices-only rule [Handbook VIII.5; FS D 1.5.2].
+- **BPP presentation:** 10 min, points may be deducted if not finished in time (handbook: replaces FS S 2.2.5), plus 5 min preparation and 5 min Q&A, instead of FS's rule that anything after 10 min is not scored [Handbook VII.1; FS S 2.2.1, S 2.2.5].
+- **BPP business model:** S 2.1.1 and S 2.1.2 do not apply; the plan may cover the vehicle, a component (tangible or intangible) or a product or service derived from an FS vehicle, instead of FS's for-profit rule and ineligible list [Handbook VII.1; FS S 2.1.1–S 2.1.2].
+- **BPP documents:** one-page A4 summary (BPES) linking a 60–90 s pitch video (BPPV), plus a Deep Dive report (BPDD, 4–7 pages, 7 days) not required in the talk, instead of the BPEFS and a deep-dive topic inside the talk [Handbook VII.1; FS S 2.3, S 2.2.6].
+- **Cost and Manufacturing:** 45-min discussion; Part 2 Real Case (TBD), Part 3 Cost Understanding; the three CRD go in one zip to the FSAA website, instead of Part 2 Cost Understanding, Part 3 Real Case [Handbook VII.2; FS S 3.2.4–S 3.2.5, S 3.3.1].
+- **Engineering Design:** Design Spec Sheet (DSS) and Engineering Design Report (EDR), the 2025 documents; 40 min per team, finals 6 teams at 30 min; judged per FS Rules 2025 S 3 except S 3.1.3, S 3.4.7, S 3.7.2, instead of the TVSD and FS 2026 S 4 [Handbook VII.3; FS S 4.2].
+- **Inspection order:** pre-inspection with driver egress (in the pits); phase 1 mechanical (EV also electrical, accumulator); phase 2 weighing, tilt, noise (CV) or rain (EV); then brake test; no AS Inspection or EBS Test, both in FS's list [Handbook VI.1, VI.2; FS IN 1.1.1].
+- **Scrutineering slots:** queue follows the order of VSV submission; slot table published 7 days before the event; a team more than 15 min late loses its slot, where FS Rules set no slot order [Handbook VI.1; FS none].
+- **Brake test:** all four wheels must lock with at most half a rotation difference between front and rear axles, and the BOTS is checked per T 6.2, where FS only requires all four wheels locked and a straight-line stop [Handbook VI.2; FS IN 11.1.1].
+- **Accumulator AMS rules:** accumulators may comply with EV 5.8 of either FS Rules 2025 v1.1 or 2026 v1.1, instead of only the 2026 EV 5.8 (changed cell temperature sensor placement) [Handbook VI.1; FS EV 5.8].
+- **Accumulator rest after charging:** the accumulator must stay in the resting area for at least 60 min after charging before going into the car, where FS Rules set no resting time [Handbook V.2; FS A 6.12].
+- **Pit work:** spark-producing tools only in the designated welding area (one welder at a time); long trousers (no stretch or nylon) and closed shoes on the car in the dynamic area or scrutineering, instead of FS's power tools area and shoes only [Handbook V.2; FS A 6.4.1, A 6.4.3].
+- **Late documents:** daily penalty points per document: 15 (IAD, SES, SE3D, ESF, VSV), 10 (HSD, CRD, ESOQ, DR, TMRF), 5 (BPES, BPPV, DSS, EDR, BPDD), instead of a one-off 10 points per late submission [Handbook V.3, table p. 15; FS A 5.4.1].
+- **De-registration:** for IAD, SES, SE3D, ESF or VSV (table also stars ESOQ) missing at the last submission date; late static documents cost up to the discipline's maximum points, instead of de-registration for any document 24 h late [Handbook V.3, table p. 15; FS A 5.4.2].
+- **Corrections (re-uploads):** 7 days (IAD, SES, SE3D, ESF) or 2 days (VSV) from the organisers' email, daily penalties if late, up to 10 points per re-upload, instead of 168 h counted from the initial deadline if asked earlier [Handbook V.3, table p. 15; FS A 5.3.1–A 5.3.2].
+- **Upload rules:** by 13:00 CE(S)T on the deadline day, max 50 MB, named Car#_abbreviation_version (e.g. E69_EDR_v2; version only on re-upload; ### for CV, E## for EV); non-accepted documents score 0; FS Rules set none of this [Handbook V.3; FS none].
+- **Protests:** written complaint by email to protest@fs-alpeadria.com within 2 h, or 30 min for dynamic disciplines; a rejected protest costs 15 points, instead of FS's 25-point protest bond [Handbook V.1; FS A 3.7.2].
 
 ## Quiz format
 - 2026: one joint quiz with Formula Student Poland (FSP), linked on both the FSAA and FSP platforms; teams select the event they want inside the quiz [Handbook III.5]

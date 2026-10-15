@@ -6,7 +6,11 @@
         "version": "1.0",
         "file": "Formula_IHU_2026_Competition_Handbook_v1.0.pdf",
         "markdown": "Formula_IHU_2026_Competition_Handbook_v1.0.md",
-        "source": "https://doc.fs-quiz.eu/Formula_IHU_2026_Competition_Handbook_v1.0.pdf"
+        "source": "https://doc.fs-quiz.eu/Formula_IHU_2026_Competition_Handbook_v1.0.pdf",
+        "extras": [
+            "Formula_IHU_2026_Competition_Handbook_v1.0.index.md"
+        ],
+        "converter": 2
     },
     {
         "doc_id": 160,
@@ -15,6 +19,8 @@
         "version": "1.0",
         "file": "Formula_IHU_2026_Grey_Areas_Clarification.pdf",
         "markdown": "Formula_IHU_2026_Grey_Areas_Clarification.md",
-        "source": "https://doc.fs-quiz.eu/Formula_IHU_2026_Grey_Areas_Clarification.pdf"
+        "source": "https://doc.fs-quiz.eu/Formula_IHU_2026_Grey_Areas_Clarification.pdf",
+        "extras": [],
+        "converter": 2
     }
 ]

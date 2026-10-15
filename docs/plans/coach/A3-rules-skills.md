@@ -33,3 +33,12 @@ Branch: `feat/competition-md` (all five competitions).
 - Each file starts with "When something is new": the question wins over the pattern; in a live quiz a question of a new kind is said, solved from the question and current rules, re-checked and logged as a note; before a live quiz check the newest handbook and the organiser's announcement; re-check the file when the import brings a new handbook or new questions
 - Competition `skills/`: from Gion's text, when Gion has some
 Done when: Gion has reviewed the five files.
+
+## A3.7 Review fixes — done
+Gion, 2026-10-15, from the Gemini and Claude reviews of the zip. Branch: `feat/strict-rules-and-key-values`.
+- `solving-rules` starts with five rules never to break: the answer is copied from the script, round once, rules quoted from this year's files, a verdict for every option, exactly one answer
+- `general/rules/KEY-VALUES-<year>.md`: limits, penalties and scoring formulas with rule and quote; CI checks every quote against the current rules
+- Each `COMPETITION.md` starts with "Differs from FS Rules": where its handbook changes FS Rules, every point checked against both texts
+- `quiz-maker`: works without the app, SVG figures, questions in English
+- References to files that are not in the zip removed or marked
+Done when: Gion has reviewed it.

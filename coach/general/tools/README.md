@@ -6,6 +6,7 @@ For maintainers. Not shipped in the zip.
 |---|---|
 | `fsquiz/` | Imports problems, solutions and images from the FS Quiz API, and the current-year FS Rules and handbooks |
 | `check_problems.py` | CI check: `problem.md` labels (`problem.schema.json`), linked images, and every `solution.py` against its answer |
+| `check_key_values.py` | CI check: every quote in `general/rules/KEY-VALUES-<year>.md` is still in this year's FS Rules |
 | `build_zip.py` | Builds `fs-quiz-coach.zip` (and one zip per competition when it is too big) |
 | `config.json` | Current year, which quizzes and events to import, folder names, zip size limit |
 
@@ -18,9 +19,11 @@ pip install -r requirements.txt
 python -m pytest -q                       # tool tests
 python -m fsquiz all                      # problems + rules and handbooks
 python check_problems.py                  # what CI checks
+python check_key_values.py
 python build_zip.py --out ../../../dist   # the zip, in dist/ (ignored by git)
 ```
 `python -m fsquiz problems` or `documents` runs one half. Answers are cached for a day in `.cache/`; `--no-cache` asks again.
+`python -m fsquiz convert` needs no API: it converts the rules and handbooks in `current/` again from their PDFs, the ones an older converter made (`converter` in `documents.json`), or all with `--force`. Raise `CONVERTER_VERSION` in `fsquiz/docs.py` when the conversion changes; the next import then converts them again too.
 
 ## config.json
 - `current_year`: the rules and handbooks agents use. Change it when next season's FS Rules come out; the old files move to `<year>/` folders on the next import.

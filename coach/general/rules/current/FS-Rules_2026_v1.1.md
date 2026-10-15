@@ -1,6 +1,6 @@
 # FS-Rules_2026_v1.1
 
-Source: https://doc.fs-quiz.eu/FS-Rules_2026_v1.1.pdf (via FS Quiz). Converted from the PDF so agents can search it; the PDF and the organiser's website are the official text.
+Source: https://doc.fs-quiz.eu/FS-Rules_2026_v1.1.pdf (via FS Quiz). Converted from the PDF so agents can search it; the PDF and the organiser's website are the official text. Formulas and tables may be garbled: check them in the PDF.
 
 <!-- page 1 -->
 
@@ -43,11 +43,9 @@ EV 2 Electric Powertrain . . . . . . . . . . . . . . . . . . . . . . . . . . . .
 EV 3 General Requirements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 83
 EV 4 Tractive System . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84
 EV 5 Tractive System Energy Storage . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 90
-Formula Student Rules 2026 Version: 1.1 1 of 135
 
 <!-- page 2 -->
 
-Contents
 EV 6 Shutdown Circuit and Systems . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 96
 EV 7 Chargers . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 98
 EV 8 Tractive System Accumulator Container Hand Cart . . . . . . . . . . . . . . . . . . . . 99
@@ -81,7 +79,6 @@ D 7 Endurance and Efficiency . . . . . . . . . . . . . . . . . . . . . . . . . .
 D 8 [DC ONLY] Trackdrive . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 131
 D 9 Dynamic Disciplines Scoring . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 131
 D 10 Dynamic Disciplines Penalties . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 133
-Formula Student Rules 2026 Version: 1.1 2 of 135
 
 <!-- page 3 -->
 
@@ -127,11 +124,9 @@ crushable objects are in front view of the AIP and are not designed to detach or
 move rearward of the AIP during a frontal impact
 T 3.20.2 1.0 Require that sensors and aerodynamic devices are attached rearwards of the
 AIP
-Formula Student Rules 2026 Version: 1.1 3 of 135
 
 <!-- page 4 -->
 
-Contents
 Rule Version Change
 T 3.20.2 1.1 Clarified there must be no obstruction of energy absorption
 T 5.7.2 1.0 Clarified head restraint size
@@ -179,11 +174,9 @@ T 14.5.6 1.0 Merged requirements concerning safe behavior while ASMS is switched
 T 14.6.1 1.0 Simplified rule under which condition the steering system may be activated
 T 14.7 1.0 Removed redundant rule
 T 14.7.2 1.0 Added rule for sensor repositioning
-Formula Student Rules 2026 Version: 1.1 4 of 135
 
 <!-- page 5 -->
 
-Contents
 Rule Version Change
 T 14.7.3 1.0 Unified and clarified common requirements for actuator decoupling and sensor
 repositioning
@@ -232,11 +225,9 @@ EV 7.1.9 1.0 Require labeling for green light indicator
 EV 7.2.2 1.0 Require that open SDC during charging must prevent (re)-activation of TS
 IN 1.2 1.0 Clarified when the vehicle might drive under own power or autonomously
 IN 1.2.8 1.0 Shortened rule
-Formula Student Rules 2026 Version: 1.1 5 of 135
 
 <!-- page 6 -->
 
-Contents
 Rule Version Change
 IN 1.4.1 1.0 ASR only required for Autonomous System Inspection
 IN 1.5.1 1.0 Replaced sensor adjustment by the concept of sensor repositioning
@@ -249,7 +240,7 @@ IN 11.1.7 1.0 Added maximum tire pressure for Brake Test
 IN 11.2.3 1.0 Clarified that the requirements from T 15.4 prevail
 IN 12.1.8 1.0 Vehicle needs to be able to execute Inspection Mission during Post Inspection
 IN 12.1.8 1.1 Clarified rule
-IN 12.1.9 1.0 Vehicle needs to be able to reach R2D at least15 min after any dynamic disci-
+IN 12.1.9 1.0 Vehicle needs to be able to reach R2D at least 15 min after any dynamic disci-
 pline
 IN 12.1.9 1.1 Clarified rule
 S 2.1.1 1.0 Clarified the objective of the BPP
@@ -280,11 +271,10 @@ D 7.9.2 1.0 Simplified Efficiency prerequesites
 D 8.3.3 1.0 Clarified definition of stop area
 D 8.3.5 1.0 Moved from deleted subsection “Trackdrive Scoring”
 D 9 1.0 Standardised scoring and moved to its own section
-D 9.1.1 1.0 Unified scoring formula and adapted T max
-D 9.4.1 1.0 Changed [ EFmax] definition and scoring formula
+D 9.1.1 1.0 Unified scoring formula and adapted Tmax
+D 9.4.1 1.0 Changed [EFmax] definition and scoring formula
 D 10.1.6 1.0 Added not maintaning the expected orientation to the definition of USS
 D 10.4.1 1.1 Defined penalty for TS overcurrent violation
-Formula Student Rules 2026 Version: 1.1 6 of 135
 
 <!-- page 7 -->
 
@@ -334,26 +324,24 @@ HPHS High Pressure Hydraulic System
 HPI High Pressure Injection
 HSC Hybrid Storage Container
 HSF Hybrid System Form
-HV High V oltage
-HVD High V oltage Disconnect
+HV High Voltage
+HVD High Voltage Disconnect
 HY Combustion Hybrid Vehicle
 IA Impact Attenuator
 IAD Impact Attenuator Data
 IMD Insulation Monitoring Device
 LCA Life Cycle Assessment
 LPI Low Pressure Injection
-L V Low V oltage
-L VMS Low V oltage Master Switch
-L VS Low V oltage System
+LV Low Voltage
+LVMS Low Voltage Master Switch
+LVS Low Voltage System
 OC Off-Course
 PCB Printed Circuit Board
 R2D Ready-to-drive
 RES Remote Emergency System
-Formula Student Rules 2026 Version: 1.1 7 of 135
 
 <!-- page 8 -->
 
-Abbreviations
 SCS System Critical Signal
 SDC Shutdown Circuit
 SE3D Structural Equivalency 3D Model
@@ -370,13 +358,12 @@ TVSD Technical Vehicle System Documenta-
 tion
 USS Unsafe Stop
 VSV Vehicle Status Video
-Formula Student Rules 2026 Version: 1.1 8 of 135
 
 <!-- page 9 -->
 
 Formula Student Rules 2026
-A A DMINISTRATIVE REGULATIONS
-A 1 C OMPETITION OVERVIEW
+A ADMINISTRATIVE REGULATIONS
+A 1 COMPETITION OVERVIEW
 A 1.1 Competition Objective
 A 1.1.1 The competition challenges teams of university students to conceive, design, fabricate,
 develop and compete with small formula style race cars.
@@ -399,11 +386,9 @@ A 1.3 Competition Information
 A 1.3.1 The official language of the competition is English.
 A 1.3.2 Every organizer of an event based on this document bears the sole responsibility.
 A 1.3.3 The event specific rules and information are defined in the Event Handbook.
-Formula Student Rules 2026 Version: 1.1 9 of 135
 
 <!-- page 10 -->
 
-A 2 Vehicle Eligibility
 CV & EV DC
 Static Disciplines:
 Business Plan Presentation 75 points -
@@ -421,7 +406,7 @@ Efficiency 75 points -
 Trackdrive - 200 points
 Overall 1000 points 600 points
 Table 3: Maximum points awarded
-A 2 V EHICLE ELIGIBILITY
+A 2 VEHICLE ELIGIBILITY
 A 2.1 Student Competition
 A 2.1.1 Vehicles entered into the competition must be conceived, designed and maintained by the
 student team members without direct involvement from external professional engineers,
@@ -437,12 +422,10 @@ A 2.2.3 In the following cases, the existing chassis may be used for one more co
 • Changing the powertrain from CV→ EV or CV→ HY or HY→ EV
 • Initial implementation of an Autonomous System, see T 14
 The team must inform the officials ahead of time if they intend to use this exception.
-Formula Student Rules 2026 Version: 1.1 10 of 135
 
 <!-- page 11 -->
 
-A 3 Rules of Conduct
-A 3 R ULES OF CONDUCT
+A 3 RULES OF CONDUCT
 A 3.1 General Officials Authority
 A 3.1.1 The officials reserve the right to revise the schedule of the event and/or interpret or modify
 the event or competition rules at any time and in any manner that is, in their sole judgment,
@@ -473,11 +456,9 @@ A 3.6.2 The frequently asked questions (FAQ) section on the competition website 
 before submitting a question.
 A 3.6.3 The officials will only answer questions that are not already answered in the rules or FAQs
 or that require new or novel interpretation.
-Formula Student Rules 2026 Version: 1.1 11 of 135
 
 <!-- page 12 -->
 
-A 4 General Requirements for Teams & Participants
 A 3.6.4 Refer to the competition website for specific directions how to submit a rules question.
 A 3.7 Protests
 A 3.7.1 A team may protest any rule interpretation, score or official action which they feel has caused
@@ -491,7 +472,7 @@ A 3.8.1 Rule violations result in at least 20 penalty points, unless explicitly 
 penalty points will be deducted from the team’s overall score.
 A 3.8.2 Overall penalties apply to CV, EV and DC score, except for penalties concerning disciplines
 which are not part of the respective class or cup.
-A 4 G ENERAL REQUIREMENTS FOR TEAMS & PARTICIPANTS
+A 4 GENERAL REQUIREMENTS FOR TEAMS & PARTICIPANTS
 A 4.1 Teams per University
 A 4.1.1 A university can register one CV team and one EV team which both can take part in the DC.
 A 4.1.2 For the purposes of registering and competing, a university’s CV team and EV team are
@@ -509,11 +490,9 @@ A 4.2.4 Each team must have one team member identified as the team captain. The 
 the main contact person for the officials during the registration process and the event.
 A 4.2.5 Persons who have previously attended any official event of any competition as a judge are
 not allowed to participate as team members.
-Formula Student Rules 2026 Version: 1.1 12 of 135
 
 <!-- page 13 -->
 
-A 4 General Requirements for Teams & Participants
 A 4.2.6 Team members must be enrolled as degree seeking undergraduate or graduate students in
 any university. Team members who have graduated within the seven month period before the
 event remain eligible to participate.
@@ -549,11 +528,9 @@ A 4.4.3 The ASR is the only person in the team who is allowed to declare the AS 
 vehicle may be operated in manual or autonomous mode.
 A 4.4.4 The ASR must be a valid team member, i.e. they must have student status, see A 4.2.6.
 1https://fsg.one/4i5SP
-Formula Student Rules 2026 Version: 1.1 13 of 135
 
 <!-- page 14 -->
 
-A 5 Documentation & Deadlines
 A 4.4.5 The ASR must accompany the vehicle whenever it is operated or moved around at the event
 site.
 A 4.4.6 If only one ASR is named by the team, this ASR must not be a driver.
@@ -563,7 +540,7 @@ science, electrical engineering, mechatronics, automation engineering, robotics 
 i.e. comparable study content or progress, is a sufficient qualification. The qualification
 certificate needs to be an official university document and contain information on completed
 courses.
-A 5 D OCUMENTATION & DEADLINES
+A 5 DOCUMENTATION & DEADLINES
 A 5.1 Required Documents and Forms
 A 5.1.1 Several documents and forms must be submitted by the action deadlines defined in the Event
 Handbook.
@@ -587,11 +564,9 @@ the team will be de-registered from the event.
 A 5.4 Late Submission or Non-Submission
 A 5.4.1 For each submission later than the respective deadline 10 penaltypoints are deducted from
 the team’s overall score.
-Formula Student Rules 2026 Version: 1.1 14 of 135
 
 <!-- page 15 -->
 
-A 5 Documentation & Deadlines
 A 5.4.2 Teams that do not submit documents until 24 hours (1 day) after the respective deadline will
 be de-registered from the event.
 A 5.5 De-registration
@@ -626,11 +601,9 @@ brake maneuver, see T 15.
 • Standing still, [CV ONLY] engine off / [EV ONLY] TS deactivated
 A 5.6.4 The video must fulfill the following criteria:
 • Continuous video from a third person view - no assembled sequences
-Formula Student Rules 2026 Version: 1.1 15 of 135
 
 <!-- page 16 -->
 
-A 6 General Rules
 • Vehicle must be clearly visible (light, video resolution, landscape mode, frames and
 frequency)
 • Vehicle must run under its own power
@@ -660,15 +633,13 @@ A 5.7.5 The changelog with details of all changes made from the “Version Histo
 form must be attached to the SESA document and must also be signed by the SES reviewer.
 A 5.7.6 The officials will randomly double check submitted SESA with their respective submitted
 SES.
-A 6 G ENERAL RULES
+A 6 GENERAL RULES
 A 6.1 Removing the Vehicle from the Site
 A 6.1.1 Teams who remove their vehicle ([EV ONLY] or TS accumulator) from the event site after
 the event has begun will be disqualified from the event.
-Formula Student Rules 2026 Version: 1.1 16 of 135
 
 <!-- page 17 -->
 
-A 6 General Rules
 A 6.2 Forfeit for Non-Appearance
 A 6.2.1 It is the responsibility of each team to be in the right place at the right time.
 A 6.2.2 If a team is not present and ready to compete at the scheduled time, they forfeit their attempt
@@ -704,11 +675,9 @@ closed-toed shoes.
 A 6.4.2 Appropriate personal protective equipment must be used.
 A 6.4.3 Hot work and machining operations that generate sparks or chips must only be carried out in
 the designated power tools area, as defined in the Event Handbook.
-Formula Student Rules 2026 Version: 1.1 17 of 135
 
 <!-- page 18 -->
 
-A 6 General Rules
 A 6.4.4 Work that generates hazardous debris and dust, e.g. sanding or cutting of carbon fiber, must
 be performed in the designated power tools area. This excludes minor tasks, e.g. drilling a
 small hole, if safety precautions for the operator and nearby personnel are observed and all
@@ -742,11 +711,9 @@ A 6.6.8 Vehicles with wings are required to have two team members walking on eit
 front wing whenever the vehicle is being pushed.
 A 6.7 [CV ONLY] Engine Running
 A 6.7.1 Running engines is not allowed in the pits.
-Formula Student Rules 2026 Version: 1.1 18 of 135
 
 <!-- page 19 -->
 
-A 6 General Rules
 A 6.7.2 Engine running and hybrid system activation is allowed in the Engine Test Area and in the
 dynamic area, when the following conditions are met:
 • The vehicle must have passed Mechanical Inspection.
@@ -779,13 +746,11 @@ A 6.10.3 For activities on the inactive TS, the following procedure must be carr
 • The vehicle must be barred from anyone not involved in the work, by using barrier
 tape.
 • The Tractive System Master Switch (TSMS) must be switched off.
-Formula Student Rules 2026 Version: 1.1 19 of 135
 
 <!-- page 20 -->
 
-A 6 General Rules
 • It must be assured that the TS cannot be activated by, at a minimum, using the
-lockout/tag out of the TSMS.
+lockout/tagout of the TSMS.
 • A check for zero-potential must be carried out.
 • A sign that declares the vehicle is electrically safe must be installed. The name of the
 ESO who is supervising the activities must be noted on the sign. This ESO is the only
@@ -819,11 +784,9 @@ A 6.11.7 Moving accumulator cells and/or accumulator segment(s) around at the ev
 allowed if they are inside a completely closed TSAC.
 A 6.11.8 All parts and modules of the TSAC that are not currently being worked on must be covered
 at least according to IPxxB while working on the accumulator container.
-Formula Student Rules 2026 Version: 1.1 20 of 135
 
 <!-- page 21 -->
 
-A 6 General Rules
 A 6.12 [EV ONLY] Charging
 A 6.12.1 There will be a separated charging area on the event site. Charging TS accumulators is only
 allowed inside this area.
@@ -832,14 +795,13 @@ EV 8.1, for charging.
 A 6.12.3 No grinding, drilling, etc. is allowed in the charging area.
 A 6.12.4 At least one team member who has knowledge of the charging process must stay with the
 accumulator(s) during charging.
-Formula Student Rules 2026 Version: 1.1 21 of 135
 
 <!-- page 22 -->
 
 Formula Student Rules 2026
-T G ENERAL TECHNICAL
+T GENERAL TECHNICAL
 REQUIREMENTS
-T 1 D EFINITIONS
+T 1 DEFINITIONS
 T 1.1 Chassis Definitions
 T 1.1.1 Chassis – the fabricated structural assembly that supports all functional vehicle systems. This
 assembly may be a single welded structure, multiple welded structures or a combination of
@@ -867,11 +829,9 @@ T 1.1.12 Primary structure – the primary structure is comprised of the followi
 • Roll hoop braces and supports
 • Impact structures as mentioned under T 3.15
 • Anti Intrusion Plate
-Formula Student Rules 2026 Version: 1.1 22 of 135
 
 <!-- page 23 -->
 
-T 1 Definitions
 Figure 1: Node-to-node triangulation of chassis members (left correct and right incorrect).
 • Front bulkhead
 • Front bulkhead support system
@@ -899,11 +859,9 @@ envelope, see T 1.1.16, and the volume defined by
 or equivalent
 • a projection in side view of the lower boundaries of the rollover protection envelope
 Example depicted in figure 3.
-Formula Student Rules 2026 Version: 1.1 23 of 135
 
 <!-- page 24 -->
 
-T 1 Definitions
 Figure 2: Rollover protection envelope T 1.1.16, thick lines are primary structure members
 according to T 3.2
 Figure 3: Surface Envelope T 1.1.18
@@ -926,12 +884,10 @@ T 1.4.1 Manual Mode – a vehicle is in manual mode when driven by a human drive
 ASMS must be off (AS deactivated).
 T 1.4.2 Autonomous Mode – a vehicle is in autonomous mode when the AS is activated. When a
 vehicle is in autonomous mode, there must be no person inside the vehicle.
-Formula Student Rules 2026 Version: 1.1 24 of 135
 
 <!-- page 25 -->
 
-T 2 General Design Requirements
-T 2 G ENERAL DESIGN REQUIREMENTS
+T 2 GENERAL DESIGN REQUIREMENTS
 T 2.1 Vehicle Configuration
 T 2.1.1 The vehicle must be designed and fabricated in accordance with good engineering practices.
 T 2.1.2 The vehicle must be open-wheeled, single seat and open cockpit (a formula style body) with
@@ -944,9 +900,9 @@ the front and rear tires in the side view of the vehicle, with steering system s
 ahead. This keep-out zone extends laterally from the outside plane of the wheel/tire to
 the inboard plane of the wheel/tire assembly.
 75 mm 75 mm75 mm75 mm
-No Parts allowed 
+No Parts allowed
 in this Area
-View on this Surface 
+View on this Surface
 must be unobstructed
 Figure 4: Keep-out-zones for the definition of an open-wheeled vehicle.
 T 2.2 Ground Clearance
@@ -955,11 +911,9 @@ including a driver, must be 30 mm. If an active suspension system is installed, 
 ground clearance is measured in the lowest adjustable position.
 T 2.2.2 Sliding skirts or other aerodynamic devices that by design, fabrication or as a consequence
 of moving, contact the track surface are prohibited.
-Formula Student Rules 2026 Version: 1.1 25 of 135
 
 <!-- page 26 -->
 
-T 2 General Design Requirements
 T 2.3 Bodywork
 T 2.3.1 There must be no openings through the bodywork into the cockpit other than that required
 for the cockpit opening. Minimal openings around the front suspension and steering system
@@ -980,7 +934,7 @@ the vehicle, the minimum radius of the bodywork and aerodynamic devices is 3 mm 
 forward facing edges and 1 mm for all other edges.
 T 2.5 Suspension
 T 2.5.1 The vehicle must be equipped with fully operational front and rear suspension systems
-including shock absorbers and a usable wheel travel of at least50 mm and a minimum jounce
+including shock absorbers and a usable wheel travel of at least 50 mm and a minimum jounce
 of 25 mm with driver seated.
 T 2.5.2 All suspension mounting points must be visible at Technical Inspection, either by direct view
 or by removing any covers.
@@ -994,11 +948,9 @@ Wheel lug bolts, drive pegs and studs must not be hollow.
 T 2.6.3 Aluminium wheel nuts may be used, but they must be hard anodized and in pristine condition.
 T 2.6.4 The radial clearance between any non-rotating part and the inside of the rim must be at least
 5 mm in static condition at any steering angle and any ride height.
-Formula Student Rules 2026 Version: 1.1 26 of 135
 
 <!-- page 27 -->
 
-T 2 General Design Requirements
 T 2.7 Tires
 T 2.7.1 Vehicles must have two types of tires as follows:
 • Dry tires - The tires on the vehicle when it is presented for Technical Inspection are
@@ -1035,11 +987,9 @@ mechanical and visible at Technical Inspection. Bonded joints are allowed in acc
 with T 3.2.8.
 T 2.8.11 Rear wheel steering, which can be electrically actuated, is allowed if mechanical stops
 limit the range of angular movement of the rear wheels to a maximum of 6◦. This must be
-Formula Student Rules 2026 Version: 1.1 27 of 135
 
 <!-- page 28 -->
 
-T 3 General Chassis Design
 demonstrated with a driver in the vehicle and the team must provide the equipment for the
 steering angle range to be verified at Technical Inspection.
 T 2.9 Wheelbase, Track and Rollover Stability
@@ -1047,7 +997,7 @@ T 2.9.1 The vehicle must have a wheelbase of at least 1525 mm.
 T 2.9.2 The smaller track of the vehicle (front or rear) must be no less than 75 % of the larger track.
 T 2.9.3 The track and center of gravity of the vehicle must combine to provide adequate rollover
 stability. This is tested by the Tilt Test IN 7.
-T 3 G ENERAL CHASSIS DESIGN
+T 3 GENERAL CHASSIS DESIGN
 T 3.1 General Requirements
 T 3.1.1 Among other requirements, the vehicle’s structure must include:
 • Two roll hoops that are braced
@@ -1058,15 +1008,15 @@ T 3.2.1 Table 4 shows the minimum requirements for the members of the primary st
 from steel tubing.
 Item or application Minimum Minimum cross Minimum area
 wall thickness sectional area moment of inertia
-Main and front hoops, 2 .0 mm 173 mm 2 11320 mm4
+Main and front hoops, 2.0 mm 173 mm 2 11320 mm4
 shoulder harness mounting bar
-Impact structures, 1 .2 mm 119 mm 2 8509 mm4
+Impact structures, 1.2 mm 119 mm 2 8509 mm4
 front bulkhead,
 roll hoop bracing,
 driver’s restraint
 harness attachment
 (except as noted above)
-Front bulkhead support, 1 .2 mm 91 mm 2 6695 mm4
+Front bulkhead support, 1.2 mm 91 mm 2 6695 mm4
 main hoop bracing supports
 Table 4: Minimum Material Requirements
 T 3.2.2 Steel tubing has to be made from unalloyed carbon steel with a maximum content of
@@ -1074,11 +1024,9 @@ T 3.2.2 Steel tubing has to be made from unalloyed carbon steel with a maximum c
 considered alternative materials and require additional testing and documentation, see T 3.4.
 T 3.2.3 Except for inspection holes, any holes drilled in any part which is a member of the primary
 structure must be considered in the SES.
-Formula Student Rules 2026 Version: 1.1 28 of 135
 
 <!-- page 29 -->
 
-T 3 General Chassis Design
 T 3.2.4 The steel properties used for the calculations in the SES must be the following, or what is
 written in the material property documentation, whichever is lower:
 Non-welded strength for continuous material calculations:
@@ -1112,11 +1060,9 @@ T 3.4 Alternative Materials
 T 3.4.1 Alternative materials may be used for all parts of the primary structure and the TSAC with
 the following exceptions:
 • The main hoop and the main hoop bracing must be steel
-Formula Student Rules 2026 Version: 1.1 29 of 135
 
 <!-- page 30 -->
 
-T 3 General Chassis Design
 • The front hoop must be metal
 • Any welded structures of the primary structure must be steel
 • However, the front hoop may be an aluminium welded structure
@@ -1153,11 +1099,9 @@ must include:
 • Number of layers
 • Core material
 • Lay-up technique
-Formula Student Rules 2026 Version: 1.1 30 of 135
 
 <!-- page 31 -->
 
-T 3 General Chassis Design
 • Adhesive film type(s)
 • 3-point-bend test and shear test data (the AIP is exempt from these tests, but must
 comply with T 3.17.4)
@@ -1198,12 +1142,10 @@ rig compliance of 85 % and be documented in the SES.
 T 3.6.4 Composite structures with different core thicknesses but otherwise identical construction
 may use material properties derived from a single test panel, except for the front bulkhead
 and side impact structure. The panel with the thicker core must be tested and the structure
-Formula Student Rules 2026 Version: 1.1 31 of 135
 
 <!-- page 32 -->
 
-T 3 General Chassis Design
-using derived material properties must not use a core thickness of less than66 % of the tested
+using derived material properties must not use a core thickness of less than 66 % of the tested
 panel.
 T 3.6.5 When a laminate is not quasi-isotropic, i.e. has equal strength and stiffness in the 0◦, 90◦ and
 ±45◦ direction, the results from the 3 point bending test will be assigned to the 0◦ lay-up
@@ -1230,26 +1172,24 @@ T 3.7.1 All teams must submit a Structural Equivalency Spreadsheet (SES), Struct
 T 3.7.2 The SES and [EV ONLY] ASES can be downloaded from the competition website.
 T 3.7.3 The SE3D must contain a three dimensional CAD model of the chassis including all members
 of the primary structure and their mechanical attachment details.
-• [MONOCOQUE ONLY ] The SE3D must include the inner, outer skin and core thick-
+• [MONOCOQUE ONLY] The SE3D must include the inner, outer skin and core thick-
 nesses.
-• [MONOCOQUE ONLY ] If the actual EI of a structure is used in the SES, this must be
+• [MONOCOQUE ONLY] If the actual EI of a structure is used in the SES, this must be
 highlighted and included as a measurable instance.
 • [EV ONLY] The TSACs and their attachment must be included.
 • [CV ONLY] The air intake system, the fuel tank and filler neck must be included.
 T 3.7.4 Vehicles must be fabricated in accordance with the materials and processes described in the
 SES.
 T 3.7.5 Teams must bring a copy of the approved SES to Technical Inspection.
-Formula Student Rules 2026 Version: 1.1 32 of 135
 
 <!-- page 33 -->
 
-T 3 General Chassis Design
 T 3.8 Roll Hoops
 T 3.8.1 Both roll hoops must be securely integrated to the primary structure using node-to-node
 triangulation or equivalent joining methods.
 T 3.8.2 The minimum radius of any bend, measured at the tube centerline, must be at least three
 times the tube outside diameter. Bends must be smooth and continuous with no evidence of
-crimping or wall failure. The minimum area moment of inertia, seeT 3.2, must be maintained
+crimping or wall failure. The minimum area moment of inertia, see T 3.2, must be maintained
 in all areas, including the bends of the manufactured tubes.
 T 3.8.3 In a plane perpendicular to the longitudinal axis of the vehicle and through the lower
 endpoints of the roll hoop, no part of the primary structure may lie below 30 mm of the
@@ -1280,11 +1220,9 @@ T 3.10.3 In side view, no part of the front hoop can be inclined more than 20 �
 T 3.10.4 If the front hoop is a welded construction made from multiple aluminium profiles, the
 equivalent yield strength must be considered in the as-welded condition unless the team
 demonstrates and shows proof that it has been properly solution heat treated and artificially
-Formula Student Rules 2026 Version: 1.1 33 of 135
 
 <!-- page 34 -->
 
-T 3 General Chassis Design
 aged. The team must supply sufficient documentation proving the appropriate heat treatment
 process was performed.
 T 3.10.5 The front hoop requires six attachment points, two on each side connecting to the front
@@ -1314,11 +1252,9 @@ braces, additional bracing is required to prevent bending loads in a rollover si
 T 3.12 Front Hoop Bracing
 T 3.12.1 The front hoop bracing attaches on each side of the front hoop as well as the structure forward
 of the driver’s feet. A minimum of two tubes without any bends must be straight on a line in
-Formula Student Rules 2026 Version: 1.1 34 of 135
 
 <!-- page 35 -->
 
-T 3 General Chassis Design
 side view of the frame and must have a minimum distance of 100 mm between each other at
 the front hoop.
 T 3.12.2 The front hoop bracing structure must be attached no lower than 50 mm below the top-most
@@ -1355,11 +1291,9 @@ each side; an upper member, a lower member and diagonal bracing to provide trian
 a maximum of 50 mm below the upper side impact member. If the attachment point
 of the upper member is greater than 100 mm above the upper side impact member,
 node-to-node triangulated bracing is required to transfer load to the main hoop.
-Formula Student Rules 2026 Version: 1.1 35 of 135
 
 <!-- page 36 -->
 
-T 3 General Chassis Design
 • The lower support member must be attached to the base of the front bulkhead and the
 base of the front hoop.
 • The diagonal bracing must triangulate the upper and lower support members node-to-
@@ -1398,14 +1332,12 @@ point between the front and main hoop must have an EI equal to the three baselin
 steel tubes that it replaces. An example for side impact structure is given in figure 8.
 • The vertical impact structure must have an EI equivalent to two baseline steel tubes
 and half the horizontal floor must have an EI equivalent to one baseline steel tube.
-Formula Student Rules 2026 Version: 1.1 36 of 135
 
 <!-- page 37 -->
 
-T 3 General Chassis Design
 • The vertical impact structure must have an absorbed energy equivalent to two baseline
 steel tubes, exceeding 65 J.
-• The perimeter shear strength must be at least 7 .5 kN.
+• The perimeter shear strength must be at least 7.5 kN.
 240 mm
 320 mm
 Lower Side Impact Member
@@ -1416,7 +1348,7 @@ Diagonal Side Impact Member
 Figure 7: Side impact structure
 320 mm
 Lowest Point inside Chassis
-Side 
+Side
 Impact Structure
 Figure 8: Side impact structure monocoque
 T 3.16 Bolted Primary Structure Attachments
@@ -1429,11 +1361,9 @@ see T 10.1, and steel backing plates with a minimum thickness of 2 mm.
 T 3.16.4 For the attachment of front hoop bracing, main hoop bracing and main hoop bracing support
 to the primary structure the use of one 10 mm metric grade 8.8 bolt is sufficient, if the bolt is
 on the centerline of the tube, see figure 9.
-Formula Student Rules 2026 Version: 1.1 37 of 135
 
 <!-- page 38 -->
 
-T 3 General Chassis Design
 Figure 9: Bolted roll hoop bracing support
 T 3.16.5 When using bolted joints within the primary structure, no crushing of the laminate core
 material is allowed.
@@ -1452,7 +1382,7 @@ T 3.17 Impact Attenuator (IA)
 T 3.17.1 Each vehicle must be equipped with an IA assembly consisting of an IA and AIP.
 T 3.17.2 The IA must:
 • Be installed forward of the front bulkhead.
-• Be at least 100 mm high and 200 mm wide for a minimum distance of200 mm forward
+• Be at least 100 mm high and 200 mm wide for a minimum distance of 200 mm forward
 of the front bulkhead.
 • Not be positioned more than 350 mm above the ground, for any portion of the required
 100×200×200 mm3 volume.
@@ -1460,11 +1390,9 @@ of the front bulkhead.
 • Be attached securely and directly to the AIP.
 • Not be part of the non-structural bodywork.
 • Be designed with a closed front section.
-Formula Student Rules 2026 Version: 1.1 38 of 135
 
 <!-- page 39 -->
 
-T 3 General Chassis Design
 • Not be wider or higher than the AIP.
 T 3.17.3 The baseline design for the Anti Intrusion Plate (AIP) is a 1.5 mm solid steel or 4.0 mm solid
 aluminium plate.
@@ -1490,7 +1418,7 @@ minimum of eight 8 mm metric grade 8.8 bolts.
 least 24 MPa.
 • T 3.19.4 is fulfilled regarding aerodynamic device and sensor positions relative to the
 AIP.
-• If the front bulkhead has an overall width greater than400 mm and/or an overall height
+• If the front bulkhead has an overall width greater than 400 mm and/or an overall height
 greater than 350 mm, a diagonal or X-bracing that is a front bulkhead support tube or
 an approved equivalent per T 3.2, or equivalent for monocoque bulkheads, must be
 included.
@@ -1500,11 +1428,9 @@ prove that the AIP does not permanently deflect more than 25 mm.
 T 3.18 Impact Attenuator Data Requirement
 T 3.18.1 All teams must submit an IA data report using the Impact Attenuator Data (IAD) template
 provided at the competition website.
-Formula Student Rules 2026 Version: 1.1 39 of 135
 
 <!-- page 40 -->
 
-T 3 General Chassis Design
 T 3.19 Impact Attenuator Test Requirements
 T 3.19.1 The IA assembly, when mounted on the front of a vehicle with a total mass of 300 kg and
 impacting a solid, non-yielding impact barrier with a velocity of impact of 7 m/s, must meet
@@ -1541,16 +1467,14 @@ object(s) are located in front view of the AIP, physical testing is required.
 • Combining the peak force from physical testing of the IA assembly with the failure
 load for the mounting of the non-crushable object(s), calculated from fastener shear
 and/or link buckling.
-• Combining the “standard” IA peak load of95 kN with the failure load for the mounting
+• Combining the “standard” IA peak load of 95 kN with the failure load for the mounting
 of the non-crushable object(s), calculated from fastener shear and/or link buckling.
 T 3.19.5 Dynamic testing (sled, pendulum, drop tower, etc) of the IA may only be conducted at a
 dedicated test facility. This facility may be part of the university, but must be supervised by
 professional staff. Teams are not allowed to design their own dynamic test apparatus.
-Formula Student Rules 2026 Version: 1.1 40 of 135
 
 <!-- page 41 -->
 
-T 4 Cockpit
 T 3.19.6 When using acceleration data from the dynamic test, the average deceleration must be
 calculated based on the raw unfiltered data. If peaks above the 40 g limit are present in the
 data, a 100 Hz, 3rd order, low pass Butterworth (−3 dB at 100 Hz) filter may be applied.
@@ -1560,7 +1484,7 @@ rearward of the rear most plane of the front bulkhead and at least 25 mm behind 
 any time, except for sensors, aerodynamic devices and their mountings.
 T 3.20.2 Sensor and aerodynamic devices may extend forward of the AIP, but their chassis attachment
 point must be located rearward of the AIP.
-T 4 C OCKPIT
+T 4 COCKPIT
 T 4.1 Cockpit Opening
 T 4.1.1 The size of the cockpit opening needs to be sufficient for the template shown on the left of
 figure 10 to pass vertically from the cockpit opening to below the upper side impact member
@@ -1584,13 +1508,11 @@ T 4.3.1 When seated normally and restrained by the driver’s restraint system, 
 percentile male and all of the team’s drivers must, see figure 11:
 • Be a minimum of 50 mm away from the straight line drawn from the top of the main
 hoop to the top of the front hoop.
-Formula Student Rules 2026 Version: 1.1 41 of 135
 
 <!-- page 42 -->
 
-T 4 Cockpit
 Front
-parts of the steering system 
+parts of the steering system
 may pass through this area
 Top
 600 mm
@@ -1606,7 +1528,7 @@ Top
 50 mm
 100 mm
 50 mm
-parts of the steering system 
+parts of the steering system
 may pass through this area
 Figure 10: Cockpit opening template (left) and cockpit internal cross section template (right)
 • Be a minimum of 50 mm away from the straight line drawn from the top of the main
@@ -1629,11 +1551,9 @@ T 4.3.4 The figure has to be positioned in the vehicle as follows, see figure 12
 of the circle and the rearmost actuation face of the pedals must be minimum 915 mm.
 • The middle circle positioned on the seat back
 • The upper 300 mm circle positioned 25 mm away from the head restraint.
-Formula Student Rules 2026 Version: 1.1 42 of 135
 
 <!-- page 43 -->
 
-T 4 Cockpit
 Head
 Restraint
 R915 mm min.
@@ -1653,7 +1573,7 @@ T 4.4.1 If there is any chassis member alongside the driver at the height of the
 drivers in the team, a metal tube or piece of sheet metal must be attached to the chassis to
 prevent the driver’s shoulders from passing under that chassis member.
 T 4.5 Driver’s Harness Attachment
-T 4.5.1 Any harness attachment to a monocoque must be using one 10 mm metric grade 8 .8 bolt or
+T 4.5.1 Any harness attachment to a monocoque must be using one 10 mm metric grade 8.8 bolt or
 two 8 mm metric grade 8.8 bolts (or bolts of an equivalent standard) and steel backing plates
 with a minimum thickness of 2 mm.
 T 4.5.2 Any harness that is fastened to the primary structure using brackets must use two 8 mm
@@ -1671,11 +1591,9 @@ must use the same brackets and tabs
 the load application point.
 • The width of the shoulder harness test sample must not be any wider than the shoulder
 harness panel height used to show equivalency for the shoulder harness mounting bar.
-Formula Student Rules 2026 Version: 1.1 43 of 135
 
 <!-- page 44 -->
 
-T 4 Cockpit
 • Designs with attachments near a free edge must not support the free edge during the
 test.
 • Harness loads must be tested with the worst case for the range of the angles specified
@@ -1696,7 +1614,7 @@ source and the part that the driver could contact:
 8 mm.
 (b) Convection insulation by a minimum air gap of 25 mm.
 (c) Radiation insulation by:
-(i) A solid metal heat shield with a minimum thickness of 0 .4 mm or
+(i) A solid metal heat shield with a minimum thickness of 0.4 mm or
 (ii) reflective foil or tape when combined with T 4.6.2.a.ii.
 T 4.7 Floor Closeout
 T 4.7.1 All vehicles must have a floor closeout made of one or more panels, which separate the driver
@@ -1710,11 +1628,9 @@ fluid (except brake system and dampers), flammable liquids, the LV battery and a
 component, see EV 1.1.1.
 T 4.8.2 The firewall must cover any straight line between the parts mentioned in T 4.8.1 and any part
 of the tallest driver below a plane 100 mm above the bottom of the helmet.
-Formula Student Rules 2026 Version: 1.1 44 of 135
 
 <!-- page 45 -->
 
-T 4 Cockpit
 T 4.8.3 The firewall must be a non-permeable surface made from a rigid, fire resistant material, see
 T 1.2.1, which must be rigidly mounted to the vehicle’s structure.
 T 4.8.4 Any firewall must seal completely against the passage of fluids, especially at the sides and
@@ -1749,17 +1665,15 @@ side. The required visibility may be obtained by the driver turning their head a
 of mirrors.
 T 4.10.2 If mirrors are required to meet T 4.10.1, they must remain in place and be adjusted to enable
 the required visibility throughout all dynamic disciplines.
-Formula Student Rules 2026 Version: 1.1 45 of 135
 
 <!-- page 46 -->
 
-T 5 Driver Restraint System
 T 4.11 Driver Egress
 T 4.11.1 All drivers must be able to exit to the side of the vehicle in less than 5 s with the driver in the
 fully seated position, hands in the driving position on the connected steering wheel (in all
 possible steering system positions) and wearing the required driver equipment as in T 13.3.
 The egress time will stop when the driver has both feet on the ground.
-T 5 D RIVER RESTRAINT SYSTEM
+T 5 DRIVER RESTRAINT SYSTEM
 T 5.1 Definitions
 T 5.1.1 6-point system – consists of a two-piece lap belt (minimum width 50 mm), two shoulder
 straps (minimum width 75 mm) and two leg or anti-submarine straps (minimum width
@@ -1769,7 +1683,7 @@ T 5.1.3 upright driving position – position with a seat back angled at 30◦ o
 measured along the line joining the two 200 mm circles of the 95th percentile male template
 as defined in T 4.3 and positioned per T 4.3.4.
 T 5.1.4 reclined driving position – position with a seat back angled at more than 30◦ from the
-vertical as measured along the line joining the two200 mm circles of the 95th percentile male
+vertical as measured along the line joining the two 200 mm circles of the 95th percentile male
 template as defined in T 4.3 and positioned per T 4.3.4
 T 5.2 Belts - General
 T 5.2.1 All drivers must use a 6-point or 7-point restraint harness meeting the following specifica-
@@ -1791,11 +1705,9 @@ configuration is allowed.
 accordance with the manufacturer’s instructions.
 • When a HANS device is used by the driver, FIA certified 50 mm wide shoulder
 harnesses are allowed.
-Formula Student Rules 2026 Version: 1.1 46 of 135
 
 <!-- page 47 -->
 
-T 5 Driver Restraint System
 T 5.2.2 SFI spec harnesses must be replaced following December 31st of the 2nd year after the date
 of manufacture as indicated by the label. FIA spec harnesses must be replaced following
 December 31st of the year marked on the label.
@@ -1806,7 +1718,7 @@ the primary structure. This structure and any guide or support for the belts mus
 minimum requirements of T 3.2.
 T 5.3.2 Harnesses, belts and straps must not pass through a firewall, i.e. all harness attachment points
 must be on the driver’s side of any firewall.
-T 5.3.3 The attachment of the driver’s restraint system requires an approved SES perT 3.7 The lap
+T 5.3.3 The attachment of the driver’s restraint system requires an approved SES per T 3.7 The lap
 belts and anti submarine belts must not be routed over the sides of the seat. Where the belts
 or harness pass through a hole in the seat, the seat must be rolled or grommeted to prevent
 chafing of the belts.
@@ -1832,18 +1744,16 @@ into the main hoop bracing.
 T 5.5.2 If the harness is mounted to a tube that is not straight, the joints between this tube and the
 structure to which it is mounted must be reinforced in side view by triangulation tubes to
 prevent torsional rotation of the harness mounting tube. Supporting calculations are required.
-Formula Student Rules 2026 Version: 1.1 47 of 135
 
 <!-- page 48 -->
 
-T 5 Driver Restraint System
 Analysis method: Use 7 kN load per attachment and the range of angles in T 5.5.5, calculate
 that the bent shoulder harness bar triangulation stresses are less than as welded yield strength
 T 3.2.4 for combined bending and shear and does not fail in column buckling. If the team
 chooses not to perform the strength analysis T 3.2.6 will apply.
 T 5.5.3 The strength of any shoulder harness bar and bracing tubes must be proven in the relevant
 tab of the team’s SES submission.
-T 5.5.4 The shoulder harness mounting points must be between180 mmand 230 mmapart, measured
+T 5.5.4 The shoulder harness mounting points must be between 180 mmand 230 mmapart, measured
 center to center.
 T 5.5.5 From the driver’s shoulders rearwards to the mounting point or structural guide, the shoulder
 harness must be between 10◦ above the horizontal and 20◦ below the horizontal as in
@@ -1878,11 +1788,9 @@ T 5.7.2 The head restraint must:
 • Be padded with an energy absorbing material with a minimum thickness of 40 mm
 that meets either the SFI 45.2 standard, or is listed in the FIA technical list n◦17 as a
 type B material for single seater cars.
-Formula Student Rules 2026 Version: 1.1 48 of 135
 
 <!-- page 49 -->
 
-T 6 Brake System
 • Include a rectangular area of at least a minimum width and height of 150 mm.
 • Be located so that for each driver:
 – The restraint is no more than 25 mm away from the back of the driver’s helmet,
@@ -1901,7 +1809,7 @@ cockpit between the front hoop and a vertical plane 100 mm rearward of the pedal
 shielded with solid material.
 T 5.9.2 Covers over suspension and steering system components must be removable to allow inspec-
 tion of the mounting points.
-T 6 B RAKE SYSTEM
+T 6 BRAKE SYSTEM
 T 6.1 Brake System - General
 T 6.1.1 The vehicle must be equipped with a hydraulic brake system that acts on all four wheels and
 is operated by a single control.
@@ -1916,11 +1824,9 @@ T 6.1.4 While parts of the brake system are disconnected, e.g. by a quick-releas
 T 6.1.5 A single brake acting on a limited-slip differential is acceptable.
 T 6.1.6 “Brake-by-wire” systems are prohibited in manual mode.
 T 6.1.7 Unarmored plastic brake lines are prohibited.
-Formula Student Rules 2026 Version: 1.1 49 of 135
 
 <!-- page 50 -->
 
-T 6 Brake System
 T 6.1.8 The brake system must be protected from failure of the drivetrain, see T 7.3.2, from touching
 any movable part and from minor collisions.
 T 6.1.9 Any part of the brake system must be within the surface envelope, see T 1.1.18.
@@ -1954,12 +1860,10 @@ T 6.3.2 The brake light must
 T 6.3.3 In side view the brake light must be oriented vertically and mounted between the wheel cen-
 terline and driver’s shoulder level. Viewed from the back it must be positioned approximately
 at the vehicle’s centerline.
-Formula Student Rules 2026 Version: 1.1 50 of 135
 
 <!-- page 51 -->
 
-T 7 Powertrain
-T 7 P OWERTRAIN
+T 7 POWERTRAIN
 T 7.1 Transmission and Drive
 T 7.1.1 Movement of the vehicle without a person in the vehicle and with the master switch(es) in
 the off position must be possible.
@@ -1978,7 +1882,7 @@ minimum volume of 10 % of the fluid being contained or 900 mL whichever is great
 T 7.2.6 Any vent for systems containing plain water must have a catch-can with a minimum volume
 of 10 % of the fluid being contained or 100 mL, whichever is greater.
 T 7.2.7 All parts of the engine, motor(s) cooling and lubrication system, including their mountings,
-must be rated for at least100◦C or the temperatures the respective fluid may reach, whichever
+must be rated for at least 100◦C or the temperatures the respective fluid may reach, whichever
 is higher.
 T 7.2.8 Catch cans must be rigidly mounted to the chassis and located rearwards of the firewall
 below the driver’s shoulder level.
@@ -1991,14 +1895,12 @@ protected from hitting the ground by a structure mounted directly to the chassis
 T 7.3.2 Exposed rotating final drivetrain parts, such as gears, clutches, chains and belts must be fitted
 with scatter shields. Scatter shields and their mountings must:
 • Be constructed of non-perforated 2 mm steel or 3 mm aluminium alloy 6061-T6.
-• Be attached with 6 mm metric grade 8 .8 or stronger and must comply with T 10.1.
+• Be attached with 6 mm metric grade 8.8 or stronger and must comply with T 10.1.
 The mounting of exposed rotating final drivetrain parts must follow T 10.1.
 T 7.3.3 In addition to T 7.3.2, scatter shields must:
-Formula Student Rules 2026 Version: 1.1 51 of 135
 
 <!-- page 52 -->
 
-T 8 Aerodynamic Devices
 • Cover chains and belts from the drive sprocket to the driven sprocket/chain wheel/belt
 or pulley.
 • Start and end parallel to the lowest point of the driven sprocket/chain wheel/belt or
@@ -2012,7 +1914,7 @@ T 7.3.5 Finger guards are required to cover any parts that spin while the vehicl
 guards may be made of lighter material, sufficient to resist finger forces. Mesh or perforated
 material may be used but must prevent the passage of a 12 mm diameter object through the
 guard.
-T 8 A ERODYNAMIC DEVICES
+T 8 AERODYNAMIC DEVICES
 T 8.1 Definition Aerodynamic Device
 T 8.1.1 A specifically designed structure mounted on the vehicle to guide the airflow around the
 vehicle, increasing the downforce acting on the vehicle and/or lowering its drag. The
@@ -2036,7 +1938,6 @@ point of the front and rear wheel/tire.
 • All aerodynamic devices higher than 500 mm from the ground, must not extend
 outboard of the most inboard point of the rear wheel/tire.
 T 8.2.3 Length restrictions:
-Formula Student Rules 2026 Version: 1.1 52 of 135
 
 <!-- page 53 -->
 
@@ -2063,16 +1964,14 @@ T 8.3.1 Any aerodynamic device must be able to withstand a force of 200 N distri
 minimum surface of 225 cm2 and not deflect more than 10 mm in the load carrying direction.
 T 8.3.2 Any aerodynamic device must be able to withstand a force of 50 N applied in any direction
 at any point and not deflect more than 25 mm.
-T 9 C OMPRESSED GAS SYSTEMS AND HIGH PRESSURE
+T 9 COMPRESSED GAS SYSTEMS AND HIGH PRESSURE
 HYDRAULIC SYSTEMS
 T 9.1 Definitions
 T 9.1.1 Compressed Gas System (CGS) – any system that uses a compressed gas as an actuating
 medium, except for gas springs.
-Formula Student Rules 2026 Version: 1.1 53 of 135
 
 <!-- page 54 -->
 
-T 10 Fasteners
 T 9.1.2 High Pressure Hydraulic System (HPHS) – any system that uses a non-compressible fluid
 that is pressurized at 2100 kPa or higher as an actuating medium. Any part of the brake
 system, see T 6, that is not part of the ASB, see T 15, is not considered HPHS.
@@ -2099,18 +1998,16 @@ T 9.3.6 The driver must be shielded, see T 9.2.3, from any gas cylinders/tanks a
 regulators.
 T 9.3.7 Gas cylinders/tanks must be insulated from any heat sources.
 T 9.4 High Pressure Hydraulic Systems
-T 9.4.1 The driver and anyone standing outside the vehicle must be shielded, seeT 9.2.3, from all
+T 9.4.1 The driver and anyone standing outside the vehicle must be shielded, see T 9.2.3, from all
 parts of any HPHS.
-T 10 F ASTENERS
+T 10 FASTENERS
 T 10.1 Critical Fasteners
 T 10.1.1 Critical fasteners are defined as bolts, nuts, and other fasteners utilized in the primary
 structure, the (autonomous) steering, (autonomous) brake, driver’s harness, suspension
 systems and those specifically designated as critical fasteners in the respective rule.
-Formula Student Rules 2026 Version: 1.1 54 of 135
 
 <!-- page 55 -->
 
-T 10 Fasteners
 T 10.1.2 All threaded critical fasteners must be steel, at least 4 mm metric grade 8.8 (unmodified
 OEM parts 3 mm metric grade 8.8), equivalent size or of that specified in the referencing
 rule, whichever is larger. The strength classification of critical fasteners must be identifiable.
@@ -2147,17 +2044,15 @@ T 10.2.5 All spherical rod ends and spherical bearings on the steering or suspen
 in double shear or captured by having a screw/bolt head or washer with an outer diameter
 that is larger than the spherical bearing housing inner diameter.
 T 10.2.6 Adjustable tie-rod ends must be constrained with a jam nut to prevent loosening.
-Formula Student Rules 2026 Version: 1.1 55 of 135
 
 <!-- page 56 -->
 
-T 11 Electrical Components
 T 10.2.7 Other positive locking mechanisms than specified can only be accepted for brake disc floaters,
 given they are unmodified OEM applications and installed according to the manufacturer’s
 specifications.
-T 11 E LECTRICAL COMPONENTS
+T 11 ELECTRICAL COMPONENTS
 T 11.1 Low Voltage System (LVS)
-T 11.1.1 The Low V oltage System (LVS) is defined as
+T 11.1.1 The Low Voltage System (LVS) is defined as
 • [CV ONLY] all electrical circuits of the vehicle.
 • [EV ONLY] every electrical part that is not part of the TS, see EV 1.1.1
 T 11.1.2 The maximum allowed voltage that may occur between any two electrical connections in the
@@ -2166,7 +2061,7 @@ T 11.1.3 All LVS parts must be adequately insulated.
 T 11.1.4 [CV ONLY] The following systems are excluded from the LVS voltage limit, see T 11.1.2:
 • High voltage systems for ignition
 • High voltage systems for injectors
-• V oltages internal to unmodified OEM charging systems designed for <60 VDC output.
+• Voltages internal to unmodified OEM charging systems designed for <60 VDC output.
 T 11.1.5 [CV ONLY] The maximum allowed voltage for motor controller/inverters internal low power
 control signals is 75 VDC
 T 11.1.6 [EV ONLY] The LVS must not use orange wiring or conduit.
@@ -2181,17 +2076,15 @@ must not act through a relay or logic.
 T 11.2.2 Master switches must be located on the right side of the vehicle, in proximity to the main
 hoop, at the 95th percentile male driver’s shoulder height, as defined in T 4.3, and be easily
 actuated from outside the vehicle. The center of any master switch must not be mounted
-lower than the vertical distance of the template’s, seeT 4.3, middle circle center to the ground
+lower than the vertical distance of the template’s, see T 4.3, middle circle center to the ground
 surface multiplied by 0.8.
 T 11.2.3 The “ON” position of the switch must be in the horizontal position and must be marked
 accordingly. The “OFF” position of the master switch must also be clearly marked.
 T 11.2.4 Master switches must be rigidly mounted to the vehicle and must not be removed during
 maintenance.
-Formula Student Rules 2026 Version: 1.1 56 of 135
 
 <!-- page 57 -->
 
-T 11 Electrical Components
 T 11.2.5 Master switches must be mounted next to each other.
 T 11.3 Low Voltage Master Switch (LVMS)
 T 11.3.1 An LVMS according to T 11.2 must completely disable
@@ -2225,11 +2118,9 @@ result in the SDC being opened. The inertia switch must latch until manually res
 T 11.5.2 The device must trigger due to a longitudinal impact load which decelerates the vehicle at
 between≤8 g and≤11 g depending on the duration of the deceleration
 T 11.5.3 The device must not include any semiconductor components.
-Formula Student Rules 2026 Version: 1.1 57 of 135
 
 <!-- page 58 -->
 
-T 11 Electrical Components
 T 11.5.4 The device must be rigidly attached and installed according to manufacturer specification to
 the vehicle. It must be removable to test functionality.
 T 11.6 Brake System Plausibility Device (BSPD)
@@ -2265,17 +2156,15 @@ T 11.7.5 Completely closed LV battery cases must have an overpressure relief. Ve
 separated from the driver by a firewall.
 T 11.7.6 LV batteries must be protected from short circuits, not more than 100 mm from ungrounded
 terminals.
-Formula Student Rules 2026 Version: 1.1 58 of 135
 
 <!-- page 59 -->
 
-T 11 Electrical Components
 T 11.7.7 Battery packs based on lithium chemistry other than lithium iron phosphate (LiFePO4) and
 all hybrid system energy storages regardless of chemistry type:
 • Must have a fire retardant casing, see T 1.2.1.
 • Must include overcurrent protection that trips at or below the maximum specified
 discharge current of the cells.
-• Must include overtemperature protection of at least30 % of the cells, meetingEV 5.8.5,
+• Must include overtemperature protection of at least 30 % of the cells, meeting EV 5.8.5,
 that trips when any cell leaves the allowed temperature range according to the manu-
 facturer’s datasheet, but not more than 60◦C, for more than 1 s and disconnects the
 battery.
@@ -2302,17 +2191,15 @@ T 11.8.9.
 T 11.8.7 The APPS signals are SCSs, see T 11.9.
 T 11.8.8 If an implausibility occurs between the values of the APPSs and persists for more than
 100 ms
-• [EV ONLY] The power to the motor(s) must be immediately shut down completely.
+• [EV ONLY] The power to the motor(s) must be immediately shutdown completely.
 It is not necessary to completely deactivate the TS, the motor controller(s) shutting
 down the power to the motor(s) is sufficient.
 • [CV ONLY] The power to the electronic throttle must be immediately shut down.
 T 11.8.9 Implausibility is defined as a deviation of more than ten percentage points pedal travel
 between any of the used APPSs or any failure according to T 11.9.
-Formula Student Rules 2026 Version: 1.1 59 of 135
 
 <!-- page 60 -->
 
-T 11 Electrical Components
 T 11.8.10 If three sensors are used, then in the case of an APPS implausibility, any two sensors that are
 plausible may be used to define the torque target and the 3rd APPS may be ignored.
 T 11.8.11 It must be possible to separately disconnect each APPS signal wire to check all functionalities.
@@ -2347,11 +2234,9 @@ on the impact of delayed messages to the connected system, but must not exceed 5
 T 11.9.5 Safe state is defined depending on the signals as follows:
 • signals only influencing indicators – Indicating a failure of its own function or of the
 connected system
-Formula Student Rules 2026 Version: 1.1 60 of 135
 
 <!-- page 61 -->
 
-T 11 Electrical Components
 • LV battery signals – At least one pole is electrically disconnected from the rest of the
 vehicle
 • ASSI, see T 14.9 – indicating “AS Off”
@@ -2383,12 +2268,10 @@ see T 1.1.18, but not their mounting.
 T 11.13 Legal & Work Safety
 T 11.13.1 All sensors must fulfill the local legislative specifications (i.e. eye-protection classification
 for laser sensors, power limitation for radar sensors, etc.) in the country of competition.
-Formula Student Rules 2026 Version: 1.1 61 of 135
 
 <!-- page 62 -->
 
-T 12 Vehicle Identification
-T 12 V EHICLE IDENTIFICATION
+T 12 VEHICLE IDENTIFICATION
 T 12.1 Vehicle Number
 T 12.1.1 Each vehicle will be assigned a number at the time of its entry into an event.
 T 12.1.2 Vehicle numbers must appear on the vehicle at the front and both sides as follows:
@@ -2422,14 +2305,12 @@ at least 50 mm tall, in front of the mainhoop on both sides of the vehicle. The 
 character must not be more than 50 mm below the top of the bodywork.
 T 12.3.3 The characters must be clearly visible at a distance, unobstructed in side view and placed on
 a high contrast background.
-Formula Student Rules 2026 Version: 1.1 62 of 135
 
 <!-- page 63 -->
 
-T 13 Vehicle and Driver Equipment
 T 12.4 Timing Equipment
 T 12.4.1 All vehicles will get timing equipment provided by the event organizers.
-T 13 V EHICLE AND DRIVER EQUIPMENT
+T 13 VEHICLE AND DRIVER EQUIPMENT
 T 13.1 Push Bar
 T 13.1.1 Each team must have a removable device (called the push bar) that attaches to the rear of the
 vehicle and allows two people to push and pull the vehicle while standing erect behind the
@@ -2459,11 +2340,9 @@ placed on a high contrast background.
 T 13.3 Driver Equipment
 T 13.3.1 The equipment specified below must be worn by the driver anytime while in the cockpit with
 the engine running or with the TS active for electric vehicles and anytime between starting a
-Formula Student Rules 2026 Version: 1.1 63 of 135
 
 <!-- page 64 -->
 
-T 13 Vehicle and Driver Equipment
 dynamic discipline and either finishing or abandoning a dynamic discipline. Removal of any
 driver equipment during the discipline will result in a DQ.
 T 13.3.2 A well-fitting, unmodified, closed face helmet that meets one of the following certifications
@@ -2501,11 +2380,9 @@ shoes must be certified to the standard and labeled as such:
 T 13.3.9 Fire resistant gloves made from acceptable fire resistant material as defined in T 13.3.14.
 Gloves of all leather construction or fire resistant gloves constructed using leather palms
 with no insulating fire resisting material underneath are not allowed.
-Formula Student Rules 2026 Version: 1.1 64 of 135
 
 <!-- page 65 -->
 
-T 14 Autonomous System (AS)
 T 13.3.10 Fire resistant clothing must not be older than 10 years, recognizable since no FIA hologram
 label present.
 T 13.3.11 Arm restraints are required and must be worn such that the driver can release them and
@@ -2532,7 +2409,7 @@ T 13.4.2 Fire extinguishers must have a rating of at least:
 • Australia: 20BE or 1A 10BE
 T 13.4.3 Except for the initial inspection, one extinguisher must readily be available in the team’s
 paddock area.
-T 14 A UTONOMOUS SYSTEM (AS)
+T 14 AUTONOMOUS SYSTEM (AS)
 T 14.1 Definitions
 T 14.1.1 Each vehicle must implement a full AS according to T 14, to run in autonomous mode.
 T 14.1.2 [CV ONLY] The following definitions apply to maintain the same wording as for EVs:
@@ -2540,11 +2417,9 @@ T 14.1.2 [CV ONLY] The following definitions apply to maintain the same wording 
 • TS active – engine is running but gearbox is in neutral, also assumed for TS not active.
 • TS activation button – engine start button
 • AIR - fuel pump relay, see figure 19
-Formula Student Rules 2026 Version: 1.1 65 of 135
 
 <!-- page 66 -->
 
-T 14 Autonomous System (AS)
 T 14.2 Data Logger
 T 14.2.1 The officials will provide a standardized data logger that must be installed during the event.
 Further specifications for the data logger and required hardware and software interfaces can
@@ -2577,11 +2452,9 @@ T 14.4.1 The SDC may only be closed by the AS, if the following conditions are f
 vated,i.e. no autonomous brake actuation possible.
 • Autonomous Driving: Autonomous Mission is selected, ASMS is switched on and
 sufficient brake pressure is built up,i.e. brakes are closed.
-Formula Student Rules 2026 Version: 1.1 66 of 135
 
 <!-- page 67 -->
 
-T 14 Autonomous System (AS)
 T 14.5 Autonomous System Master Switch (ASMS)
 T 14.5.1 Each vehicle must be equipped with an ASMS according to T 11.2.
 T 14.5.2 The ASMS must be mounted in the middle of a completely blue circular area of≥50 mm
@@ -2616,11 +2489,9 @@ T 14.7.3 The mechanisms used for actuator decoupling, see T 14.7.1, or sensor re
 T 14.7.2, must ensure that
 • no parts except covers are removed from the vehicle.
 • covers are only removed from the vehicle temporarily during the process.
-Formula Student Rules 2026 Version: 1.1 67 of 135
 
 <!-- page 68 -->
 
-T 14 Autonomous System (AS)
 • all parts remain in physical contact to the vehicle without using a tether line or similar,
 i.e. fasteners may be loosened but must not be fully undone.
 • they are securely locked in all (fixed) positions.
@@ -2664,11 +2535,9 @@ off yellow continuous yellow flashing blue flashing blue continuous
 During “AS Driving” and “AS Emergency” the ASSIs must be flashing continuously with a
 frequency between 2 Hz and 5 Hz and a duty cycle of 50 %. The ASSIs must not perform
 any other functions.
-Formula Student Rules 2026 Version: 1.1 68 of 135
 
 <!-- page 69 -->
 
-T 14 Autonomous System (AS)
 T 14.9.2 One ASSI must be located on each side of the vehicle behind the driver’s compartment, in
 a region 160 mm below the top of the main hoop and 600 mm above the ground. The third
 ASSI must be located at the rear of the vehicle, on the vehicle centerline, in a region 160 mm
@@ -2703,12 +2572,10 @@ be part of the dashboard or located next to the ASMS.
 T 14.11 Autonomous System Form (ASF)
 T 14.11.1 Before the event, all teams must submit a clearly structured documentation of their entire
 AS, including ASB, called ASF.
-Formula Student Rules 2026 Version: 1.1 69 of 135
 
 <!-- page 70 -->
 
-T 15 Autonomous System Brake (ASB)
-T 15 A UTONOMOUS SYSTEM BRAKE (ASB)
+T 15 AUTONOMOUS SYSTEM BRAKE (ASB)
 T 15.1 Technical Requirements
 T 15.1.1 To run in autonomous mode, the vehicle must be equipped with an ASB that features an
 EBS, see T 15.2, as part of it.
@@ -2743,11 +2610,9 @@ T 15.2.2 The EBS must be supplied by
 • LVMS
 • ASMS
 • the normally open contact of the relay according to T 14.3.5
-Formula Student Rules 2026 Version: 1.1 70 of 135
 
 <!-- page 71 -->
 
-T 15 Autonomous System Brake (ASB)
 • a relay which is supplied by the SDC, i.e. parallel to the AIRs, but must not be delayed.
 T 15.3 Functional Safety
 T 15.3.1 An initial check has to be performed to ensure that the ASB is able to
@@ -2771,14 +2636,13 @@ T 15.4.2 The average deceleration must be greater than 10 m/s2 under dry track c
 T 15.4.3 In case of a single failure the ASB should be designed to achieve at least half of the
 performance specified in T 15.4.2.
 T 15.4.4 Whilst decelerating, the vehicle must remain in a stable driving condition.
-Formula Student Rules 2026 Version: 1.1 71 of 135
 
 <!-- page 72 -->
 
 Formula Student Rules 2026
-CV I NTERNAL COMBUSTION ENGINE
+CV INTERNAL COMBUSTION ENGINE
 VEHICLES
-CV 1 I NTERNAL COMBUSTION ENGINE POWERTRAINS
+CV 1 INTERNAL COMBUSTION ENGINE POWERTRAINS
 CV 1.1 Engine Limitation
 CV 1.1.1 The engine(s) used to power the vehicle must be piston engine(s) using a four-stroke primary
 heat cycle with a displacement not exceeding 710 cm3 per cycle. Hybrid powertrains are
@@ -2805,11 +2669,9 @@ see T 1.1.18.
 CV 1.3.2 Any portion of the air intake system that is less than 350 mm above the ground must be
 protected from impacts, see T 3.15. Impact protection must follow T 3.16 when having bolted
 attachments.
-Formula Student Rules 2026 Version: 1.1 72 of 135
 
 <!-- page 73 -->
 
-CV 1 Internal Combustion Engine Powertrains
 CV 1.3.3 The intake manifold must be securely connected to the engine block or cylinder head with
 brackets and mechanical fasteners that are considered critical fasteners and must comply
 with T 10. This conection must ensure that the intake manifold including the injectors is
@@ -2844,11 +2706,9 @@ CV 1.6 Electronic Throttle Control (ETC)
 CV 1.6.1 CV 1.6 only applies if ETC is used.
 CV 1.6.2 The team must be able to demonstrate the functionality of all safety features and error
 detections of the ETC system at Technical Inspection, see IN.
-Formula Student Rules 2026 Version: 1.1 73 of 135
 
 <!-- page 74 -->
 
-CV 1 Internal Combustion Engine Powertrains
 CV 1.6.3 The ETC system must be equipped with at least the following sensors:
 • Accelerator Pedal Position Sensors (APPSs) as defined in T 11.8.
 • Two Throttle Position Sensors (TPSs) to measure the throttle position.
@@ -2886,17 +2746,15 @@ CV 1.7.3 The restrictor must be located to facilitate measurement during the Tec
 process.
 CV 1.7.4 The circular restricting cross section must not be movable or flexible in any way, e.g. the
 restrictor must not be part of the movable portion of a barrel throttle body.
-Formula Student Rules 2026 Version: 1.1 74 of 135
 
 <!-- page 75 -->
 
-CV 2 Fuel and Fuel System
 Throttle Body Restrictor Engine
 Figure 16: Intake configuration for naturally aspirated engines.
 Restrictor Compressor
 Recirculation
 Valve
-Pop-oﬀ Valve
+Pop-off Valve
 Throttle Body Charge Air Cooler
 (optional)
 Engine
@@ -2916,14 +2774,12 @@ CV 1.9.1 Any crankcase or engine lubrication vent lines routed to the intake sys
 upstream of the intake system restrictor.
 CV 1.9.2 Crankcase breathers that pass through the oil catch tank(s) to exhaust systems, or vacuum
 devices that connect directly to the exhaust system, are prohibited.
-CV 2 F UEL AND FUEL SYSTEM
+CV 2 FUEL AND FUEL SYSTEM
 CV 2.1 Fuel
 CV 2.1.1 The available fuel types will be unleaded gasoline 98RON and E 85.
-Formula Student Rules 2026 Version: 1.1 75 of 135
 
 <!-- page 76 -->
 
-CV 2 Fuel and Fuel System
 CV 2.1.2 The vehicles must be operated with the fuel provided at the event.
 CV 2.1.3 No agents other than fuel and air may be induced into the combustion chamber.
 CV 2.1.4 The temperature of fuel introduced into the fuel system must not be changed with the intent
@@ -2957,11 +2813,9 @@ which has a full 360◦ wrap, a nut and bolt system for tightening and rolled ed
 prevent the clamp cutting into the hose, or
 • have metal braided hoses with crimped-on or reusable, threaded fittings.
 • be rated for temperatures of at least 120 ◦C.
-Formula Student Rules 2026 Version: 1.1 76 of 135
 
 <!-- page 77 -->
 
-CV 2 Fuel and Fuel System
 CV 2.4.2 The use of unmodified OEM fuel lines and connectors, including those manufactured from
 plastic, is acceptable.
 CV 2.4.3 For reinforced rubber fuel lines with hose & clamp style connections beaded or barbed hose
@@ -2997,14 +2851,12 @@ used to secure the fuel rail are considered critical fasteners and must comply w
 • A fuel pressure regulator must be fitted between the high and low pressure sides of the
 fuel system in parallel with the DI boost pump. The external regulator must be used
 even if the DI boost pump comes equipped with an internal regulator.
-• Before the Tilt Test specified inIN 7, engines fitted with mechanically actuated fuel
+• Before the Tilt Test specified in IN 7, engines fitted with mechanically actuated fuel
 pumps must be run to fill and pressure the system downstream of the high pressure
 pump.
-Formula Student Rules 2026 Version: 1.1 77 of 135
 
 <!-- page 78 -->
 
-CV 2 Fuel and Fuel System
 CV 2.6 Fuel Tank Filler Neck and Sight Tube
 CV 2.6.1 The fuel tank must have a filler neck which:
 • has at least an inner diameter of 35 mm at any point between the fuel tank and the top
@@ -3037,11 +2889,9 @@ the vehicle in any manner. The fuel system must be designed in a way that during
 of the vehicle on a level surface, the formation of air cavities or other effects that cause the
 fuel level observed at the sight tube to drop after movement or operation of the vehicle (other
 than due to consumption) is prevented.
-Formula Student Rules 2026 Version: 1.1 78 of 135
 
 <!-- page 79 -->
 
-CV 3 Exhaust System and Noise Control
 CV 2.7.2 The fuel system must be designed such that the spillage during refueling cannot contact the
 driver position, exhaust system, hot engine parts, or the ignition system.
 CV 2.8 Venting Systems
@@ -3049,7 +2899,7 @@ CV 2.8.1 The fuel tank venting systems must be designed such that fuel cannot sp
 cornering or acceleration.
 CV 2.8.2 All fuel vent lines must be equipped with a check valve to prevent fuel leakage when the
 tank is inverted. All fuel vent lines must exit outside the bodywork.
-CV 3 E XHAUST SYSTEM AND NOISE CONTROL
+CV 3 EXHAUST SYSTEM AND NOISE CONTROL
 CV 3.1 Exhaust System General
 CV 3.1.1 The exhaust outlet must be routed to the side or rear of the vehicle and so that the driver is
 not subjected to fumes at any speed considering the draft of the vehicle.
@@ -3070,15 +2920,13 @@ CV 3.2.2 The idle test speed for a given engine will be up to the team and deter
 idle speed. If the idle speed varies then the vehicle will be tested across the range of idle
 speeds determined by the team. At idle the maximum allowed sound level is 103 dB(C), fast
 weighting.
-CV 4 S HUTDOWN SYSTEM
+CV 4 SHUTDOWN SYSTEM
 CV 4.1 Shutdown Circuit
 CV 4.1.1 The Shutdown Circuit (SDC) directly controls all electric power to the ignition, fuel injectors
 and all fuel pumps. It must act through a minimum of two mechanical relays. One relay for
-Formula Student Rules 2026 Version: 1.1 79 of 135
 
 <!-- page 80 -->
 
-CV 5 Hybrid System
 BSPD LeftCockpitLVMS
 LV Supply
 Right Inertia SwitchBOTS
@@ -3102,7 +2950,7 @@ Hybrid Control
 Figure 19: Explanatory example schematic of the required Shutdown Circuit (SDC)
 the fuel pump and at least one relay for injection and ignition. An explanatory schematic of
 the required SDC, is shown in Figure 19.
-CV 4.1.2 The SDC is defined as a series connection of at least the LVMS, seeT 11.3, the BSPD, see
+CV 4.1.2 The SDC is defined as a series connection of at least the LVMS, see T 11.3, the BSPD, see
 T 11.6, three shutdown buttons, see T 11.4, the BOTS, see T 6.2 and the inertia switch, see
 T 11.5.
 CV 4.1.3 All circuits that are part of the SDC must be designed in a way, that in the de-energized/disconnected
@@ -3110,7 +2958,7 @@ state they open the SDC.
 CV 4.1.4 [HY ONLY] The HSC AIR as per CV 5.2.2 must be part of the SDC in such a way that one
 side of the relay coil is directly incorporated into the SDC and the other side is controlled by
 the hybrid control system.
-CV 5 H YBRID SYSTEM
+CV 5 HYBRID SYSTEM
 CV 5.1 Hybrid System General
 CV 5.1.1 Hybrid System – the hybrid storage container, motors and every part that is electrically
 connected to them.
@@ -3122,11 +2970,9 @@ CV 5.1.4 Hybrid Storage Container (HSC) – the electric energy storage system, 
 overcurrent protection, that is used in the hybrid system.
 CV 5.1.5 Moving energy into the HSC from a different electric storage system is prohibited during
 any dynamic discipline.
-Formula Student Rules 2026 Version: 1.1 80 of 135
 
 <!-- page 81 -->
 
-CV 5 Hybrid System
 CV 5.1.6 A firewall, see T 4.8, must be present between the HSC and the fuel tank.
 CV 5.1.7 The HSC must be positioned according to T 11.7.2, all other hybrid system components must
 be positioned within the surface envelope, see T 1.1.18.
@@ -3151,13 +2997,12 @@ CV 5.3.1 A HSF has to be submitted using the HSF template.
 CV 5.3.2 The HSF template will be available on the competition website.
 CV 5.3.3 If no HSF is submitted, the team must not use the hybrid system at the event. A 5.4.2 will
 not be applied for the HSF.
-Formula Student Rules 2026 Version: 1.1 81 of 135
 
 <!-- page 82 -->
 
 Formula Student Rules 2026
-EV E LECTRIC VEHICLES
-EV 1 D EFINITIONS
+EV ELECTRIC VEHICLES
+EV 1 DEFINITIONS
 EV 1.1 Tractive System
 EV 1.1.1 Tractive System (TS) – every part that is electrically connected to the motors and TS
 accumulators. The LVS may be supplied by the TS if a galvanic isolation between both
@@ -3175,7 +3020,7 @@ the maximum TS voltage.
 Capacitors that bridge galvanic isolation must be class-Y capacitors.
 EV 1.2.2 High Current Path – any path of a TS circuitry that, during normal operation, carries more
 than 1 A.
-EV 2 E LECTRIC POWERTRAIN
+EV 2 ELECTRIC POWERTRAIN
 EV 2.1 Motors
 EV 2.1.1 Only electric motors are allowed.
 EV 2.1.2 Motor attachments must follow T 10.
@@ -3183,15 +3028,13 @@ EV 2.1.3 Motor casings must follow T 7.3.
 EV 2.1.4 The motor(s) must be connected to the TS accumulator through a motor controller.
 EV 2.2 Power Limitation
 EV 2.2.1 The TS power at the outlet of the TSAC must not exceed 80 kW.
-Formula Student Rules 2026 Version: 1.1 82 of 135
 
 <!-- page 83 -->
 
-EV 3 General Requirements
 EV 2.2.2 The TS current at the outlet of the TSAC must not exceed 500 A.
 EV 2.2.3 Regenerating energy is allowed and unrestricted with regard to power.
 EV 2.2.4 Wheels must not be spun in reverse.
-EV 3 G ENERAL REQUIREMENTS
+EV 3 GENERAL REQUIREMENTS
 EV 3.1 Grounding
 EV 3.1.1 TS enclosures, see EV 1.1.2, must consist of either
 • a grounded solid layer made of at least 0.5 mm thick electrically conductive material,
@@ -3224,15 +3067,13 @@ protect. All devices used must be rated for DC.
 EV 3.2.5 All overcurrent protection devices that are part of the TS must not rely on programmable
 logic. The overcurrent protection function of motor controllers/inverters for the motor outputs
 may rely on programmable logic.
-Formula Student Rules 2026 Version: 1.1 83 of 135
 
 <!-- page 84 -->
 
-EV 4 Tractive System
 EV 3.2.6 The overcurrent protection must be designed for the expected surrounding temperature range
 but at least for 0◦C to 85◦C
 EV 3.2.7 The TS high current path, see EV 1.2.2, through the TS accumulator(s) must be fused.
-EV 4 T RACTIVE SYSTEM
+EV 4 TRACTIVE SYSTEM
 EV 4.1 General Requirements
 EV 4.1.1 The maximum allowed voltage that may occur between any two electric connections is
 600 VDC and for motor controller and AMS internal low power control signals 630 VDC.
@@ -3244,7 +3085,7 @@ usage.
 EV 4.2 Tractive System Enclosures
 EV 4.2.1 TS enclosures, see EV 1.1.2, must be labeled with reasonably sized stickers according to “ISO
 7010-W012” (triangle with a black lightning bolt on a yellow background). The sticker must
-also contain the text “High V oltage” if the voltage is more than 60 VDC or 50 VACRMS.
+also contain the text “High Voltage” if the voltage is more than 60 VDC or 50 VACRMS.
 EV 4.3 Separation of Traction System and Grounded Low Voltage System
 EV 4.3.1 The entire TS and LVS must be galvanically isolated, see EV 1.2.1 and IN 4.1.1.
 EV 4.3.2 All connections from a TS component to external devices, such as laptops must include
@@ -3263,21 +3104,19 @@ have a minimum width of 1.5 mm to influence the creepage path. “Conformal coat
 to a coating insulator on a PCB. Solder resist is not a coating.
 EV 4.3.7 Teams must be prepared to demonstrate spacing on team-built equipment. For inaccessible
 circuitry, fully assembled spare boards must be available.
-Formula Student Rules 2026 Version: 1.1 84 of 135
 
 <!-- page 85 -->
 
-EV 4 Tractive System
-V oltage Clearance Distance Creepage Distance
+Voltage Clearance Distance Creepage Distance
 General conformal coating
-0 VDC to 50 VDC 1 .0 mm 4 mm 1 .0 mm
-50 VDC to 150 VDC 1 .0 mm 5 mm 1 .0 mm
-150 VDC to 300 VDC 1 .5 mm 10 mm 2 .0 mm
-300 VDC to 600 VDC 3 .0 mm 20 mm 4 .0 mm
+0 VDC to 50 VDC 1.0 mm 4 mm 1.0 mm
+50 VDC to 150 VDC 1.0 mm 5 mm 1.0 mm
+150 VDC to 300 VDC 1.5 mm 10 mm 2.0 mm
+300 VDC to 600 VDC 3.0 mm 20 mm 4.0 mm
 Table 5: Spacing required between TS and LV.
 EV 4.4 Positioning of Tractive System Parts
 EV 4.4.1 Except what is allowed according to EV 4.4.3, all parts belonging to the TS including cables
-and wiring must be located within the rollover protection envelope, seeT 1.1.16. “Part” is
+and wiring must be located within the rollover protection envelope, see T 1.1.16. “Part” is
 the whole device such as the complete HVD.
 EV 4.4.2 Any part of the TS that is less than 350 mm above the ground, except what is allowed
 according to EV 4.4.3, must be protected from impacts, see T 3.15. Impact protection must
@@ -3304,11 +3143,9 @@ EV 4.5.3 The temperature rating for TS wiring, connections, and insulation must 
 the expected surrounding temperatures but at least 85◦C.
 EV 4.5.4 TS components and TS enclosures must be protected from moisture in the form of rain or
 puddles, see IN 9.
-Formula Student Rules 2026 Version: 1.1 85 of 135
 
 <!-- page 86 -->
 
-EV 4 Tractive System
 EV 4.5.5 It must be possible to clearly assign and prove the wire gauge, temperature rating, and
 insulation voltage to each used TS wire.
 EV 4.5.6 All TS wiring must be completed to professional standards with appropriately sized con-
@@ -3346,11 +3183,9 @@ following are true:
 EV 4.6 Data Logger
 EV 4.6.1 A data logger will be provided by the officials and must be inserted during the event. The
 data logger measures TS voltage and TS current.
-Formula Student Rules 2026 Version: 1.1 86 of 135
 
 <!-- page 87 -->
 
-EV 4 Tractive System
 EV 4.6.2 The data logger must be in an easily accessible location so that it is possible to insert, remove,
 or replace it within 15 min in ready-to-race condition.
 EV 4.6.3 The data logger must not be placed within the TSAC.
@@ -3372,10 +3207,10 @@ The cover must always be mechanically linked to the vehicle.
 EV 4.7.6 Each TSMP must be secured with a current limiting resistor according to the following table.
 Fusing the TSMPs is prohibited. The resistor’s power rating must be chosen such that they
 can continuously carry the current if both TSMPs are short-circuited.
-Maximum TS V oltage Resistor Value
-Umax <200 VDC 5 k Ω
-200 VDC <Umax≤400 VDC 10 k Ω
-400 VDC <Umax≤600 VDC 15 k Ω
+Maximum TS Voltage Resistor Value
+Umax <200 VDC 5 kΩ
+200 VDC <Umax≤400 VDC 10 kΩ
+400 VDC <Umax≤600 VDC 15 kΩ
 EV 4.7.7 All electric connections needed to connect the TSMP to the intermediate circuit capacitors,
 including bolts, nuts, and other fasteners, must be secured from unintentional loosening by
 the use of positive locking mechanisms. Bolted connections must follow T 10.2, soldered
@@ -3386,13 +3221,11 @@ EV 4.8 High Voltage Disconnect (HVD)
 EV 4.8.1 It must be possible to disconnect at least one pole of the TS accumulator by quickly removing
 an unobstructed and directly accessible element, fuse, or connector. It must be possible
 to remove the HVD without removing any bodywork. The HVD must be above 350 mm
-from the ground. Remote actuation of the HVD through a long handle, rope, or wire is not
+from the ground. Remote actuation of the HVD through along handle, rope, or wire is not
 allowed.
-Formula Student Rules 2026 Version: 1.1 87 of 135
 
 <!-- page 88 -->
 
-EV 4 Tractive System
 EV 4.8.2 Any ESO must be able to remove the HVD within 10 s when the vehicle is in ready-to-race
 condition.
 EV 4.8.3 A dummy connector or similar may be required to restore the system’s isolation, see EV 4.5.
@@ -3400,7 +3233,7 @@ The dummy connector must be attached to the push bar, see T 13.1, if not in use.
 EV 4.8.4 The HVD must be clearly marked with “HVD”.
 EV 4.8.5 No tools must be necessary to remove the HVD. An interlock is required, see EV 4.5.10.
 EV 4.9 Discharge Circuit
-EV 4.9.1 If a discharge circuit is required to meetEV 6.1.5, it must be designed to handle the maximum
+EV 4.9.1 If a discharge circuit is required to meet EV 6.1.5, it must be designed to handle the maximum
 TS voltage permanently. After three subsequent discharges within 15 s in total, the discharge
 time specified in EV 6.1.5 may be exceeded. Full discharging functionality must be given
 after a reasonable time with a deactivated discharge circuit.
@@ -3428,11 +3261,9 @@ EV 4.10.4 The mentioned voltage detection must be performed inside the respectiv
 EV 4.10.5 The mentioned states of the relays (opened/closed) are the actual mechanical states. The
 mechanical state can differ from the intentional state, i.e. if a relay is stuck. Any circuitry
 detecting the mechanical state must meet EV 5.6.2.
-Formula Student Rules 2026 Version: 1.1 88 of 135
 
 <!-- page 89 -->
 
-EV 4 Tractive System
 EV 4.10.6 The voltage detection circuit of the red light and the relay state and voltage detection circuit
 of the green light must be independent. Any plausibility check between both lights is not
 allowed. A TSAL state with both lights simultaneously active might occur and must not be
@@ -3456,7 +3287,7 @@ The individual safe state of each of the TSAL lights is off. The TSAL’s red li
 illuminated for a visible check, see T 11.9.6.
 EV 4.10.12 The TSAL’s red light voltage detection circuit, see EV 4.10.2, does not need to detect an
 open circuit, as required by T 11.9. A plausibility check must not be implemented.
-EV 4.10.13 The TSAL’s green light relay state detection circuit, seeEV 4.10.3, does not need to detect an
+EV 4.10.13 The TSAL’s green light relay state detection circuit, see EV 4.10.3, does not need to detect an
 open circuit, as required by T 11.9, when the intentional state of the used (auxiliary) contact
 is opened. A plausibility check against the intentional relay state must be implemented in a
 way that the TSAL’s green light stays off after the open circuit is detectable.
@@ -3470,11 +3301,9 @@ EV 4.11 Activating the Tractive System
 EV 4.11.1 The TS is active if any of the AIRs or the pre-charge relay is closed.
 EV 4.11.2 The driver must be able to activate and deactivate the TS from within the cockpit without the
 assistance of any other person.
-Formula Student Rules 2026 Version: 1.1 89 of 135
 
 <!-- page 90 -->
 
-EV 5 Tractive System Energy Storage
 EV 4.11.3 The ASR must be able to activate the TS from outside the vehicle with an external TS
 activation button in proximity to the TSMS if and only if the ASMS is in “On” position.
 EV 4.11.4 Closing the SDC by any part defined in EV 6.1.2 must not (re-)activate the TS. Additional
@@ -3495,7 +3324,7 @@ in a radius of 2 m around the vehicle.
 EV 4.12.3 The used sound must be easily recognizable. No animal voices, song parts, or sounds that
 could be interpreted as offensive are allowed.
 EV 4.12.4 The vehicle must not make any other sounds similar to the R2D sound.
-EV 5 T RACTIVE SYSTEM ENERGY STORAGE
+EV 5 TRACTIVE SYSTEM ENERGY STORAGE
 EV 5.1 Definitions
 EV 5.1.1 Cell – a battery cell or super-capacitor.
 EV 5.1.2 Cell Energy – the maximum cell voltage times the nominal capacity of the used cell.
@@ -3506,11 +3335,9 @@ EV 5.1.5 TS Accumulator Segments – sub-divisions of the TS accumulator.
 EV 5.2 Allowed Tractive System Cells
 EV 5.2.1 Molten salt and thermal batteries are prohibited.
 EV 5.2.2 Fuel cells are prohibited.
-Formula Student Rules 2026 Version: 1.1 90 of 135
 
 <!-- page 91 -->
 
-EV 5 Tractive System Energy Storage
 EV 5.3 Tractive System Energy Storage – General Requirements
 EV 5.3.1 All cells that store the TS energy must be enclosed in TSACs.
 EV 5.3.2 Each TS accumulator segment must not exceed a maximum static voltage of 120 VDC, a
@@ -3547,13 +3374,11 @@ any way other than the design intent configuration.
 • Be designed such that it is clearly visible whether the connection is open or closed.
 Electrically controlled switches must not be used.
 EV 5.4.6 Each TS accumulator segment must be electrically insulated by the use of suitable rigid and
-fire retardant material, seeT 1.2.1, on top of the segment to prevent arc flashes caused by inter-
+fire retardant material, see T 1.2.1, on top of the segment to prevent arc flashes caused by inter-
 segment contact or by parts/tools accidentally falling into the TSAC during maintenance.
-Formula Student Rules 2026 Version: 1.1 91 of 135
 
 <!-- page 92 -->
 
-EV 5 Tractive System Energy Storage
 EV 5.4.7 Every wire used in a TSAC, regardless of whether it is part of the LVS or TS, must follow
 EV 4.5.2, EV 4.5.3, and EV 4.5.5, the exception being wires used in the intent of EV 5.8.11.
 EV 5.4.8 Each TSAC must have a prominent indicator, a voltmeter, or a red LED visible even in
@@ -3561,7 +3386,7 @@ bright sunlight. If a red LED is used as an indicator, it must continuously illu
 full brightness whenever a voltage greater than 60 VDC or half the maximum TS voltage,
 whichever is lower, is present at the vehicle side of the AIRs.
 EV 5.4.9 The indicator must be clearly visible while disconnecting the TSAC from the vehicles. The
-indicator must be clearly marked with “V oltage Indicator”
+indicator must be clearly marked with “Voltage Indicator”
 EV 5.4.10 The indicator must be hard-wired electronics without software control, directly and only
 supplied by the TS from the vehicle side of the AIRs, and always working, even if the TS
 accumulator is disconnected from the LVS or removed from the vehicle.
@@ -3593,11 +3418,9 @@ test, see T 3.6, should be used to prove adequate strength is provided.
 • The calculations and physical test results must be included in the ASES.
 EV 5.5.7 If any structural part of the TSAC is manufactured using additive processes, physical testing
 must verify compliance with EV 5.5.9. Test samples must be produced on the same machine
-Formula Student Rules 2026 Version: 1.1 92 of 135
 
 <!-- page 93 -->
 
-EV 5 Tractive System Energy Storage
 with identical parameters as the final part. Calculations must account for anisotropic material
 properties, and all results must be documented in the ASES.
 EV 5.5.8 TS accumulator segments, see EV 5.3.2, must be separated by internal vertical walls which
@@ -3609,7 +3432,7 @@ further reinforcement to comply with this rule.
 EV 5.5.10 Pouch cells must be fixed using one or both of the large surfaces only. Each used surface
 must be fixed on at least 80 %. Tabs of pouch cells must not carry mechanical loads and
 must not press into the pouch.
-EV 5.5.11 To fulfil EV 5.5.9, each cell must not exceed0.05 MPa shear and 1.0 MPa compressive stress,
+EV 5.5.11 To fulfil EV 5.5.9, each cell must not exceed 0.05 MPa shear and 1.0 MPa compressive stress,
 calculated using 80 % of the nominal large cell surface area. Proof must be provided in the
 ASES. Without stress analysis, a maximum of 6 pouch cells may be mechanically attached
 in series.
@@ -3631,19 +3454,17 @@ be compliant with all other rules, especially the ones concerning its structural
 The total cutout area must be below 25 % of the area of the respective single wall. External
 holes must be sealed according to EV 4.5.
 EV 5.5.17 External openings in the TSAC or mounted ducts must not point toward the driver or the
-operator of the TS accumulator hand cart even though there is a firewall, seeT 4.8, in between.
+operator of the TS accumulator hand cart even though there is a firewall, see T 4.8, in between.
 Ducts and their mounting must be fire retardant, see T 1.2.1, and properly sealed.
 EV 5.5.18 A sticker according to “ISO 7010-W012” (triangle with a black lightning bolt on a yellow
 background) with the triangle side length of at least 100 mm and the text “Always Energized”
-must be applied on every TSAC. The sticker must also contain the text “High V oltage” if the
+must be applied on every TSAC. The sticker must also contain the text “High Voltage” if the
 voltage is more than 60 VDC or 50 VACRMS.
 EV 5.5.19 Any TS accumulators that may vent an explosive gas must have a ventilation system to
 prevent the vented gas from reaching an explosive concentration.
-Formula Student Rules 2026 Version: 1.1 93 of 135
 
 <!-- page 94 -->
 
-EV 5 Tractive System Energy Storage
 EV 5.5.20 Every TSAC which is completely sealed must also have a pressure relief valve to prevent
 high pressure in the TSAC.
 EV 5.6 Accumulator Isolation Relays (AIRs)
@@ -3669,7 +3490,7 @@ EV 5.8.3 The AMS must continuously measure
 • the temperature of thermally critical cells
 • for lithium-based cells: the temperature of at least 30 % of the cells equally distributed
 within the TSAC
-EV 5.8.4 The maximum cell temperature is 60◦C or the limit stated in the cell data sheet, whichever
+EV 5.8.4 The maximum cell temperature is 60◦C or the limit stated in the cell datasheet, whichever
 is lower.
 EV 5.8.5 The temperature sensor must be mounted on the electrically conducting surface of the cell.
 The placement must represent the maximum temperature location on that conducting surface
@@ -3677,11 +3498,9 @@ under:
 • Maximum charge and discharge conditions
 • Maximum cooling effectiveness
 • 30 ◦C ambient temperature
-Formula Student Rules 2026 Version: 1.1 94 of 135
 
 <!-- page 95 -->
 
-EV 5 Tractive System Energy Storage
 If the maximum temperature occurs on a non-conductive part of the cell body, the sensor
 must be placed on the electrically conducting surface closest to that point.
 EV 5.8.6 The temperature sensor must be in rigid, direct contact with the electrically exposed conduct-
@@ -3719,12 +3538,10 @@ the accumulator during the event.
 EV 5.8.15 The AMS must be able to read and display all measured values according to EV 5.8.3 in a
 single overview e.g. by connecting a laptop to the AMS at any place and any time e.g. inside
 the dynamic area.
-Formula Student Rules 2026 Version: 1.1 95 of 135
 
 <!-- page 96 -->
 
-EV 6 Shutdown Circuit and Systems
-EV 6 S HUTDOWN CIRCUIT AND SYSTEMS
+EV 6 SHUTDOWN CIRCUIT AND SYSTEMS
 EV 6.1 Shutdown Circuit (SDC)
 BSPD IMD AMS Left RightCockpit
 Inertia SwitchBOTSHVD
@@ -3749,17 +3566,17 @@ EBS Relay Coil
 AIR Coils
 Activation Logic
 Figure 20: Explanatory example schematic of the required Shutdown Circuit (SDC)
-EV 6.1.1 The Shutdown Circuit (SDC) directly carries the power driving the AIRs, seeEV 5.6, and
+EV 6.1.1 The Shutdown Circuit (SDC) directly carries the power driving the AIRs, see EV 5.6, and
 the pre-charge circuitry, see EV 5.7.
 EV 6.1.2 The SDC is defined as a series connection of at least two master switches, three shutdown
-buttons, the BOTS, seeT 6.2, the IMD, the inertia switch, seeT 11.5, the BSPD, seeT 11.6, all
+buttons, the BOTS, see T 6.2, the IMD, the inertia switch, see T 11.5, the BSPD, see T 11.6, all
 required interlocks, and the AMS. An explanatory schematic of the required SDC, excluding
 any possible interlock circuitry, is shown in Figure 20.
 EV 6.1.3 All parts of the SDC defined in EV 6.1.2 must be on the high-side connection of the AIR
 coils and the pre-charge circuitry.
 EV 6.1.4 The Tractive System Master Switch (TSMS), see EV 6.2, must be the last switch before the
 AIRs except for pre-charge circuitry and hardwired interlocks.
-EV 6.1.5 If the SDC is opened the TS must be shut down by opening all AIRs as well as the pre-charge
+EV 6.1.5 If the SDC is opened the TS must be shutdown by opening all AIRs as well as the pre-charge
 relay and the voltage in the TS must drop to below 60 VDC and 50 VACRMS in less than
 5 s. All TS accumulator current flow must stop immediately. The action of opening the AIRs
 may be delayed by≤250 ms to signal the action to the motor controllers and reduce the TS
@@ -3770,11 +3587,9 @@ programmable logic that can only be manually reset by a person at the vehicle wh
 not the driver.
 EV 6.1.7 All circuits that are part of the SDC must be designed in a way, that in the de-energized/disconnected
 state, they open the SDC.
-Formula Student Rules 2026 Version: 1.1 96 of 135
 
 <!-- page 97 -->
 
-EV 6 Shutdown Circuit and Systems
 EV 6.1.8 It must be possible to demonstrate that all features of the SDC function correctly. This
 includes all interlocks.
 EV 6.1.9 Every system that is required to or can open the SDC must have its own, non-programmable,
@@ -3811,16 +3626,14 @@ connections must result in an opened SDC.
 EV 6.3.7 In case of an insulation failure or an IMD failure, the IMD must open the SDC. This must
 be done without the influence of any programmable logic. See also EV 6.1.6 regarding the
 re-activation of the TS after an insulation fault.
-Formula Student Rules 2026 Version: 1.1 97 of 135
 
 <!-- page 98 -->
 
-EV 7 Chargers
 EV 6.3.8 A red indicator light in the cockpit that is easily visible from inside and outside the cockpit
 even in bright sunlight and clearly marked with the lettering “IMD” must light up if and only
 if the IMD opens the SDC. It must stay illuminated until the error state has been manually
 reset, see EV 6.1.6. Signals controlling this indicator are SCS, see T 11.9.
-EV 7 C HARGERS
+EV 7 CHARGERS
 EV 7.1 Chargers General Requirements
 EV 7.1.1 Only chargers presented at Technical Inspection are allowed. All connections of the chargers
 must be insulated and covered. No open connections are allowed.
@@ -3851,12 +3664,10 @@ the TS, see EV 4.11.1, and the voltage at the TS connector has to remain below 6
 EV 7.2.3 The charging shutdown systems must comply with EV 6.1.1, EV 6.1.5, EV 6.1.7, EV 6.1.8
 and EV 6.1.9.
 EV 7.2.4 All signals influencing the charger SDC are SCS, see T 11.9.
-Formula Student Rules 2026 Version: 1.1 98 of 135
 
 <!-- page 99 -->
 
-EV 8 Tractive System Accumulator Container Hand Cart
-EV 8 T RACTIVE SYSTEM ACCUMULATOR CONTAINER HAND CART
+EV 8 TRACTIVE SYSTEM ACCUMULATOR CONTAINER HAND CART
 EV 8.1 Tractive System Accumulator Container Hand Cart
 EV 8.1.1 A hand cart must be used for transporting the TSACs around the event site.
 EV 8.1.2 The hand cart must have at least four wheels.
@@ -3879,17 +3690,16 @@ above the ground.
 EV 8.1.12 The overall floor space used by the fully loaded hand cart must not exceed 1200 mm x
 800 mm. If the TSAC is larger than the allowed floor space, exceptions may be approved by
 the officials before the event.
-EV 9 E LECTRICAL SYSTEM FORM (ESF)
+EV 9 ELECTRICAL SYSTEM FORM (ESF)
 EV 9.1 Electrical System Form
 EV 9.1.1 Before the event, all teams must submit structured documentation of their entire electrical
 system (including control and TS) called the ESF.
-Formula Student Rules 2026 Version: 1.1 99 of 135
 
 <!-- page 100 -->
 
 Formula Student Rules 2026
-IN T ECHNICAL INSPECTIONS
-IN 1 G ENERAL
+IN TECHNICAL INSPECTIONS
+IN 1 GENERAL
 IN 1.1 Technical Inspection Process
 IN 1.1.1 Technical Inspection is divided into the following parts:
 • Pre-Inspection
@@ -3917,11 +3727,9 @@ ensure compliance with the rules.
 IN 1.2.6 Teams are responsible for confirming that their vehicle and the required equipment satisfies
 the requirements and restrictions of the rules before presenting it for Technical Inspection.
 IN 1.2.7 Vehicles must be presented for Technical Inspection in ready-to-race condition.
-Formula Student Rules 2026 Version: 1.1 100 of 135
 
 <!-- page 101 -->
 
-IN 1 General
 IN 1.2.8 Safety-uncritical violations without team benefit that cannot be changed at the event may
 result in at least 20 penalty points, depending on officials decision. If such violations give
 a minor benefit, at least 40 points may be applied. Penalties are deducted from the team’s
@@ -3959,11 +3767,9 @@ asked.
 IN 1.4.3 Should the inspection responsible person be unable to perform one of these requirements, or
 the vehicle and all necessary items are not ready, Technical Inspection will be aborted and
 the team will be asked to leave the Technical Inspection area.
-Formula Student Rules 2026 Version: 1.1 101 of 135
 
 <!-- page 102 -->
 
-IN 2 Pre-Inspection
 IN 1.5 Modifications and Repairs
 IN 1.5.1 After Technical Inspection, the only modifications allowed to the vehicle are:
 • Adjustment of belts, chains and clutches
@@ -3993,17 +3799,15 @@ tion
 at Technical Inspection.
 Any other modification must be either approved by or performed under the supervision of
 Technical Inspection officials.
-IN 2 P RE-I NSPECTION
+IN 2 PRE-INSPECTION
 IN 2.1 Pre-Inspection Required Items
 IN 2.1.1 The following items must be presented for Pre-Inspection:
 • All helmets
 • All driver’s equipment and other safety gear
 • Two unused and in date fire extinguishers
-Formula Student Rules 2026 Version: 1.1 102 of 135
 
 <!-- page 103 -->
 
-IN 3 [EV ONLY] Accumulator Inspection
 • One set of four tires on rims for wet conditions
 • One set of four tires on rims for dry conditions
 The tire type/rim type combination presented during Pre-Inspection must be the same during
@@ -4037,14 +3841,12 @@ IN 3.2.2 The following basic tools in good condition must be presented:
 • Multimeter with protected probe tips and two 4 mm banana plug test leads rated for
 600 V CAT III or better
 • Insulated tools, if bolted connections are used in the TS
-Formula Student Rules 2026 Version: 1.1 103 of 135
 
 <!-- page 104 -->
 
-IN 4 [EV ONLY] Electrical Inspection
 • Face shield
 • at least two pairs of HV insulating gloves (not expired)
-• Two HV insulating blankets of at least 1 .0 m2 each
+• Two HV insulating blankets of at least 1.0 m2 each
 • Safety glasses with side shields for all team members that might work on the TS or
 accumulator
 All electrical safety items must be rated for at least the maximum TS voltage.
@@ -4076,15 +3878,13 @@ T 1.2.1
 • Print-outs of rule questions (if applicable)
 • The connectors needed
 – to safely close the SDC while the HVD is removed and
-Formula Student Rules 2026 Version: 1.1 104 of 135
 
 <!-- page 105 -->
 
-IN 5 Mechanical Inspection
 – to safely supply the TS using the same shrouded receptacles as used for TSMP
 when the TS accumulator is unconnected
 • LV Battery (if applicable), and possible replacement batteries
-IN 5 M ECHANICAL INSPECTION
+IN 5 MECHANICAL INSPECTION
 IN 5.1 Mechanical Inspection Required Items
 IN 5.1.1 The following items must be presented at Mechanical Inspection:
 • Jacks and push bar
@@ -4099,7 +3899,7 @@ IN 5.1.1 The following items must be presented at Mechanical Inspection:
 • [HY ONLY] Copies of the HSF
 • [HY ONLY] HSC and any tools and/or materials needed to determine the weight limit
 as per CV 5.2.3
-IN 6 A UTONOMOUS SYSTEM INSPECTION
+IN 6 AUTONOMOUS SYSTEM INSPECTION
 IN 6.1 Autonomous System Inspection Required Items
 IN 6.1.1 The following items are required:
 • Data sheets for all perception sensors
@@ -4108,19 +3908,17 @@ IN 6.1.1 The following items are required:
 • ASF
 • Tools needed for the (dis)assembly of parts for Autonomous System Inspection
 • Print-outs of rule questions (if applicable)
-Formula Student Rules 2026 Version: 1.1 105 of 135
 
 <!-- page 106 -->
 
-IN 7 Tilt Test
-IN 7 T ILT TEST
+IN 7 TILT TEST
 IN 7.1 Tilt Test Procedure
 IN 7.1.1 The Tilt Test will be conducted with the tallest driver fully strapped in normal driving
 position.
 IN 7.1.2 The Tilt Test will be conducted with all vehicle fluids at their maximum fill level.
 IN 7.1.3 The vehicle will be placed upon the tilt table and to an angle of 60◦. There must be no fluid
 leaks and all wheels must remain in contact with the tilt table surface.
-IN 8 V EHICLE WEIGHING
+IN 8 VEHICLE WEIGHING
 IN 8.1 Vehicle Weighing Procedure
 IN 8.1.1 All vehicles must be weighed in ready-to-race condition.
 IN 8.1.2 All fluids must be at their maximum fill level for weighing.
@@ -4140,11 +3938,9 @@ IN 9.2.6 Water will be sprayed at the vehicle from any possible direction. The w
 to a vehicle driving in rain and not a direct high-pressure stream of water.
 IN 9.2.7 The test is passed if the IMD is not triggered and the TS is still active, see EV 4.11.1, while
 water is sprayed at the vehicle for 120 s and 120 s after the water spray has stopped.
-Formula Student Rules 2026 Version: 1.1 106 of 135
 
 <!-- page 107 -->
 
-IN 10 [CV ONLY] Noise Test
 IN 10 [CV ONLY] NOISE TEST
 IN 10.1 Noise Test Procedure
 IN 10.1.1 The sound level will be measured during a static test.
@@ -4167,7 +3963,7 @@ IN 10.1.8 After passing the Noise Test the function of the master switch, the co
 button and the inertia switch will be tested.
 IN 10.1.9 After passing IN 10.1.8 the air tightness of the intake system will be tested by closing off the
 inlet after which the engine must stall.
-IN 11 B RAKE TEST
+IN 11 BRAKE TEST
 IN 11.1 Brake Test Procedure
 IN 11.1.1 Lock all four wheels and stop the vehicle in a straight line at the end of an acceleration run
 specified by the officials.
@@ -4180,11 +3976,9 @@ IN 11.1.5 The brake light, [EV ONLY] and TSAL, illumination will be checked and 
 verify if the illumination is satisfactory for external observation.
 IN 11.1.6 [EV ONLY] The R2D sound will be checked and the officials will verify if the sound level is
 satisfactory.
-Formula Student Rules 2026 Version: 1.1 107 of 135
 
 <!-- page 108 -->
 
-IN 12 Post Inspection
 IN 11.1.7 During the Brake Test, tire pressure may be max. 1.0 bar above cold pressure before any
 dynamic discipline and must never exceed the manufacturer’s limit.
 IN 11.2 EBS Test
@@ -4198,7 +3992,7 @@ requirements according to T 15.4.
 IN 11.2.4 In case of wet track conditions, the stopping distance will be scaled by the officials dependent
 on the friction level of the track.
 IN 11.2.5 The EBS Test is conducted after all other elements of IN 11 have been passed.
-IN 12 P OST INSPECTION
+IN 12 POST INSPECTION
 IN 12.1 Post Inspection Procedure
 IN 12.1.1 The officials reserve the right to impound any vehicle at any time during or after any of the
 dynamic disciplines to check for compliance with the rules. If necessary, the vehicle will
@@ -4210,18 +4004,16 @@ IN 12.1.4 For each violation of the rules, the team receives a separate penalty 
 • Group A: Violation of the rules without advantage for the team
 • Group B: Violation of the rules with advantage for the team (e.g. aerodynamics)
 Acceleration Skidpad Autocross Endurance Trackdrive
-Group A 0.3 s 0 .2 s 2 s 30 s 30 s
-Group B 1 s 0 .6 s 5 s 2 min 2 min
+Group A 0.3 s 0.2 s 2 s 30 s 30 s
+Group B 1 s 0.6 s 5 s 2 min 2 min
 The penalty applies to all runs since the vehicle entered the dynamic area the last time.
 IN 12.1.5 Violation of the rules concerning safety or the environment (e.g. BOTS, safety harness issues,
 ground clearance, fluid leaks other than plain water, noise) results in DQ since entering the
 dynamic area.
 IN 12.1.6 Losing a part of the vehicle on the track will result in DQ for that particular run.
-Formula Student Rules 2026 Version: 1.1 108 of 135
 
 <!-- page 109 -->
 
-IN 12 Post Inspection
 IN 12.1.7 Changes in vehicle weight of more than±5 kg compared to the official Technical Inspection
 weight, see IN 8, results in a 20 point penalty for each kg the tolerance is exceeded by. E.g. a
 weight difference of±6.2 kg results in in a 40 point penalty.
@@ -4236,13 +4028,12 @@ the charging area to disassemble the temperature logging device (if used by the 
 the TS accumulator, see EV 5.8.9.
 IN 12.1.11 Directly after the last dynamic discipline and leaving parc fermé, the data logger (if installed),
 see EV 4.6 or T 14.2, will be disassembled from the vehicle.
-Formula Student Rules 2026 Version: 1.1 109 of 135
 
 <!-- page 110 -->
 
 Formula Student Rules 2026
-S S TATIC DISCIPLINES
-S 1 G ENERAL RULES
+S STATIC DISCIPLINES
+S 1 GENERAL RULES
 S 1.1 Vehicle Condition
 S 1.1.1 Vehicles must be presented for judging in finished condition, fully assembled, complete and
 ready-to-race.
@@ -4252,7 +4043,7 @@ S 1.1.3 Vehicles may be presented for judging without having passed Technical In
 final tuning and setup is in progress.
 S 1.1.4 Covers and/or parts may be removed during the judging to facilitate access and presentation
 of components or concepts.
-S 2 B USINESS PLAN PRESENTATION (BPP)
+S 2 BUSINESS PLAN PRESENTATION (BPP)
 S 2.1 Business Plan Presentation Objective
 S 2.1.1 The objective of the BPP is to assess the team’s ability to develop, present and defend a
 comprehensive business model in an investment round scenario. The business model must
@@ -4272,11 +4063,9 @@ vehicle
 on-vehicle component or software
 • Using, rebranding, or reselling bought parts without the team’s involvement in design,
 production, or further processing
-Formula Student Rules 2026 Version: 1.1 110 of 135
 
 <!-- page 111 -->
 
-S 2 Business Plan Presentation (BPP)
 • Items that are not part of the team’s current prototype vehicle
 S 2.1.3 During the presentation, teams must explicitly show how they derived their proposed product
 or service from the team’s current prototype vehicle.
@@ -4311,11 +4100,9 @@ S 2.3.3 The BPEFS must be submitted online in PDF format via the competition web
 than the deadline specified in the Event Handbook.
 S 2.4 Business Plan Presentation Scoring
 S 2.4.1 The BPP will be evaluated on the categories specified in table 6.
-Formula Student Rules 2026 Version: 1.1 111 of 135
 
 <!-- page 112 -->
 
-S 3 Cost and Manufacturing
 Category Points
 Executive & Financial Summary 10
 Content 20
@@ -4347,17 +4134,15 @@ Pteam is the score awarded to the team
 Pmax is the highest score awarded to any team not participating in the finals
 S 2.4.7 The scoring of the BPP finalists will vary from 75 to 71 points and is scored immediately
 after the BPP finals by all judges.
-S 3 C OST AND MANUFACTURING
+S 3 COST AND MANUFACTURING
 S 3.1 Cost and Manufacturing Objective
 S 3.1.1 The objective of Cost and Manufacturing is to evaluate the team’s understanding of the man-
 ufacturing processes, costs and greenhouse gas emissions associated with the construction of
 a prototype vehicle. This includes trade off decisions between content and cost, make or buy
 decisions and understanding the differences between prototype and mass production.
-Formula Student Rules 2026 Version: 1.1 112 of 135
 
 <!-- page 113 -->
 
-S 3 Cost and Manufacturing
 S 3.2 Cost and Manufacturing Procedure
 S 3.2.1 Prior to the event, three CRD, see S 3.3, must be submitted to the competition website by the
 deadline specified in the Event Handbook.
@@ -4392,11 +4177,9 @@ S 3.3.4 The website tool will provide a printable pdf version of the BOM.
 S 3.3.5 The team must ensure that at least two judges are able to review the CRD independently.
 S 3.3.6 The presented CRD must be identical to the submitted versions, otherwise 0 points will be
 scored for the “BOM Discussion” part.
-Formula Student Rules 2026 Version: 1.1 113 of 135
 
 <!-- page 114 -->
 
-S 3 Cost and Manufacturing
 S 3.4 Bill of Material (BOM)
 S 3.4.1 The BOM is a sorted list of all vehicle parts.
 S 3.4.2 The BOM is structured as follows:
@@ -4422,7 +4205,7 @@ S 3.4.7 The “systems” are:
 • Chassis and Body
 • Drivetrain
 • Engine and Tractive System
-• Grounded Low V oltage System
+• Grounded Low Voltage System
 • Miscellaneous, Fit and Finish
 • Steering System
 • Suspension System
@@ -4431,11 +4214,9 @@ S 3.4.8 When adding “parts” to the BOM, the comments section should be revie
 The chosen part name must clearly describe what is included. For example, if a spring is
 included, the “part” should not be called “damper”.
 S 3.4.9 Only metric units must be used within the BOM.
-Formula Student Rules 2026 Version: 1.1 114 of 135
 
 <!-- page 115 -->
 
-S 3 Cost and Manufacturing
 S 3.5 Costed Carbonized Bill of Material (CCBOM)
 S 3.5.1 The manufacturing and assembly processes, realistic costs and greenhouse gas emissions of
 all parts from one or two systems of the BOM must be listed in the CCBOM.
@@ -4474,11 +4255,9 @@ development and capital expenditures for real estates (e.g. plant or development
 team).
 S 3.5.12 All costs must be displayed in EUR. For calculating the prices in EUR from other currencies,
 the team must provide the exchange rates used.
-Formula Student Rules 2026 Version: 1.1 115 of 135
 
 <!-- page 116 -->
 
-S 3 Cost and Manufacturing
 S 3.5.13 There is no maximum cost. Receipts are not required for any items.
 S 3.5.14 The calculations for machine hourly rates, wages (including overheads) etc. must be shown.
 S 3.5.15 The “carbon footprint” is calculated in CO 2e based on a “Cradle-to-Gate” Life Cycle
@@ -4513,15 +4292,13 @@ S 3.8.3 If items are missing from the BOM, points are deducted until 0 points ar
 Discussion”.
 S 3.8.4 Some teams may be chosen to participate in the Cost and Manufacturing finals to determine
 the Cost and Manufacturing winner. The Cost and Manufacturing finals will be held sepa-
-Formula Student Rules 2026 Version: 1.1 116 of 135
 
 <!-- page 117 -->
 
-S 4 Engineering Design
 rately from the initial judging and teams will be informed about their participation during
 the event.
 S 3.8.5 In case of finals the highest achievable scoring for the non-finalists is 80 points.
-S 4 E NGINEERING DESIGN
+S 4 ENGINEERING DESIGN
 S 4.1 Engineering Design Objective
 S 4.1.1 The concept of the Engineering Design is to evaluate the student’s engineering process and
 effort that went into the design of a vehicle, meeting the intent of the competition.
@@ -4552,11 +4329,9 @@ S 4.3 Engineering Design Procedure
 S 4.3.1 Engineering Design starts with the submission of the TVSD and its review.
 S 4.3.2 At the event, teams will present their knowledge and their vehicle to the judges, which will
 evaluate the team’s performance following the design objectives stated in chapter S 4.1.
-Formula Student Rules 2026 Version: 1.1 117 of 135
 
 <!-- page 118 -->
 
-S 4 Engineering Design
 S 4.3.3 Some teams may be chosen to participate in the Engineering Design finals to determine the
 Engineering Design winner. The Engineering Design finals will be held separately from the
 initial judging and teams will be informed about their participation during the event.
@@ -4593,24 +4368,21 @@ Autonomous Functionality 20
 Driver Interface 10
 Technical Vehicle System Documentation (TVSD) 10
 Table 7: Maximum scores in Engineering Design
-Formula Student Rules 2026 Version: 1.1 118 of 135
 
 <!-- page 119 -->
 
-S 4 Engineering Design
 Category Points
 Overall Vehicle Concept 20
 Software / Compute 30
 Vehicle Performance 30
 Autonomous Functionality 70
 Table 8: [DC ONLY] Maximum scores in Engineering Design
-Formula Student Rules 2026 Version: 1.1 119 of 135
 
 <!-- page 120 -->
 
 Formula Student Rules 2026
-D D YNAMIC DISCIPLINES
-D 1 D YNAMIC DISCIPLINES GENERAL
+D DYNAMIC DISCIPLINES
+D 1 DYNAMIC DISCIPLINES GENERAL
 D 1.1 Definitions
 D 1.1.1 Starting – crossing the light barrier at the starting line starts a lap.
 D 1.1.2 Finishing – crossing the light barrier at the finish line ends a lap. Can be the same as the
@@ -4618,7 +4390,7 @@ starting line.
 D 1.1.3 Lap – a complete trip on a defined track, beginning at the start line and ending at the finish
 line.
 D 1.1.4 Run – a single attempt to compete in a dynamic discipline. Runs consist of one or more
-lap(s). A run is started when receiving a G REEN FLAG or the go-signal by the officials.
+lap(s). A run is started when receiving a GREEN FLAG or the go-signal by the officials.
 D 1.1.5 Did Not Finish (DNF) – starting a run without finishing it. For the purpose of scoring, a
 DNF is treated as a DQ.
 D 1.1.6 Disqualified (DQ) – being removed from the scoring due to a rule violation.
@@ -4636,11 +4408,9 @@ D 1.2.2 An individual driver must not drive in more than two dynamic disciplines
 D 1.2.3 Endurance and Efficiency are considered a single discipline.
 D 1.2.4 An individual driver must not drive more than two runs in each dynamic discipline.
 D 1.2.5 No more than two drivers are allowed to drive in each dynamic discipline.
-Formula Student Rules 2026 Version: 1.1 120 of 135
 
 <!-- page 121 -->
 
-D 2 Driving Rules
 D 1.3 Number of Runs in the Dynamic Disciplines
 D 1.3.1 Table 9 defines the number of runs for each dynamic discipline.
 Runs in Runs in
@@ -4666,17 +4436,15 @@ carried by the four team members in one trip.
 D 1.5 Track Walks
 D 1.5.1 There will be track walks before Autocross, Endurance and [DC ONLY] Trackdrive.
 D 1.5.2 During the track walk only analogue measurement devices may be used.
-D 2 D RIVING RULES
+D 2 DRIVING RULES
 D 2.1 Flags
 D 2.1.1 Flag signals are commands that must be obeyed immediately and without question.
 D 2.1.2 There will be no flag signs for vehicles in autonomous mode.
 D 2.1.3 BLACK FLAG – the driver must pull into the driver change area for discussion with the
 officials concerning an incident. A time penalty may be assessed.
-Formula Student Rules 2026 Version: 1.1 121 of 135
 
 <!-- page 122 -->
 
-D 2 Driving Rules
 D 2.1.4 BLACK FLAG WITH ORANGE DOT / MECHANICAL BLACK FLAG – the driver must pull
 into the driver change area for a Mechanical Inspection of the vehicle, something has been
 observed that requires a closer inspection.
@@ -4684,13 +4452,13 @@ D 2.1.5 BLUE FLAG – the driver must pull into the designated passing zone to b
 competitor. The driver must obey the track marshals’ signals at the end of the passing zone.
 D 2.1.6 CHEQUERED FLAG – the session has been completed. The driver must exit the track at the
 first opportunity.
-D 2.1.7 G REEN FLAG
+D 2.1.7 GREEN FLAG
 • The session has started, the driver may enter the track under direction of the track
 marshals. In case of stalling, the vehicle can be restarted, but the driver has to await
 another GREEN FLAG as the opening in traffic may have closed.
 • The driver is clear to re-enter the track after using the slow lane to let a faster vehicle
 pass.
-• The driver may pick up speed again after a Y ELLOW FLAG was displayed.
+• The driver may pick up speed again after a YELLOW FLAG was displayed.
 D 2.1.8 RED FLAG – the driver must come to an immediate safe and controlled stop on the track and
 must follow track marshals’ directions.
 D 2.1.9 YELLOW FLAG – danger, the driver must slow down, something has happened beyond the
@@ -4712,11 +4480,9 @@ D 2.3.3 The vehicle must be capable of starting and restarting without external 
 all times.
 D 2.3.4 Push starts are prohibited.
 D 2.3.5 Burnouts before and during the dynamic disciplines are prohibited.
-Formula Student Rules 2026 Version: 1.1 122 of 135
 
 <!-- page 123 -->
 
-D 2 Driving Rules
 D 2.3.6 When driving in autonomous mode, an ASR has to be present at the race control with
 the RES. Additionally, a single monitoring device (laptop, tablet, ...) may be brought (no
 complicated antenna construction or similar!).
@@ -4749,13 +4515,11 @@ D 2.7.2 The vehicle must be collected by the ASR and an additional team member i
 approval from the officials.
 D 2.8 Handling of Re-Runs
 D 2.8.1 A re-run may be granted in following cases:
-Formula Student Rules 2026 Version: 1.1 123 of 135
 
 <!-- page 124 -->
 
-D 3 Weather Conditions
-• Usage of Y ELLOW FLAG in Autocross.
-• Usage of R ED FLAG.
+• Usage of YELLOW FLAG in Autocross.
+• Usage of RED FLAG.
 • Usage of RES to ensure safe conditions on the track or traceable signal loss of the
 RES according to D 2.6.
 • After official’s decision due to technical or organizational issues.
@@ -4763,7 +4527,7 @@ D 2.8.2 The team will be informed about a granted re-run either by a sign at the
 communication through an official.
 D 2.8.3 It is at the discretion of the team whether they accept the re-run. If the re-run is accepted, it
 must be executed immediately and the corresponding initial run is removed from the scoring.
-D 3 W EATHER CONDITIONS
+D 3 WEATHER CONDITIONS
 D 3.1 Operating Conditions
 D 3.1.1 The following track conditions are recognized:
 • Dry
@@ -4779,18 +4543,16 @@ Damp Dry or Wet
 Wet Wet
 D 3.2.2 When the operating condition is damp, teams may change between dry tires and wet tires:
 • Any time during Acceleration, Skidpad, and Autocross.
-• Any time before taking the G REEN FLAG to start Endurance and according to D 7.6.
+• Any time before taking the GREEN FLAG to start Endurance and according to D 7.6.
 D 3.2.3 If a discipline had varied operating conditions, the minimum performance levels to score
 points may be adjusted if deemed appropriate by the officials.
 D 3.2.4 Only one set of tires per type (dry/wet) may be used during all the dynamic disciplines. The
 Brake Test, practice area, [DC ONLY] Driverless Autocross, [DC ONLY] Trackdrive and the
 static disciplines are excluded from this regulation.
-Formula Student Rules 2026 Version: 1.1 124 of 135
 
 <!-- page 125 -->
 
-D 4 Skidpad
-D 4 S KIDPAD
+D 4 SKIDPAD
 D 4.1 Skidpad Track Layout
 D 4.1.1 The Skidpad track consists of two pairs of concentric circles in a figure of eight patterns.
 D 4.1.2 The centers of these circles are 18.25 m apart. The inner circles are 15.25 m in diameter and
@@ -4811,60 +4573,56 @@ D 4.2.1 A run consists of a sequence of laps in exactly the following order. The
 perpendicular to the figure of eight and must take one full lap on the right circle to establish
 the turn. The next lap must be on the right circle and will be timed. Immediately following
 the second lap, the vehicle must enter the left circle for the third lap. The fourth lap must be
-Formula Student Rules 2026 Version: 1.1 125 of 135
 
 <!-- page 126 -->
 
-D 5 Acceleration
 on the left circle and will be timed. Immediately upon finishing the fourth lap, the vehicle
 must exit the track perpendicular to the figure of eight and moving in the same direction as
 entered.
 D 4.2.2 The run time is the average time of the timed left and the timed right circle plus penalties
 which are added after the averaging.
-D 4.2.3 [MANUAL MODE ONLY ] The driver has the option to make the second run immediately
+D 4.2.3 [MANUAL MODE ONLY] The driver has the option to make the second run immediately
 after their first run.
-D 4.2.4 [AUTONOMOUS MODE ONLY ] The foremost part of the vehicle is staged 15 m in front of
+D 4.2.4 [AUTONOMOUS MODE ONLY] The foremost part of the vehicle is staged 15 m in front of
 the starting line.
-D 4.2.5 [AUTONOMOUS MODE ONLY ] After finishing the run, the foremost part of the vehicle must
+D 4.2.5 [AUTONOMOUS MODE ONLY] After finishing the run, the foremost part of the vehicle must
 come to a full stop within 25 m behind the finish line, all four wheels must remain within the
 track boundaries and the vehicle must enter the finish-state described in T 14.8.
-D 5 A CCELERATION
+D 5 ACCELERATION
 D 5.1 Acceleration Track Layout
 D 5.1.1 The Acceleration track is a straight line with a length of 75 m from starting line to finish line.
 The track is at least 3 m wide. Cones are placed along the track at intervals of about 5 m.
 D 5.2 Acceleration Procedure
 D 5.2.1 A run consists of a single lap.
-D 5.2.2 [MANUAL MODE ONLY ] The driver has the option to make the second run immediately
+D 5.2.2 [MANUAL MODE ONLY] The driver has the option to make the second run immediately
 after their first run.
-D 5.2.3 The foremost part of the vehicle is staged 0 .30 m behind the starting line.
-D 5.2.4 [AUTONOMOUS MODE ONLY ] After finishing the run, the foremost part of the vehicle must
+D 5.2.3 The foremost part of the vehicle is staged 0.30 m behind the starting line.
+D 5.2.4 [AUTONOMOUS MODE ONLY] After finishing the run, the foremost part of the vehicle must
 come to a full stop within 75 m behind the finish line, all four wheels must remain within the
 track boundaries and the vehicle must enter the finish-state described in T 14.8.
-D 6 A UTOCROSS
+D 6 AUTOCROSS
 D 6.1 Autocross Track Layout
 D 6.1.1 The Autocross track layout is a handling track built to the following guidelines:
 • Straights: No longer than 80 m
-• Slaloms: Cones in a straight line with 7 .5 m to 12 m spacing
+• Slaloms: Cones in a straight line with 7.5 m to 12 m spacing
 • Miscellaneous: Chicanes, multiple turns, decreasing radius turns, hairpin turns, etc.
 • The minimum track width is 3 m
 • The minimum required turning diameter according to D 1.1.10 is 9 m
-Formula Student Rules 2026 Version: 1.1 126 of 135
 
 <!-- page 127 -->
 
-D 7 Endurance and Efficiency
-D 6.1.2 The length of the Autocross track is less than 1 .5 km.
+D 6.1.2 The length of the Autocross track is less than 1.5 km.
 D 6.1.3 [DC ONLY] The Autocross track layout is instead built to the guidelines defined in D 8.1.
 D 6.2 Autocross Procedure
 D 6.2.1 A run consists of a single lap.
-D 6.2.2 [MANUAL MODE ONLY ] Each driver has the option to make the second run immediately
+D 6.2.2 [MANUAL MODE ONLY] Each driver has the option to make the second run immediately
 after their first run.
-D 6.2.3 [AUTONOMOUS MODE ONLY ] The vehicle is staged such that the front wheels are 6 m in
+D 6.2.3 [AUTONOMOUS MODE ONLY] The vehicle is staged such that the front wheels are 6 m in
 front of the starting line on the track.
-D 6.2.4 [AUTONOMOUS MODE ONLY ] After finishing the run, the foremost part of the vehicle must
+D 6.2.4 [AUTONOMOUS MODE ONLY] After finishing the run, the foremost part of the vehicle must
 come to a full stop within 30 m behind the finish line, all four wheels must remain within the
 track boundaries and the vehicle must enter the finish-state described in T 14.8.
-D 7 E NDURANCE AND EFFICIENCY
+D 7 ENDURANCE AND EFFICIENCY
 D 7.1 Endurance Track Layout
 D 7.1.1 The Endurance track layout is a closed lap circuit built to the following guidelines:
 • Straights: No longer than 80 m
@@ -4883,11 +4641,9 @@ D 7.2.3 The first driver will drive for approximately 11 km and will then be sig
 change area.
 D 7.2.4 After the driver change specified in D 7.5, the second driver will drive for an additional
 approximately 11 km and will be signaled to exit the track after crossing the finish line.
-Formula Student Rules 2026 Version: 1.1 127 of 135
 
 <!-- page 128 -->
 
-D 7 Endurance and Efficiency
 D 7.2.5 Each lap of Endurance is individually timed. The corrected elapsed time is determined by
 subtracting the extra-long lap for the driver change from the total time and adding any penalty
 times.
@@ -4922,11 +4678,9 @@ D 7.5.3 During the driver change, the team may:
 • perform changes to accommodate the second driver
 • operate the master switch(es)
 • change tires as per D 7.6.
-Formula Student Rules 2026 Version: 1.1 128 of 135
 
 <!-- page 129 -->
 
-D 7 Endurance and Efficiency
 No other work may be performed during the driver change.
 D 7.5.4 Each team is given 3 min to change their driver.
 D 7.5.5 The driver change time will start once the vehicle is stopped in the driver change area and
@@ -4961,11 +4715,9 @@ D 7.7.1 Teams are prohibited from working on or fueling their vehicles during th
 D 7.7.2 Wheel-to-wheel racing is prohibited.
 D 7.7.3 If a vehicle stalls out on the track, it is allowed one lap by the vehicle that is following it
 (approximately one minute) to restart.
-Formula Student Rules 2026 Version: 1.1 129 of 135
 
 <!-- page 130 -->
 
-D 7 Endurance and Efficiency
 Existing
 Operating
 Condition
@@ -5013,11 +4765,9 @@ scoring.
 D 7.9.3 [CV ONLY] Fuel pumps must be on and fuel valves must be opened during refueling.
 D 7.9.4 [CV ONLY] The measured fuel mass of vehicles using E85 fuel is divided by 1.45 to be
 comparable to the vehicles using 98 RON.
-Formula Student Rules 2026 Version: 1.1 130 of 135
 
 <!-- page 131 -->
 
-D 8 [DC ONLY] Trackdrive
 D 7.9.5 [EV ONLY] The Endurance energy is calculated as the time integrated value of the mea-
 sured voltage multiplied by the measured current logged by the data logger, see EV 4.6.
 Regenerated energy is multiplied by 0.9 and subtracted from the used energy.
@@ -5044,14 +4794,12 @@ enter the finish-state described in T 14.8.
 D 8.3.4 There will be no last lap signal i.e. the vehicle should count laps itself.
 D 8.3.5 Each lap of Trackdrive is individually timed. The corrected elapsed time is determined by
 adding any penalty times.
-D 9 D YNAMIC DISCIPLINES SCORING
+D 9 DYNAMIC DISCIPLINES SCORING
 D 9.1 Default Scoring
 D 9.1.1 Points are given based on the following formula:
-Formula Student Rules 2026 Version: 1.1 131 of 135
 
 <!-- page 132 -->
 
-D 9 Dynamic Disciplines Scoring
 SCORE = (Pmax− Pmin)
  Tmax− Tteam
 Tmax− Tmin
@@ -5070,12 +4818,12 @@ Autocross 1.4 Tmin 0.1 Pmax
 Endurance 1.5 Tmin 0.1 Pmax
 [DC ONLY] Skidpad 1.7 Tmin 0.05 Pmax
 [DC ONLY] Acceleration 2.25 Tmin 0.05 Pmax
-Table 11: T max and Pmin for each dynamic discipline
-D 9.2 [A UTONOMOUS MODE ONLY ] Scoring for Skidpad and Acceleration
+Table 11: Tmax and Pmin for each dynamic discipline
+D 9.2 [AUTONOMOUS MODE ONLY] Scoring for Skidpad and Acceleration
 D 9.2.1 Runs with a run time without penalties >25 s will be disqualified.
 D 9.2.2 Points are given based on the following formula:
 DV_SCORE = Pmax
-Nall + 1− RDV ,team
+Nall + 1− RDV,team
 Nall
 with
 Pmax is the maximum points for the discipline according to table 3
@@ -5086,17 +4834,15 @@ run
 D 9.3 [DC ONLY] Driverless Cup Scoring
 D 9.3.1 Points for Skidpad and Acceleration are given according to D 9.1.1.
 D 9.3.2 Points for Autocross are given based on the following formula:
-A UT OCROSS_SCORE = 0.9 Pmax
+AUTOCROSS_SCORE = 0.9 Pmax
  Tmax− Tteam,total
 Tmax− Tmin
 
 + 0.1 Pmax
 Tteam,total = min(Tteam,1, avg (Tteam,1, Tteam,2))
-Formula Student Rules 2026 Version: 1.1 132 of 135
 
 <!-- page 133 -->
 
-D 10 Dynamic Disciplines Penalties
 Pmax is the maximum points for the discipline according to table 3.
 Tteam,1 is the team’s autonomous mode time including penalties of run 1.
 Tteam,2 is the team’s autonomous mode time including penalties of run 2.
@@ -5104,8 +4850,8 @@ Tmax is the time for driving the lap with 6 m/s.
 Tmin is the fastest autonomous mode Tteam,total of all teams.
 For runs that are DNF or DQ or for runs with a Tteam,i above Tmax, Tteam,i is set to Tmax.
 D 9.3.3 Points for Trackdrive are given based on the following formula:
-T RACKDRIV E_SCORE = 0.75 Pmax
- T max
+TRACKDRIVE_SCORE = 0.75 Pmax
+ Tmax
 T team
 − 1
 
@@ -5116,7 +4862,7 @@ D 9.3.4 In deviation of D 1.1.9, an additional 2.5 % of the maximum points for t
 ing to table 3 are given for every completed lap.
 D 9.4 Efficiency Scoring
 D 9.4.1 Points for Efficiency are given based on the following formula:
-EFFICIENCY _SCORE = Pmax
+EFFICIENCY_SCORE = Pmax
  EFmax− EFteam
 EFmax− EFmin
 2
@@ -5130,17 +4876,15 @@ EF = T 2· E
 with
 T uncorrected elapsed driving time
 E [CV ONLY] corrected used fuel mass / [EV ONLY] used energy
-D 10 D YNAMIC DISCIPLINES PENALTIES
+D 10 DYNAMIC DISCIPLINES PENALTIES
 D 10.1 General Penalties
 D 10.1.1 Penalties will not be assessed for accident avoidance or other reasons deemed sufficient by
 the officials.
 D 10.1.2 A cone is Down or Out (DOO) if the cone has been knocked over or the entire base of the
 cone lies outside the box marked around the cone in its undisturbed position.
-Formula Student Rules 2026 Version: 1.1 133 of 135
 
 <!-- page 134 -->
 
-D 10 Dynamic Disciplines Penalties
 D 10.1.3 Cones that are DOO are not replaced/reset during autonomous running. There will be no
 re-run due to cones in the driving path or disorientation due to missing cones.
 D 10.1.4 The DOO penalty, see D 10.1.7, is added for each DOO including entry and exit gate cones
@@ -5157,13 +4901,13 @@ D 10.1.6 An Unsafe Stop (USS) is defined as not stopping within the specified ar
 maintaining the expected orientation while stopping and/or not entering the finish-state
 described in T 14.8 within 30 s after stopping during autonomous running.
 D 10.1.7 Acceleration Skidpad Autocross Endurance Trackdrive
-DOO 2 s 0 .2 s 2 s 2 s 2 s
+DOO 2 s 0.2 s 2 s 2 s 2 s
 OC DQ DQ 10 s 10 s 10 s
 USS DQ DQ DQ n/a −50 points
 D 10.1.8 Failure to obey a flag: 1 min time penalty.
-D 10.1.9 Reckless or aggressive driving or “Over Driving”: B LACK FLAG, see D 2.1.2.
+D 10.1.9 Reckless or aggressive driving or “Over Driving”: BLACK FLAG, see D 2.1.2.
 D 10.1.10 Vehicle to vehicle contact: 2 min up to DQ depending on the nature of the incident.
-D 10.1.11 If a vehicle is not able to start the run, within30 s after receiving a GREEN FLAG or go-signal,
+D 10.1.11 If a vehicle is not able to start the run, within 30 s after receiving a GREEN FLAG or go-signal,
 the vehicle is DQ for that run.
 D 10.2 Endurance Penalties
 D 10.2.1 Teams that are running out-of-order as defined in the Event Handbook, are penalized by
@@ -5179,11 +4923,9 @@ A vehicle is considered to be too slow if the average speed, based on lap times,
 consecutive laps is below 8 m/s in dry conditions or below 5 m/s in wet or damp conditions.
 D 10.2.5 Any violation to the procedure of driver change, see D 7.5.3, will lead to a time penalty of up
 to 2 min.
-Formula Student Rules 2026 Version: 1.1 134 of 135
 
 <!-- page 135 -->
 
-D 10 Dynamic Disciplines Penalties
 D 10.2.6 All rules and penalties from IN 12 are also applicable during driver change.
 D 10.3 [CV ONLY] Efficiency Penalties
 D 10.3.1 Should the fuel level change after refueling due to effects such as described in CV 2.7.1, the
@@ -5198,4 +4940,3 @@ discipline. If a violation occurred during two runs, the two fastest valid runs 
 disqualified etc. .
 D 10.4.3 The respective data and the resulting decision of violations may be made public.
 D 10.4.4 Non-availability of data logger data will be treated as a violation.
-Formula Student Rules 2026 Version: 1.1 135 of 135
