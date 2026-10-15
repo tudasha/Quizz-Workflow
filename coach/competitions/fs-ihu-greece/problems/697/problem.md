@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 74, "year": 2024, "class": "ev", "position": 13}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["other"]
 options: ["Österreichring", "RedBull Ring", "Sachsenring", "Mantrop Park"]
 answer: "Österreichring"
 unit: null

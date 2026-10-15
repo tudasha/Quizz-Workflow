@@ -6,7 +6,7 @@ rules_year: 2022
 quizzes: [{"quiz_id": 43, "year": 2022, "class": "ev", "position": 5}, {"quiz_id": 44, "year": 2022, "class": "cv", "position": 5}]
 type: "single-choice"
 time_s: 60
-topic: []
+topic: ["rules"]
 options: ["5 bar", "more then 10 bar", "8 bar", "10 bar"]
 answer: "more then 10 bar"
 unit: null

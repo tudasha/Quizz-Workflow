@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 110, "year": 2026, "class": "ev", "position": 4}, {"quiz_id": 111, "year": 2026, "class": "cv", "position": 4}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["other"]
 options: ["Savory cabbage pie", "Sweet cream tart", "Smoked meat loaf", "Dumpling soup"]
 answer: "Sweet cream tart"
 unit: null

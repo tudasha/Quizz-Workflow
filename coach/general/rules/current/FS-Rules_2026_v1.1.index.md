@@ -1,0 +1,350 @@
+# Index: FS-Rules_2026_v1.1
+
+Headings of FS-Rules_2026_v1.1.md with their PDF page, from the PDF's bookmarks. Search the .md for the number or title to read the rule.
+
+- Contents, p. 1
+- Changelog, p. 3
+- Abbreviations, p. 7
+- A Administrative Regulations, p. 9
+  - A 1 Competition Overview, p. 9
+    - A 1.1 Competition Objective, p. 9
+    - A 1.2 Competition Procedure, p. 9
+    - A 1.3 Competition Information, p. 9
+  - A 2 Vehicle Eligibility, p. 10
+    - A 2.1 Student Competition, p. 10
+    - A 2.2 First Year Vehicles, p. 10
+  - A 3 Rules of Conduct, p. 11
+    - A 3.1 General Officials Authority, p. 11
+    - A 3.2 Official Instructions, p. 11
+    - A 3.3 Arguments with Officials, p. 11
+    - A 3.4 Unsportsmanlike Conduct, p. 11
+    - A 3.5 Violations of Intent, p. 11
+    - A 3.6 Questions about the Rules, p. 11
+    - A 3.7 Protests, p. 12
+    - A 3.8 Penalties, p. 12
+  - A 4 General Requirements for Teams & Participants, p. 12
+    - A 4.1 Teams per University, p. 12
+    - A 4.2 Team Members and Participants, p. 12
+    - A 4.3 [EV only] Electrical System Officer (ESO), p. 13
+    - A 4.4 Autonomous System Responsible (ASR), p. 13
+  - A 5 Documentation & Deadlines, p. 14
+    - A 5.1 Required Documents and Forms, p. 14
+    - A 5.2 Submission, p. 14
+    - A 5.3 Correction Requests, p. 14
+    - A 5.4 Late Submission or Non-Submission, p. 14
+    - A 5.5 De-registration, p. 15
+    - A 5.6 Vehicle Status Video (VSV), p. 15
+    - SES Approval (SESA), p. 16
+  - A 6 General Rules, p. 16
+    - A 6.1 Removing the Vehicle from the Site, p. 16
+    - A 6.2 Forfeit for Non-Appearance, p. 17
+    - A 6.3 Testing and Work Safety, p. 17
+    - A 6.4 Onsite Working Safety, p. 17
+    - A 6.5 Prohibited Substances, p. 18
+    - A 6.6 Vehicle Movement, p. 18
+    - A 6.7 [CV only] Engine Running, p. 18
+    - A 6.8 [CV only] Fueling, p. 19
+    - A 6.9 [EV only] Working on the Vehicle, p. 19
+    - A 6.10 [EV only] Working on the Tractive System, p. 19
+    - A 6.11 [EV only] Working on Tractive System Accumulators, p. 20
+    - A 6.12 [EV only] Charging, p. 21
+- General Technical Requirements, p. 22
+  - T 1 Definitions, p. 22
+    - T 1.1 Chassis Definitions, p. 22
+    - T 1.2 Material Definitions, p. 24
+    - T 1.3 Electrical Definitions, p. 24
+    - T 1.4 Driving Mode Definitions, p. 24
+  - T 2 General Design Requirements, p. 25
+    - T 2.1 Vehicle Configuration, p. 25
+    - T 2.2 Ground Clearance, p. 25
+    - T 2.3 Bodywork, p. 26
+    - T 2.4 Minimum Edge Radii of Bodywork and Aerodynamic Devices, p. 26
+    - T 2.5 Suspension, p. 26
+    - T 2.6 Wheels, p. 26
+    - T 2.7 Tires, p. 27
+    - T 2.8 Steering System, p. 27
+    - T 2.9 Wheelbase, Track and Rollover Stability, p. 28
+  - T 3 General Chassis Design, p. 28
+    - T 3.1 General Requirements, p. 28
+    - T 3.2 Minimum Material Requirements, p. 28
+    - T 3.3 Critical Component Mounting, p. 29
+    - T 3.4 Alternative Materials, p. 29
+    - T 3.5 Composite Structures, p. 30
+    - T 3.6 Laminate Testing, p. 31
+    - T 3.7 Structural Documentation, p. 32
+    - T 3.8 Roll Hoops, p. 33
+    - T 3.9 Main Hoop, p. 33
+    - T 3.10 Front Hoop, p. 33
+    - T 3.11 Main Hoop Bracing, p. 34
+    - T 3.12 Front Hoop Bracing, p. 34
+    - T 3.13 Front Bulkhead, p. 35
+    - T 3.14 Front Bulkhead Support, p. 35
+    - T 3.15 Impact Structures, p. 36
+    - T 3.16 Bolted Primary Structure Attachments, p. 37
+    - T 3.17 Impact Attenuator (IA), p. 38
+    - T 3.18 Impact Attenuator Data Requirement, p. 39
+    - T 3.19 Impact Attenuator Test Requirements, p. 40
+    - T 3.20 Non-Crushable Objects, p. 41
+  - T 4 Cockpit, p. 41
+    - T 4.1 Cockpit Opening, p. 41
+    - T 4.2 Cockpit Internal Cross Section, p. 41
+    - Percy (95th percentile male), p. 41
+    - T 4.4 Side Tubes, p. 43
+    - Driver's Harness Attachment, p. 43
+    - Driver's Seat, p. 44
+    - T 4.7 Floor Closeout, p. 44
+    - T 4.8 Firewall, p. 44
+    - T 4.9 Accessibility of Controls, p. 45
+    - T 4.10 Driver Visibility, p. 45
+    - T 4.11 Driver Egress, p. 46
+  - T 5 Driver Restraint System, p. 46
+    - T 5.1 Definitions, p. 46
+    - T 5.2 Belts - General, p. 46
+    - T 5.3 Belt, Strap and Harness Installation - General, p. 47
+    - Lap Belt Mounting, p. 47
+    - T 5.5 Shoulder Harness, p. 47
+    - T 5.6 Anti-Submarine Belt Mounting, p. 48
+    - T 5.7 Head Restraint, p. 48
+    - T 5.8 Roll Bar Padding, p. 49
+    - Driver's Leg Protection, p. 49
+  - T 6 Brake System, p. 49
+    - T 6.1 Brake System - General, p. 49
+    - T 6.2 Brake Over-Travel Switch (BOTS), p. 50
+    - T 6.3 Brake Light, p. 50
+  - T 7 Powertrain, p. 51
+    - T 7.1 Transmission and Drive, p. 51
+    - T 7.2 Coolant Fluid and System Sealing, p. 51
+    - T 7.3 Drive Train Shields and Guards, p. 51
+  - T 8 Aerodynamic Devices, p. 52
+    - T 8.1 Definition Aerodynamic Device, p. 52
+    - T 8.2 Restrictions for Aerodynamic Devices, p. 52
+    - T 8.3 Aerodynamic Devices Stability and Strength, p. 53
+  - T 9 Compressed Gas Systems and High Pressure Hydraulic Systems, p. 53
+    - T 9.1 Definitions, p. 53
+    - T 9.2 General requirements, p. 54
+    - T 9.3 Compressed Gas Systems, p. 54
+    - T 9.4 High Pressure Hydraulic Systems, p. 54
+  - T 10 Fasteners, p. 54
+    - T 10.1 Critical Fasteners, p. 54
+    - T 10.2 Securing Fasteners, p. 55
+  - T 11 Electrical Components, p. 56
+    - Low Voltage System (LVS), p. 56
+    - T 11.2 Master Switches, p. 56
+    - Low Voltage Master Switch (LVMS), p. 57
+    - T 11.4 Shutdown Buttons, p. 57
+    - T 11.5 Inertia Switch, p. 57
+    - T 11.6 Brake System Plausibility Device (BSPD), p. 58
+    - Low Voltage Batteries, p. 58
+    - T 11.8 Accelerator Pedal Position Sensor (APPS), p. 59
+    - T 11.9 System Critical Signal (SCS), p. 60
+    - T 11.10 System status light, p. 61
+    - T 11.11 Fans and Turbines, p. 61
+    - T 11.12 Sensors, Cameras & Electrical Components Mounting, p. 61
+    - T 11.13 Legal & Work Safety, p. 61
+  - T 12 Vehicle Identification, p. 62
+    - T 12.1 Vehicle Number, p. 62
+    - T 12.2 Hybrid Vehicle Identification, p. 62
+    - T 12.3 University Name, p. 62
+    - T 12.4 Timing Equipment, p. 63
+  - T 13 Vehicle and Driver Equipment, p. 63
+    - T 13.1 Push Bar, p. 63
+    - T 13.2 Jacks, p. 63
+    - T 13.3 Driver Equipment, p. 63
+    - T 13.4 Fire Extinguishers, p. 65
+  - T 14 Autonomous System (AS), p. 65
+    - T 14.1 Definitions, p. 65
+    - T 14.2 Data Logger, p. 66
+    - T 14.3 Remote Emergency System (RES), p. 66
+    - T 14.4 Shutdown Circuit, p. 66
+    - T 14.5 Autonomous System Master Switch (ASMS), p. 67
+    - T 14.6 Steering Actuation, p. 67
+    - T 14.7 Actuator Decoupling and Sensor Repositioning, p. 67
+    - T 14.8 Autonomous System Status Definitions, p. 68
+    - Autonomous System Status Indicators (ASSI), p. 68
+    - T 14.10 Autonomous Missions, p. 69
+    - T 14.11 Autonomous System Form (ASF), p. 69
+  - T 15 Autonomous System Brake (ASB), p. 70
+    - T 15.1 Technical Requirements, p. 70
+    - T 15.2 Emergency Brake System (EBS), p. 70
+    - T 15.3 Functional Safety, p. 71
+    - T 15.4 Emergency Brake System Performance, p. 71
+- Internal Combustion Engine Vehicles, p. 72
+  - CV 1 Internal Combustion Engine Powertrains, p. 72
+    - CV 1.1 Engine Limitation, p. 72
+    - CV 1.2 Starter, p. 72
+    - Air Intake System, p. 72
+    - CV 1.4 Throttle, p. 73
+    - CV 1.5 Mechanical Throttle Actuation, p. 73
+    - CV 1.6 Electronic Throttle Control (ETC), p. 73
+    - CV 1.7 Intake System Restrictor, p. 74
+    - CV 1.8 Turbochargers and Superchargers, p. 75
+    - CV 1.9 Crankcase / Engine Lubrication Venting, p. 75
+  - CV 2 Fuel and Fuel System, p. 75
+    - CV 2.1 Fuel, p. 75
+    - CV 2.2 Fuel System Location Requirements, p. 76
+    - CV 2.3 Fuel Tank, p. 76
+    - CV 2.4 Fuel Lines for Low Pressure Systems, p. 76
+    - CV 2.5 Fuel Injection System Requirements, p. 77
+    - CV 2.6 Fuel Tank Filler Neck and Sight Tube, p. 78
+    - CV 2.7 Tank Filling Requirement, p. 78
+    - CV 2.8 Venting Systems, p. 79
+  - CV 3 Exhaust System and Noise Control, p. 79
+    - CV 3.1 Exhaust System General, p. 79
+    - CV 3.2 Maximum Sound Level, p. 79
+  - CV 4 Shutdown System, p. 79
+    - CV 4.1 Shutdown Circuit, p. 79
+  - CV 5 Hybrid System, p. 80
+    - CV 5.1 Hybrid System General, p. 80
+    - CV 5.2 Hybrid Storage Container, p. 81
+    - CV 5.3 Hybrid System Form (HSF), p. 81
+- EV Electric Vehicles, p. 82
+  - EV 1 Definitions, p. 82
+    - EV 1.1 Tractive System, p. 82
+    - EV 1.2 Electrical, p. 82
+  - EV 2 Electric Powertrain, p. 82
+    - EV 2.1 Motors, p. 82
+    - EV 2.2 Power Limitation, p. 82
+  - EV 3 General Requirements, p. 83
+    - EV 3.1 Grounding, p. 83
+    - EV 3.2 Overcurrent Protection, p. 83
+  - EV 4 Tractive System, p. 84
+    - EV 4.1 General Requirements, p. 84
+    - EV 4.2 Tractive System Enclosures, p. 84
+    - EV 4.3 Separation of Traction System and Grounded Low Voltage System, p. 84
+    - EV 4.4 Positioning of Tractive System Parts, p. 85
+    - EV 4.5 Tractive System Insulation, Wiring, and Conduit, p. 85
+    - EV 4.6 Data Logger, p. 86
+    - EV 4.7 Tractive System Measuring Point (TSMP), p. 87
+    - EV 4.8 High Voltage Disconnect (HVD), p. 87
+    - EV 4.9 Discharge Circuit, p. 88
+    - EV 4.10 Tractive System Active Light (TSAL), p. 88
+    - EV 4.11 Activating the Tractive System, p. 89
+    - EV 4.12 Ready-To-Drive Sound, p. 90
+  - EV 5 Tractive System Energy Storage, p. 90
+    - EV 5.1 Definitions, p. 90
+    - EV 5.2 Allowed Tractive System Cells, p. 90
+    - EV 5.3 Tractive System Energy Storage – General Requirements, p. 91
+    - EV 5.4 Tractive System Energy Storage – Electrical Configuration, p. 91
+    - EV 5.5 Tractive System Energy Storage – Mechanical Configuration, p. 92
+    - Accumulator Isolation Relays (AIR), p. 94
+    - EV 5.7 Pre-Charge Circuit, p. 94
+    - EV 5.8 Accumulator Management System (AMS), p. 94
+  - EV 6 Shutdown Circuit and Systems, p. 96
+    - EV 6.1 Shutdown Circuit (SDC), p. 96
+    - EV 6.2 Tractive System Master Switch (TSMS), p. 97
+    - EV 6.3 Insulation Monitoring Device (IMD), p. 97
+  - EV 7 Chargers, p. 98
+    - EV 7.1 Chargers General Requirements, p. 98
+    - EV 7.2 Charging Shutdown Circuit, p. 98
+  - EV 8 Tractive System Accumulator Container Hand Cart, p. 99
+    - EV 8 Tractive System Accumulator Container Hand Cart, p. 99
+  - EV 9 Electrical System Form (ESF), p. 99
+    - EV 9.1 Electrical System Form, p. 99
+- IN Technical Inspections, p. 100
+  - IN 1 General, p. 100
+    - IN 1.1 Technical Inspection Process, p. 100
+    - IN 1.2 General Rules, p. 100
+    - IN 1.3 Technical Inspection Sticker, p. 101
+    - IN 1.4 Inspection Responsible Person, p. 101
+    - IN 1.5 Modifications and Repairs, p. 102
+  - IN 2 Pre-Inspection, p. 102
+    - IN 2.1 Pre-Inspection Required Items, p. 102
+  - IN 3 [EV only] Accumulator Inspection, p. 103
+    - IN 3.1 Accumulator Inspection General Definitions, p. 103
+    - IN 3.2 Accumulator Inspection Required Items, p. 103
+  - IN 4 [EV only] Electrical Inspection, p. 104
+    - IN 4.1 Electrical Inspection General Definitions, p. 104
+    - IN 4.2 Electrical Inspection Required Items, p. 104
+  - IN 5 Mechanical Inspection, p. 105
+    - IN 5.1 Mechanical Inspection Required Items, p. 105
+  - IN 6 Autonomous System Inspection, p. 105
+    - IN 6.1 Autonomous System Inspection Required Items, p. 105
+  - IN 7 Tilt Test, p. 106
+    - IN 7.1 Tilt Test Procedure, p. 106
+  - IN 8 Vehicle Weighing, p. 106
+    - IN 8.1 Vehicle Weighing Procedure, p. 106
+  - IN 9 [EV only] Rain Test, p. 106
+    - IN 9.1 Rain Test General Definitions, p. 106
+    - IN 9.2 Rain Test Procedure, p. 106
+  - IN 10 [CV only] Noise Test, p. 107
+    - IN 10.1 Noise Test Procedure, p. 107
+  - IN 11 Brake Test, p. 107
+    - IN 11.1 Brake Test Procedure, p. 107
+    - EBS Test, p. 108
+  - IN 12 Post Inspection, p. 108
+    - IN 12.1 Post Inspection Procedure, p. 108
+- S Static Disciplines, p. 110
+  - S 1 General Rules, p. 110
+    - S 1.1 Vehicle Condition, p. 110
+  - S 2 Business Plan Presentation (BPP), p. 110
+    - S 2.1 Business Plan Presentation Objective, p. 110
+    - S 2.2 Business Plan Presentation Procedure, p. 111
+    - S 2.3 Executive & Financial Summary, p. 111
+    - S 2.4 Business Plan Presentation Scoring, p. 111
+  - S 3 Cost and Manufacturing, p. 112
+    - S 3.1 Cost and Manufacturing Objective, p. 112
+    - S 3.2 Cost and Manufacturing Procedure, p. 113
+    - S 3.3 Cost Report Documents (CRD), p. 113
+    - S 3.4 Bill of Material (BOM), p. 114
+    - S 3.5 Costed Carbonized Bill of Material (CCBOM), p. 115
+    - S 3.6 Supporting Material File, p. 116
+    - S 3.7 Cost and Emissions Explanation File, p. 116
+    - S 3.8 Cost and Manufacturing Scoring, p. 116
+  - S 4 Engineering Design, p. 117
+    - S 4.1 Engineering Design Objective, p. 117
+    - S 4.2 Technical Vehicle System Documentation (TVSD), p. 117
+    - S 4.3 Engineering Design Procedure, p. 117
+    - S 4.4 Engineering Design Judging Criteria, p. 118
+    - S 4.5 Engineering Design Scoring, p. 118
+- D Dynamic Disciplines, p. 120
+  - D 1 Dynamic Disciplines General, p. 120
+    - D 1.1 Definitions, p. 120
+    - D 1.2 Driver Limitations, p. 120
+    - D 1.3 Number of Runs in the Dynamic Disciplines, p. 121
+    - D 1.4 Dynamic Area and Dynamic Vests, p. 121
+    - D 1.5 Track Walks, p. 121
+  - D 2 Driving Rules, p. 121
+    - D 2.1 Flags, p. 121
+    - D 2.2 Teleoperated Driving, p. 122
+    - D 2.3 Driving Under Power, p. 122
+    - D 2.4 Cones & Markings for Autonomous Running, p. 123
+    - D 2.5 Start-up Procedure for Autonomous Running, p. 123
+    - D 2.6 Vehicle Break Downs and Usage of RES during Autonomous Running, p. 123
+    - D 2.7 Procedure After Completing a Driverless (DV) Dynamic Discipline, p. 123
+    - D 2.8 Handling of Re-Runs, p. 123
+  - D 3 Weather Conditions, p. 124
+    - D 3.1 Operating Conditions, p. 124
+    - D 3.2 Tires Allowed, p. 124
+  - D 4 Skidpad, p. 125
+    - D 4.1 Skidpad Track Layout, p. 125
+    - D 4.2 Skidpad Procedure, p. 125
+  - D 5 Acceleration, p. 126
+    - D 5.1 Acceleration Track Layout, p. 126
+    - D 5.2 Acceleration Procedure, p. 126
+  - D 6 Autocross, p. 126
+    - D 6.1 Autocross Track Layout, p. 126
+    - D 6.2 Autocross Procedure, p. 127
+  - D 7 Endurance and Efficiency, p. 127
+    - D 7.1 Endurance Track Layout, p. 127
+    - D 7.2 Endurance Procedure, p. 127
+    - D 7.3 Endurance Running Order, p. 128
+    - D 7.4 Passing, p. 128
+    - D 7.5 Endurance Driver Change Procedure, p. 128
+    - D 7.6 Endurance Tire Changes, p. 129
+    - D 7.7 Endurance Specific Regulations, p. 129
+    - D 7.8 Endurance Restart Procedure After Red Flag, p. 130
+    - D 7.9 Efficiency Procedure, p. 130
+  - D 8 [DC only] Trackdrive, p. 131
+    - D 8.1 Trackdrive Tracklayout, p. 131
+    - D 8.2 Trackdrive Running Order, p. 131
+    - D 8.3 Trackdrive Procedure, p. 131
+  - D 9 Dynamic Disciplines Scoring, p. 131
+    - D 9.1 Default Scoring, p. 131
+    - D 9.2 [Autonomous Mode only] Scoring for Skidpad and Acceleration, p. 132
+    - D 9.3 [DC only] Driverless Cup Scoring, p. 132
+    - D 9.4 Efficiency Scoring, p. 133
+  - D 10 Dynamic Disciplines Penalties, p. 133
+    - D 10.1 General Penalties, p. 133
+    - D 10.2 Endurance Penalties, p. 134
+    - D 10.3 [CV only] Efficiency Penalties, p. 135
+    - D 10.4 [EV only] Power and Voltage Violation Penalties, p. 135

@@ -5,7 +5,8 @@ Usage (from coach/general/tools): python build_zip.py --out DIR [--version LABEL
 The zip holds what agents need and nothing else: AGENTS.md, LOG.md, general/ and every
 competition folder, with only the current-year rules and handbooks. Import tools and
 older rule years stay in the repo. When the zip is bigger than the config limit, one
-zip per competition is built too, for agents with a small upload limit (A5.4).
+zip per competition is built too, for agents with a small upload limit (A5.4). Web chats
+that can't open a zip get Markdown files per competition next to it (chat_files.py, A5.5).
 """
 
 import argparse
@@ -16,9 +17,12 @@ import zipfile
 from datetime import datetime, timezone
 from pathlib import Path
 
+import chat_files
+
 TOOLS_DIR = Path(__file__).resolve().parent
 ZIP_ROOT = "fs-quiz-coach"
 ZIP_NAME = ZIP_ROOT + ".zip"
+RELEASE_NOTES = "release-notes.txt"
 
 SKIPPED_DIR_NAMES = {"__pycache__", ".pytest_cache", ".cache", ".git", ".venv"}
 SKIPPED_SUFFIXES = (".pyc", ".part")
@@ -90,8 +94,18 @@ def write_zip(coach_dir, zip_path, files, version):
     return zip_path.stat().st_size
 
 
+def release_notes(version, year):
+    names = chat_files.file_names("<event>", year)
+    return version + "\n".join([
+        "",
+        "Agents with files and a terminal (Claude Code, Codex, Gemini CLI, Claude Projects): " + ZIP_NAME + ".",
+        "Web chats that can't open a zip: upload " + names["chat"] + ", " + names["rules"] + " and " + names["handbook"]
+        + "; add " + names["problems"] + " if the chat's limit allows.",
+    ]) + "\n"
+
+
 def build(coach_dir, out_dir, version_label, config, built_at=None):
-    """Build the zip(s). Returns {zip file name: size in bytes}."""
+    """Build the zip(s) and the chat files. Returns {file name: size in bytes}."""
     built_at = built_at or datetime.now(timezone.utc)
     out_dir = Path(out_dir)
     version = version_text(coach_dir, version_label, config["current_year"], built_at)
@@ -102,6 +116,9 @@ def build(coach_dir, out_dir, version_label, config, built_at=None):
             zip_name = ZIP_ROOT + "-" + competition + ".zip"
             files = shipped_files(coach_dir, competition)
             sizes[zip_name] = write_zip(coach_dir, out_dir / zip_name, files, version)
+    year = config["current_year"]
+    sizes.update(chat_files.write_chat_files(coach_dir, out_dir, competitions(coach_dir), year, version_label))
+    (out_dir / RELEASE_NOTES).write_text(release_notes(version, year), encoding="utf-8")
     return sizes
 
 
@@ -114,8 +131,8 @@ def main(argv=None):
     args = parser.parse_args(argv)
 
     config = json.loads(args.config.read_text(encoding="utf-8"))
-    for zip_name, size in build(args.coach_dir, args.out, args.version, config).items():
-        print(zip_name + ": " + format(size / 1024 / 1024, ".1f") + " MB")
+    for file_name, size in build(args.coach_dir, args.out, args.version, config).items():
+        print(file_name + ": " + (format(size / 1024 / 1024, ".1f") + " MB" if size >= 1024 * 1024 else str(round(size / 1024)) + " KB"))
     return 0
 
 

@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 108, "year": 2026, "class": "ev", "position": 3}, {"quiz_id": 109, "year": 2026, "class": "cv", "position": 3}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["electronics"]
 options: ["4 / 21.64 Hz", "16 / 8.37 Hz", "16 / 122.34 Hz", "4 / 10 Hz"]
 answer: null
 unit: null

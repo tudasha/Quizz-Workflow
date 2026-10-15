@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 69, "year": 2024, "class": "ev", "position": 12}, {"quiz_id": 89, "year": 2024, "class": "cv", "position": 12}]
 type: "single-choice"
 time_s: 180
-topic: []
+topic: ["rules"]
 options: ["Act as a stand-in if one of your regular drivers falls ill", "Participate in the award ceremony at the campsite", "Be connected virtually during the Business Plan Presentation in order to answer the judge's questions, given that this person has been introduced to the judges", "Answer the Scrutineer's questions during the time slot for Tech Inspection", "Help out with repairs in the team's pit and help with final adjustments in the Practice Area"]
 answer: "Participate in the award ceremony at the campsite"
 unit: null

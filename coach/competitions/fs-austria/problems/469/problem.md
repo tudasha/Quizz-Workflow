@@ -6,7 +6,7 @@ rules_year: 2018
 quizzes: [{"quiz_id": 45, "year": 2018, "class": "ev", "position": 3}, {"quiz_id": 46, "year": 2018, "class": "cv", "position": 3}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["rules", "dynamic-events"]
 options: ["you will receive 44 points penalty", "no penalty because it is a violation without advantage for the team (only lower weight will result in a penalty)", "a 30 sec penalty on your endurance time because it is a violation without advantage for the team", "you will receive 60 points penalty"]
 answer: "you will receive 60 points penalty"
 unit: null

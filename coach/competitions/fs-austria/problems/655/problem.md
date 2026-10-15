@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 63, "year": 2023, "class": "ev", "position": 9}, {"quiz_id": 64, "year": 2023, "class": "cv", "position": 9}]
 type: "single-choice"
 time_s: 240
-topic: []
+topic: ["rules", "mechanics"]
 options: ["75mm", "82mm", "90mm", "63mm"]
 answer: "75mm"
 unit: null

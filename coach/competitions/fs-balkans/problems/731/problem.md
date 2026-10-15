@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 77, "year": 2024, "class": "ev", "position": 7}, {"quiz_id": 78, "year": 2024, "class": "cv", "position": 7}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["mechanics"]
 options: ["appearance of a characteristic metallic noise", "increased indicated power of the engine", "reduced engine durability", "reduced engine durability"]
 answer: "increased indicated power of the engine"
 unit: null

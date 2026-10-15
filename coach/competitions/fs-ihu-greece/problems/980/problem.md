@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 108, "year": 2026, "class": "ev", "position": 8}, {"quiz_id": 109, "year": 2026, "class": "cv", "position": 8}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["rules"]
 options: ["Yes, any amount of flex is acceptable", "No, Safety wire must be less than 30 degrees from the centerline", "Yes, it is acceptable", "No, there must be no free-play at all"]
 answer: "Yes, it is acceptable"
 unit: null

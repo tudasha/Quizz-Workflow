@@ -6,7 +6,7 @@ rules_year: 2025
 quizzes: [{"quiz_id": 99, "year": 2025, "class": "ev", "position": 4}, {"quiz_id": 100, "year": 2025, "class": "cv", "position": 4}]
 type: "single-choice"
 time_s: 150
-topic: []
+topic: ["electronics"]
 options: ["600 W", "7200 W", "1800 W", "3600 W", "240 W"]
 answer: "1800 W"
 unit: null

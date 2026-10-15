@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 64, "year": 2023, "class": "cv", "position": 15}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["mechanics"]
 options: ["75HZ", "300HZ", "4500HZ", "150HZ"]
 answer: "150HZ"
 unit: null

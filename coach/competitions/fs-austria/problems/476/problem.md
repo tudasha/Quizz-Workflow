@@ -6,7 +6,7 @@ rules_year: 2018
 quizzes: [{"quiz_id": 45, "year": 2018, "class": "ev", "position": 10}, {"quiz_id": 46, "year": 2018, "class": "cv", "position": 10}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["rules", "dynamic-events"]
 options: ["You can share drivers, but they will have to run different events for the two teams", "You will need to register five drivers per team, as Endurance/Efficiency count as two towards the two-event limit", "You can just skip the secound driver runs on two dynamic events to make do with three registered drivers", "You could register on marketing guy/girl per team as additional driver"]
 answer: "You could register on marketing guy/girl per team as additional driver"
 unit: null

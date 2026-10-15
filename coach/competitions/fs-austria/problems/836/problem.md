@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 69, "year": 2024, "class": "ev", "position": 14}, {"quiz_id": 89, "year": 2024, "class": "cv", "position": 14}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["rules", "static-events"]
 options: ["To the team's specific prototype race car or a specific component", "To the team's specific prototype race car", "To an existing racing series", "To a specific component, not the overall race car"]
 answer: "To the team's specific prototype race car or a specific component"
 unit: null

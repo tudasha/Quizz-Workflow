@@ -1,6 +1,6 @@
 # Formula Student Germany — registration quiz
 
-Pattern from the FS Quiz history (2016, 2018, 2020–2026, 111 questions, 4 with a written solution) and the 2026 handbook (FSG26_Event_Handbook_v1.1.md, DE 3.1). Written by Claude on 2026-10-14; reviewed by: pending.
+Pattern from the FS Quiz history (2016, 2018, 2020–2026, 111 questions, 4 with a written solution) and the 2026 handbook (FSG26_Event_Handbook_v1.1.md, DE 3.1). Written by Claude on 2026-10-14 ("Differs from FS Rules" on 2026-10-15); reviewed by: pending.
 
 ## When something is new
 This file is the pattern of past quizzes and the 2026 handbook: a guide, not a rule.
@@ -8,6 +8,35 @@ This file is the pattern of past quizzes and the 2026 handbook: a guide, not a r
 - Live quiz: when a question is of a kind this file does not cover (new type, new topic, new answer format, a scoring or submission detail not listed here), say so, solve it from the question and the current rules and handbook, and re-check your answer once more before giving it. Then log a note (`log-use`, `problem_id: note`) naming this competition and what was new, so a maintainer updates this file.
 - Before a live quiz: check that `handbook/current/` is the newest handbook version and read the organiser's latest quiz announcement and FAQ. Where they differ from this file, they win; tell the member and log a note.
 - When the weekly import brings a new handbook or new quiz questions for this competition, re-check this file against them.
+
+## Differs from FS Rules 2026
+Where this competition's 2026 handbook changes FS Rules 2026. For these points the handbook wins; check here before applying an FS Rules rule.
+- **Points and formulas:** unchanged. The handbook runs the event under FS Rules 2026 and changes no discipline points or scoring formula, so FS Table 3 and D 9 apply as written [DE 1.3.1; FS A 1.2.5, D 9].
+- **"No Driverless" status:** a team that sets it (cannot be undone) may not run in autonomous mode and scores 0 in every autonomous-mode discipline (EV class: DV Skidpad and DV Acceleration, 75 points each), instead of FS Table 3 listing them for every EV team [DE 3.5.1; FS A 1.2.5].
+- **Endurance running order:** the next 5 cars must always queue; a car missing from it is out of order (2 min), allowed only at the end of its own session, never in or after the final one; a queue empty >5 min ends the session; FS leaves this to the handbook [DE 7.2.3–7.2.7; FS D 7.3.3, D 10.2.1].
+- **Trackdrive running order:** the next 3 cars must always queue; a car missing from it is out of order with a 30 s penalty, allowed only at the end of Trackdrive; a queue empty >5 min ends Trackdrive, where FS has no Trackdrive out-of-order penalty [DE 7.3.2–7.3.6; FS D 8.2.3, D 10.2.1].
+- **Session end (gong):** after the audio signal a run started before it may finish and re-runs are still granted, but no directly following second run, instead of FS's free option of a second run straight after the first [DE 7.1.2, DE 7.1.3; FS D 4.2.3, D 5.2.2, D 6.2.2].
+- **Data logger download:** download each discipline's DL data at a DLDS within 1 h after it closes; late (team's fault) or EMI-corrupted data is a D 10.4.4 violation (DQ of the fastest valid run), where FS only says missing data is one [DE 8.3.3–8.3.5; FS D 10.4.2, D 10.4.4].
+- **Track marking:** blue cones left, yellow right, small orange at entry/exit lanes, big orange at start, finish and timekeeping lines; max 5 m between cones unless chapter D says otherwise; no track limit lines for Acceleration and EBS Test; FS leaves this to the handbook [DE 7.5.1; FS D 2.4.1].
+- **Cones and landmarks:** WEMAS cones with "FSG" on the band: big orange 285 × 285 × 505 mm, 1.05 kg; small 228 × 228 × 325 mm, 0.45 kg. Officials give no landmarks or map data, and teams must not add landmarks [DE 7.5.3–7.5.5; FS D 2.4.1].
+- **Dynamic area:** trolleys, jacks and anything one member cannot carry by hand stay in the inspection and preparation areas, not in queues; during a run everyone but the ASR waits in a designated area, instead of FS's limit of what four members carry in one trip [DE 7.4.1, DE 7.4.2; FS D 1.4.5].
+- **Supporting Material File:** at most 20 pages of content plus a title page and a table of contents page, where FS sets no page limit [DE 6.1.1; FS S 3.6].
+- **Cost and Emissions Explanation File:** at most 20 pages of content, no more than 10 each for costs and for emissions, plus title, contents and an appendix of input values only (no calculations), where FS sets no page limit [DE 6.1.2; FS S 3.7].
+- **No Tilt Test:** there is no Tilt Test at FSG 2026 and cars may drive the dynamic disciplines without it, but must still be able to pass it at any time (random checks), instead of having to pass every TI part, Tilt Test included, before driving [DE 5.15.1; FS IN 1.2.1, IN 7].
+- **No CTMD:** no cell temperature monitoring device is installed at FSG 2026, so none is fitted at Accumulator Inspection or removed after Endurance, where FS lets the officials provide one that must be installed [DE 8.2.1; FS EV 5.8.9, IN 3.1.2, IN 12.1.10].
+- **Electrical Inspection tools:** besides the IN 3.2.2 basic tools, bring an isolation-test device (IN 4.1.1), a milliohmmeter (EV 3.1.3), a voltage supply for the TS without its accumulator (IN 4.2.1) and, if applicable, a current source for the BSPD test [DE 5.14.1; FS IN 3.2.2, IN 4.2.1].
+- **Accumulator delivery:** teams entering on Tuesday whose Accumulator Inspection is not that day must bring their accumulators to the charging area by 20:00; late costs 10 points per started 12 h, max 30, instead of FS's default of at least 20 points [DE 5.13.2, DE 5.13.3; FS A 3.8.1].
+- **Sound limit:** every noise source on the car max 110 dB(C) at any time, measured from 0.5 m at any time during the event, so it applies to EVs too, instead of FS's 110 dB(C) limit for CV engines only (Noise Test is CV only) [DE 8.5; FS CV 3.2.1, IN 10].
+- **RES:** must be the Gross-Funk GF2000i-codec/T53R98, latest 2022 revision with E-Key; its NO relay (max 4 A) is in the SDC; Node-ID 0x011; Race E-Key enabled by a flip switch marked "R" near the AMI, where FS leaves the model to the handbook [DE 8.4; FS T 14.3.1].
+- **Data logger signals:** CAN 0x500 and 0x502 (always filled) and 0x501 (if sensors exist) every 100 ms; ASF signals in up to five messages 0x511–0x515 with a dbc file; little-endian, where FS leaves the basic signal set to the handbook [DE 8.3.8–8.3.13; FS T 14.2.2].
+- **TI sticker space:** keep a space 50 mm tall × 180 mm wide on the nose directly in front of the cockpit opening, where FS only says the stickers go on the nose [DE 8.1.1; FS IN 1.3.1].
+- **Charging area:** at most three members per team at a time, one of them an ESO, with no conductive jewellery or objects that could touch the accumulator, where FS sets no limit [DE 5.12.2, DE 5.12.3; FS A 6.12].
+- **Document deadlines:** all in DE 4.2.1 Table 1 (BPEFS, TVSD, CRD, VSV, ESF and others); a file must be received before the deadline, so 13:00:00.000 is already late for 13:00; max 50 MB per document [DE 4.2.1–4.2.3; FS A 5.1.1, A 5.4.1].
+- **No de-registration late in the season:** once the waiting list closes (2026-07-26 00:00 CEST), A 5.4.2 and A 5.3.4 are suspended, so late documents or incomplete corrections no longer de-register a team; A 5.4.1's 10 points are not suspended [DE 3.4.4; FS A 5.4.2, A 5.3.4].
+- **Protests:** e-mail a request for clarification first, then after an informal review a formal e-mail protest within 2 h with the 25-point bond; deadlines fall between 10:00 and 22:00, at least 2 h after results (Endurance may be shorter), else 24 h after the incident [DE 5.4; FS A 3.7.2].
+- **"No Driverless" documents:** no ASF, ASRQ or dbc file needed and no de-registration for missing them; open correction requests for them lapse, but penalties already incurred stay, instead of FS de-registering after 24 h [DE 3.5.2; FS A 5.4.2].
+- **Classes:** only the EV class plus the Driverless Cup; no CV or HY class, instead of FS's CV (incl. HY) and EV classes [DE 1.2.1; FS A 1.2.1].
+- **Driver registration:** at the egress tests; each driver shows a government driver's licence, national ID card and student ID, where FS asks only for the driver's licence [DE 5.9.1; FS A 4.2.10].
 
 ## Quiz format
 - The quiz is the team registration; there is no registration without it [DE 3.1.1].

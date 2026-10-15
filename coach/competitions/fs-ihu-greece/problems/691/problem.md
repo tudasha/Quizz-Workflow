@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 74, "year": 2024, "class": "ev", "position": 7}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["rules", "dynamic-events"]
 options: ["Yes", "No", "Not enough information"]
 answer: "Not enough information"
 unit: null

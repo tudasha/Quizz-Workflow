@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 77, "year": 2024, "class": "ev", "position": 2}, {"quiz_id": 78, "year": 2024, "class": "cv", "position": 2}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["rules", "static-events"]
 options: ["Fastener", "Part", "Assembly", "Sub-assembly"]
 answer: "Part"
 unit: null

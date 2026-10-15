@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 83, "year": 2024, "class": "ev", "position": 5}]
 type: "multi-choice"
 time_s: 300
-topic: []
+topic: ["electronics"]
 options: ["Yes, it satifies the static dicipline.", "No, because the V(OL) is not met for all valid inputs.", "No, because the V(OH) is not met for all valid inputs."]
 answer: "No, because the V(OH) is not met for all valid inputs."
 unit: null

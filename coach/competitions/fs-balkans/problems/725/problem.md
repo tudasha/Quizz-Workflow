@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 77, "year": 2024, "class": "ev", "position": 1}, {"quiz_id": 78, "year": 2024, "class": "cv", "position": 1}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["mechanics"]
 options: ["Gain 3.2kg – 44min39sec", "Gain 2.3kg – 41min41sec", "Loose 2.3kg – 45min47sec", "Gain 3.2kg – 32min32sec"]
 answer: "Gain 3.2kg – 44min39sec"
 unit: null

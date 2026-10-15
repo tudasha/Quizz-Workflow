@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 108, "year": 2026, "class": "ev", "position": 15}, {"quiz_id": 109, "year": 2026, "class": "cv", "position": 15}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["mechanics"]
 options: ["σmax=181 MPa | K=3.667 N/mm", "σmax=361 MPa | K=3.667 N/mm", "σmax=181 N/mm | K=3.667 MPa", "None, because in the 3-point test you are measuring the force applied not the moment."]
 answer: "σmax=181 MPa | K=3.667 N/mm"
 unit: null

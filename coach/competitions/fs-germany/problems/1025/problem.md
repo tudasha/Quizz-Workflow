@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 116, "year": 2026, "class": "ev", "position": 3}]
 type: "multi-choice"
 time_s: 600
-topic: []
+topic: ["rules", "electronics"]
 options: ["IDEC XA1E-BV4U02-R", "RAFI 1.15.154.006/0301", "KISSLING ES-2011-T112", "None of these are compliant", "EAO 61-6461.4087", "OMRON A22NE-MP-PD020-N"]
 answer: ["IDEC XA1E-BV4U02-R", "KISSLING ES-2011-T112"]
 unit: null

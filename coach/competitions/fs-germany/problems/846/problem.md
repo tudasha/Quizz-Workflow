@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 83, "year": 2024, "class": "ev", "position": 6}]
 type: "multi-choice"
 time_s: 180
-topic: []
+topic: ["math"]
 options: ["The plant model is a linear system.", "The plant model is a nonlinear system.", "The plant model is a time variant system.", "The plant model is a time invariant system.", "The plant model is causal system.", "The plant model is an acausal system.", "The plant model is BIBO-stable system."]
 answer: ["The plant model is a nonlinear system.", "The plant model is a time invariant system.", "The plant model is causal system."]
 unit: null

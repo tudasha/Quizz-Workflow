@@ -6,7 +6,7 @@ rules_year: 2025
 quizzes: [{"quiz_id": 99, "year": 2025, "class": "ev", "position": 7}, {"quiz_id": 100, "year": 2025, "class": "cv", "position": 7}]
 type: "single-choice"
 time_s: 180
-topic: []
+topic: ["rules", "dynamic-events"]
 options: ["You start with dry tyres, if the condition stays damp: You can change to wet tyres during the driver change", "You start with wet tyres, if the condition changes to dry and you have a nail in a tyre thus damaging it, at same time: You have to replace the deflated tyre", "You start with wet tyres, if the condition stays damp: You can change to dry tyres during the driver change.", "You start with dry tyres, if the condition changes to dry during the drive: You can change to wet tyres during the driver change but the time to change the tyres will be added to total time."]
 answer: "You start with dry tyres, if the condition stays damp: You can change to wet tyres during the driver change"
 unit: null

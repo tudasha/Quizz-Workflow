@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 83, "year": 2024, "class": "ev", "position": 7}]
 type: "single-choice"
 time_s: 480
-topic: []
+topic: ["math"]
 options: ["A", "B", "C", "D", "E", "F", "G", "H"]
 answer: "A"
 unit: null

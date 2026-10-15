@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 110, "year": 2026, "class": "ev", "position": 3}, {"quiz_id": 111, "year": 2026, "class": "cv", "position": 3}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["mechanics"]
 options: ["128 GPa", "1.300 GPa", "4 GPa", "135 GPa"]
 answer: "135 GPa"
 unit: null

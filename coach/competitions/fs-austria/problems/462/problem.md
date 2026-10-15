@@ -6,7 +6,7 @@ rules_year: 2022
 quizzes: [{"quiz_id": 43, "year": 2022, "class": "ev", "position": 9}, {"quiz_id": 44, "year": 2022, "class": "cv", "position": 9}]
 type: "single-choice"
 time_s: 300
-topic: []
+topic: ["electronics"]
 options: ["Node A, because Data Byte 0 has the higher value", "Node B, because Data Byte o has the lower value", "Node B, because the DLC has the lower value", "neither, this will cause a collision on the bus"]
 answer: "neither, this will cause a collision on the bus"
 unit: null

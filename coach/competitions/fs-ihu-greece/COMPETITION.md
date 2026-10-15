@@ -1,6 +1,6 @@
 # Formula IHU (Formula Student IHU, Greece) — registration quiz
 
-Pattern from the FS Quiz history (2024 and 2026, 32 questions, 2 with a written solution) and the 2026 handbook (Formula_IHU_2026_Competition_Handbook_v1.0.md, Formula_IHU_2026_Grey_Areas_Clarification.md; Handbook sections 2.2–2.3). Written by Claude on 2026-10-14; reviewed by: pending.
+Pattern from the FS Quiz history (2024 and 2026, 32 questions, 2 with a written solution) and the 2026 handbook (Formula_IHU_2026_Competition_Handbook_v1.0.md, Formula_IHU_2026_Grey_Areas_Clarification.md; Handbook sections 2.2–2.3). Written by Claude on 2026-10-14 ("Differs from FS Rules" on 2026-10-15); reviewed by: pending.
 
 ## When something is new
 This file is the pattern of past quizzes and the 2026 handbook: a guide, not a rule.
@@ -8,6 +8,35 @@ This file is the pattern of past quizzes and the 2026 handbook: a guide, not a r
 - Live quiz: when a question is of a kind this file does not cover (new type, new topic, new answer format, a scoring or submission detail not listed here), say so, solve it from the question and the current rules and handbook, and re-check your answer once more before giving it. Then log a note (`log-use`, `problem_id: note`) naming this competition and what was new, so a maintainer updates this file.
 - Before a live quiz: check that `handbook/current/` is the newest handbook version and read the organiser's latest quiz announcement and FAQ. Where they differ from this file, they win; tell the member and log a note.
 - When the weekly import brings a new handbook or new quiz questions for this competition, re-check this file against them.
+
+## Differs from FS Rules 2026
+Where this competition's 2026 handbook changes FS Rules 2026. For these points the handbook wins; check here before applying an FS Rules rule.
+- **Points per discipline:** Skid Pad 75, Acceleration 75, Autocross 100, Endurance 325, Efficiency 100 (statics unchanged, total 1000), instead of 50, 50, 100, 250, 75 plus DV Skidpad and DV Acceleration 75 each [Handbook 8; FS A 1.2.5, table 3].
+- **Dynamic score formula:** FS D 9.1.1 with its table 11 factors, but Pmax from the FIHU points table (e.g. Endurance Pmax 325, Pmin 0.1 × 325 = 32.5), instead of Pmax from FS table 3 [Handbook 7.2, 8; FS D 9.1.1].
+- **Acceleration and Skid Pad runs:** each team has 4 runs per discipline, whatever the number of drivers, instead of 2 runs [Handbook 7.1.2.1; FS D 1.3.1, table 9].
+- **Runs per driver:** max 4 runs per driver over the whole event, Endurance counting as 2; in Skid Pad and Acceleration up to 4 runs per driver and 4 drivers, instead of max 2 runs per driver and 2 drivers per discipline [Handbook 7.4.3; FS D 1.2.4, D 1.2.5].
+- **Number of drivers:** 4 to 6 registered drivers, each measured in full racing gear (tolerance 5 kg and 3 cm), instead of 3 to 4 drivers [Handbook 7.4.2, 7.4.5; FS D 1.2.1].
+- **Driver licence:** Category B licence (EU) or equivalent; professional drivers with an active FIA licence may not drive, instead of any valid government-issued passenger-car licence with photo [Handbook 7.4.1; FS A 4.2.10].
+- **Endurance running order:** by best Autocross time without penalties (Autocross-DQ teams ordered among themselves; officials may vary it), instead of "similar speeds together" with the procedure left to the handbook [Handbook 7.1.4.1; FS D 7.3].
+- **Dynamic penalties unchanged:** cone, off-course, flag and Endurance penalties follow FS D 10 as written; the handbook only says a later event handbook may clarify or change them [Handbook 7.3; FS D 10].
+- **Engineering Design categories:** Concept & Team Mgmt 30, Suspension & VD 25, Aero 20, Chassis/Ergonomics/Structural 25, Powertrain & TS 25, Electronics 15, TVSD 10, instead of FS table 7's nine categories [Handbook 6.1.1; FS S 4.5.3].
+- **Engineering Design procedure:** 45 min per team (5 min captain presentation of season goals and subteams, 40 min discussion), finals in the evening with a varying number of finalists; FS sets no duration [Handbook 6.1.3, 6.1.5; FS S 4.3].
+- **Cost and Manufacturing scoring:** BOM Discussion 45 + Cost Understanding 55 = 100, no Real Case part, instead of BOM Discussion 50 + Cost Understanding 25 + Real Case 25 [Handbook 6.2.3; FS S 3.8.2].
+- **Inspection order:** fixed. CV: Pre-Insp. + Mechanical → Tilt → Noise → Brake. EV: Mechanical + Accumulator → Electrical; then with Pre-Insp. → Tilt → Rain → Brake. No AS Inspection or EBS Test, instead of the FS parts list [Handbook 4.2.1–4.2.3; FS IN 1.1.1].
+- **Tilt Test, weighing, egress:** Vehicle Weighing is part of the Tilt Test (tilt to either side possible) and Pre-Inspection includes the Egress Test for all drivers, instead of separate FS Tilt Test and Weighing [Handbook 4.3.3, 4.3.6; FS IN 7, IN 8].
+- **Noise Test checks:** shutdown system function and intake closure (engine must stall) are checked before the Noise Test, instead of after passing it [Handbook 4.3.7; FS IN 10.1.8, IN 10.1.9].
+- **Rain Test charging:** after a Rain Test attempt the accumulator may not be charged for one hour; FS sets no such wait [Handbook 4.3.8; FS IN 9.2].
+- **Accumulator inspection:** no official cell temperature monitoring device, and accumulators may comply with EV 5.8 of FS Rules 2025 v1.1 or 2026 v1.1, instead of a device if the event uses one and EV 5.8 2026 only [Handbook 4.3.4; FS IN 3.1.2, EV 5.8.9].
+- **Leaks before each dynamic discipline:** no leak in the cooling or lubrication system is allowed to pass the pre-inspection of each dynamic discipline, a check FS does not define (FS IN 12.1.5 is post-inspection) [Grey Areas T 7.2.4; FS T 7.2.4, IN 12.1.5].
+- **Classes:** CV (hybrid powertrains prohibited) and EV only; no Driverless Cup, all autonomous rules void, instead of CV including hybrids (HY) plus an optional Driverless Cup [Handbook 1.2, 4.1, 7.1.1; FS A 1.2.1, A 1.2.6].
+- **Safety wire flex:** pushed at mid-span with light finger pressure, the wire must not flex more than the Grey Areas table (by length; e.g. 101.6 mm: full 12.7 mm, half 6.4 mm), where FS only says "correctly installed" [Grey Areas T 10.2.2; FS T 10.2.2].
+- **Firewall:** flashlight check, no light may show in the cockpit when lit from the rear; the undertray must not connect the drainage holes on the two sides of the firewall; CV: sealing materials fuel-resistant and fire retardant, beyond FS T 4.8 [Grey Areas T 4.8; FS T 4.8.4].
+- **Cooling hose joints:** every hose-to-fitting joint in a cooling system needs purpose-designed hardware (clamp, collar, coupling) with continuous circumferential compression that does not damage the hose; FS has no such rule [Grey Areas T 7.2; FS T 7.2].
+- **Balance bar locking:** the brake balance bar needs a locking mechanism against unintended change and a jam nut is accepted, although FS does not count pre-tensioning as positive locking [Grey Areas, Balance bar positive locking; FS T 10.2.2].
+- **Late FSG-portal documents:** SES, ASES, SE3D, IAD and ESF lose 10 points per day per document, instead of 10 points per late submission and de-registration after 24 h [Handbook 3.2.4; FS A 5.4.1, A 5.4.2].
+- **Late FIHU-portal documents:** TVSD −10 points per day (from its static score), BPEFS −5 per day (from BPP), CRD −15 per day per document, instead of a flat 10 points and de-registration after 24 h [Handbook 3.2.5, 3.2.6, 3.2.8; FS A 5.4].
+- **Late VSV:** deduction 10 × (1 − 1.09^D)/(1 − 1.09) points, D = days late (14 days = 260); no VSV by 31 July means DQ from all dynamic events (feedback-only inspection), instead of FS A 5.4 [Handbook 3.2.9; FS A 5.4.1, A 5.4.2, A 5.6.1].
+- **SESA and ESOQ:** SESA not required; an EV team without an ESOQ certificate uploads a liability statement and justifies it by email, instead of a mandatory SESA for monocoques and ESOQ per A 4.3.8 [Handbook 3.2.3, 3.2.4; FS A 5.7.1, A 4.3.8].
 
 ## Quiz format
 - 10 to 20 questions per quiz [Handbook 2.3].

@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 108, "year": 2026, "class": "ev", "position": 13}, {"quiz_id": 109, "year": 2026, "class": "cv", "position": 13}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["mechanics"]
 options: ["Elastic Modulus of the alloy", "Ductility of the alloy", "Ability to case/surface harden the alloy", "Fatigue Strength of the alloy"]
 answer: "Elastic Modulus of the alloy"
 unit: null

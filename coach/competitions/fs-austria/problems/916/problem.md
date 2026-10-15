@@ -6,7 +6,7 @@ rules_year: 2025
 quizzes: [{"quiz_id": 99, "year": 2025, "class": "ev", "position": 8}, {"quiz_id": 100, "year": 2025, "class": "cv", "position": 8}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["rules"]
 options: ["Three foam-type extinguishers are required", "Two CO2-type extinguishers are required", "Two foam-type extinguishers are required", "Two extinguishers are required, one of which has to be foam-type"]
 answer: "Two foam-type extinguishers are required"
 unit: null

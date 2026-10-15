@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 77, "year": 2024, "class": "ev", "position": 20}, {"quiz_id": 78, "year": 2024, "class": "cv", "position": 20}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["math"]
 options: ["850kg of fruits; 17 barrels", "800kg of fruits; 17 barrels", "900kg of fruits; 18 barrels", "950kg of fruits; 18 barrels"]
 answer: "850kg of fruits; 17 barrels"
 unit: null

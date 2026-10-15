@@ -63,7 +63,7 @@ def test_build_writes_zip_with_version_and_root_folder(tmp_path):
     make_coach(coach_dir)
     built_at = datetime(2026, 10, 14, 12, 0, tzinfo=timezone.utc)
     sizes = build_zip.build(coach_dir, tmp_path / "dist", "abc1234", CONFIG, built_at)
-    assert list(sizes) == ["fs-quiz-coach.zip"]
+    assert [name for name in sizes if name.endswith(".zip")] == ["fs-quiz-coach.zip"]
     with zipfile.ZipFile(tmp_path / "dist" / "fs-quiz-coach.zip") as archive:
         names = archive.namelist()
         version = archive.read("fs-quiz-coach/VERSION.txt").decode()
@@ -77,4 +77,13 @@ def test_big_zip_is_also_split_per_competition(tmp_path):
     coach_dir = tmp_path / "coach"
     make_coach(coach_dir)
     sizes = build_zip.build(coach_dir, tmp_path / "dist", "x", dict(CONFIG, zip_split_above_mb=0))
-    assert sorted(sizes) == ["fs-quiz-coach-fsg.zip", "fs-quiz-coach-fsn.zip", "fs-quiz-coach.zip"]
+    assert sorted(name for name in sizes if name.endswith(".zip")) == ["fs-quiz-coach-fsg.zip", "fs-quiz-coach-fsn.zip", "fs-quiz-coach.zip"]
+
+
+def test_build_writes_chat_files_and_release_notes_next_to_the_zip(tmp_path):
+    coach_dir = tmp_path / "coach"
+    make_coach(coach_dir)
+    sizes = build_zip.build(coach_dir, tmp_path / "dist", "x", CONFIG)
+    assert "fs-quiz-coach-fsg-chat.md" in sizes and "fs-quiz-coach-fsn-problems.md" in sizes
+    notes = (tmp_path / "dist" / "release-notes.txt").read_text(encoding="utf-8")
+    assert notes.startswith("FS Quiz coach\n") and "fs-quiz-coach-<event>-chat.md" in notes

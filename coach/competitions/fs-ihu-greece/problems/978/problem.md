@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 108, "year": 2026, "class": "ev", "position": 6}, {"quiz_id": 109, "year": 2026, "class": "cv", "position": 6}]
 type: "input"
 time_s: null
-topic: []
+topic: ["electronics"]
 options: []
 answer: "R_{FPGA_CLK}=66.5, R_{FPGA_MOSI}=59, R_{MCU_MISO}=61.9"
 unit: null
