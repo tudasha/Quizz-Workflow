@@ -6,7 +6,7 @@ rules_year: 2018
 quizzes: [{"quiz_id": 45, "year": 2018, "class": "ev", "position": 13}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["electronics"]
 options: ["Your infrared thermometer is configured for a wrong radiation emission coefficient", "Two sensor nodes are configured to the same CAN ID", "The can bus is overloaded", "This is an expected result with the given accuracy of the sensors", "The endianness is wrong in the DAQ config"]
 answer: "Two sensor nodes are configured to the same CAN ID"
 unit: null

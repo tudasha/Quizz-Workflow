@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 77, "year": 2024, "class": "ev", "position": 11}, {"quiz_id": 78, "year": 2024, "class": "cv", "position": 11}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["rules"]
 options: ["60V ACRMS and 50V DC", "55V DC and 60V ACRMS", "60V DC and 50V ACRMS", "55V ACRMS and 60V DC"]
 answer: "60V DC and 50V ACRMS"
 unit: null

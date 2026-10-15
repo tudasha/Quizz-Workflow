@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 110, "year": 2026, "class": "ev", "position": 11}, {"quiz_id": 111, "year": 2026, "class": "cv", "position": 11}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["physics"]
 options: ["Cx = 0.07; Cz = 1.35", "Cx = 0.7; Cz = 0.12", "Cx = 0.01; Cz = 0.28", "Cx = 0.01; Cz = 0.55"]
 answer: "Cx = 0.07; Cz = 1.35"
 unit: null

@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 83, "year": 2024, "class": "ev", "position": 1}]
 type: "single-choice"
 time_s: 300
-topic: []
+topic: ["electronics"]
 options: ["I_slow = 35A, t_slow = 3000s, I_fast = 80A", "I_slow = 30A, t_slow = 7200s, I_fast = 200A", "I_slow = 30A, t_slow = 3000s, I_fast = 80A", "I_slow = 30A, t_slow = 3000s, I_fast = 200A", "I_slow = 50A, t_slow = 3000s, I_fast = 80A"]
 answer: "I_slow = 30A, t_slow = 3000s, I_fast = 80A"
 unit: null

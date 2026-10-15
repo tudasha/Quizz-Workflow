@@ -6,7 +6,7 @@ rules_year: 2022
 quizzes: [{"quiz_id": 43, "year": 2022, "class": "ev", "position": 2}, {"quiz_id": 44, "year": 2022, "class": "cv", "position": 2}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["rules"]
 options: ["min. 1835 mm", "1935 mm", "1732 mm", "max. 1835 mm"]
 answer: "min. 1835 mm"
 unit: null

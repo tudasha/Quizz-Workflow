@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 122, "year": 2026, "class": "ev", "position": 3}, {"quiz_id": 123, "year": 2026, "class": "cv", "position": 3}]
 type: "single-choice"
 time_s: 310
-topic: []
+topic: ["rules"]
 options: ["Every time when somebody is working on the car", "There is no need for a 'TSAL green' Sign", "Every time the TS is turned off and the GLVMS is turned off", "Every time somebody is working at the TS"]
 answer: "There is no need for a 'TSAL green' Sign"
 unit: null

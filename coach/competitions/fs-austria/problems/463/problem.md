@@ -6,7 +6,7 @@ rules_year: 2022
 quizzes: [{"quiz_id": 43, "year": 2022, "class": "ev", "position": 10}, {"quiz_id": 44, "year": 2022, "class": "cv", "position": 10}]
 type: "single-choice"
 time_s: 60
-topic: []
+topic: ["rules", "static-events"]
 options: ["For the manufacturing steps of every made part", "For every made part, building assemblies out of parts and mounting it to the car", "For the manufacturing steps of every bought part and made part", "For every made part and building assemblies out of parts"]
 answer: "For every made part, building assemblies out of parts and mounting it to the car"
 unit: null

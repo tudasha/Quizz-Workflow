@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 77, "year": 2024, "class": "ev", "position": 15}, {"quiz_id": 78, "year": 2024, "class": "cv", "position": 15}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["scoring", "dynamic-events"]
 options: ["Team B = 86.7 and Team D = 5", "Team B = 88.7 and Team D = 31.3", "Team B = 86.7 and Team D = 6.3", "Team B = 88.7 and Team D = 1.3"]
 answer: "Team B = 86.7 and Team D = 5"
 unit: null

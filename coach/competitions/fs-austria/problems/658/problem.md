@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 63, "year": 2023, "class": "ev", "position": 12}, {"quiz_id": 64, "year": 2023, "class": "cv", "position": 12}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["scoring", "static-events"]
 options: ["71 points", "70 points", "highest non-finalist score", "75 points"]
 answer: "highest non-finalist score"
 unit: null

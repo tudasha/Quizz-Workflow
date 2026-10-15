@@ -6,7 +6,7 @@ rules_year: 2022
 quizzes: [{"quiz_id": 41, "year": 2022, "class": "ev", "position": 5}]
 type: "multi-choice"
 time_s: 180
-topic: []
+topic: ["rules"]
 options: ["Incorrect or missing upload of Health Insurance Certificate (HIC)", "Not signed or missing standard terms", "Studying for more than five years at the university", "Not assigned as a team member by the team captain", "Studying at a different university than the team they want to participate in", "Not having a valid driver's license", "Arriving only after the competition has already been started", "Not in the age of 18 or older"]
 answer: ["Incorrect or missing upload of Health Insurance Certificate (HIC)", "Not signed or missing standard terms", "Not assigned as a team member by the team captain", "Not in the age of 18 or older"]
 unit: null

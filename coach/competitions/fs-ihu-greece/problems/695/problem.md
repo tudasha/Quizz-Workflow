@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 74, "year": 2024, "class": "ev", "position": 11}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["mechanics", "dynamic-events"]
 options: ["-7,1%", "7,0%", "-6,0%", "7,1%"]
 answer: "-7,1%"
 unit: null

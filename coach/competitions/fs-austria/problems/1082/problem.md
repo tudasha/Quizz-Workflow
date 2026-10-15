@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 122, "year": 2026, "class": "ev", "position": 12}]
 type: "single-choice"
 time_s: 10
-topic: []
+topic: ["electronics"]
 options: ["0", "UDC", "UDC/2", "-UDC/2", "UDC/4", "-UDC/4"]
 answer: "UDC/4"
 unit: null

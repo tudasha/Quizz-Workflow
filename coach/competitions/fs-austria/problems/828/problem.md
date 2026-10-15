@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 69, "year": 2024, "class": "ev", "position": 6}, {"quiz_id": 89, "year": 2024, "class": "cv", "position": 6}]
 type: "single-choice"
 time_s: 480
-topic: []
+topic: ["physics"]
 options: ["48.1 kph", "53.1 kph", "50.3 kph", "46.6 kph"]
 answer: "48.1 kph"
 unit: null

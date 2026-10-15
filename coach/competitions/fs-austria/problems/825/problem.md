@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 69, "year": 2024, "class": "ev", "position": 3}, {"quiz_id": 89, "year": 2024, "class": "cv", "position": 3}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["rules", "dynamic-events"]
 options: ["You receive 60 penalty points", "You receive 46 penalty points", "You receive a Group B penalty", "You will be disqualified from all runs since entering the dynamic area"]
 answer: "You receive 60 penalty points"
 unit: null

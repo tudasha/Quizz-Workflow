@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 120, "year": 2026, "class": "ev", "position": 8}, {"quiz_id": 121, "year": 2026, "class": "cv", "position": 8}]
 type: "input"
 time_s: null
-topic: []
+topic: ["mechanics"]
 options: []
 answer: "1015"
 unit: null

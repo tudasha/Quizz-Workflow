@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 63, "year": 2023, "class": "ev", "position": 6}, {"quiz_id": 64, "year": 2023, "class": "cv", "position": 6}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["rules", "static-events"]
 options: ["at least 20 seconds, maximum 40 seconds", "a maximum of 35 seconds", "must not be longer then 30 seconds", "the length doesn't matter"]
 answer: "must not be longer then 30 seconds"
 unit: null

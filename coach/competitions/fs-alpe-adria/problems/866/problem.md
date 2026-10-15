@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 90, "year": 2024, "class": "ev", "position": 14}]
 type: "multi-choice"
 time_s: 0
-topic: []
+topic: ["rules"]
 options: ["a) everything is according to the rules", "b) front wing height is illegal", "c) rear wing height is illegal", "d) the car can have one brake", "e) the brake system must have more than one hydraulic circuit", "f) weight is under the lower limit"]
 answer: ["c) rear wing height is illegal", "e) the brake system must have more than one hydraulic circuit"]
 unit: null

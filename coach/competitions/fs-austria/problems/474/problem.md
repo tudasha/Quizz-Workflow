@@ -6,7 +6,7 @@ rules_year: 2018
 quizzes: [{"quiz_id": 45, "year": 2018, "class": "ev", "position": 8}, {"quiz_id": 46, "year": 2018, "class": "cv", "position": 8}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["rules", "mechanics"]
 options: ["The attachment of the main hoop bracing at the main hoop is too low", "Angle \"beta\" is too small", "Additional structural members are mandatory below member \"1\" in the rear end", "Additonal members above member \"1\" in the rear end are mandatory"]
 answer: "Additonal members above member \"1\" in the rear end are mandatory"
 unit: null

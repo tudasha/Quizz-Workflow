@@ -6,7 +6,7 @@ rules_year: 2025
 quizzes: [{"quiz_id": 105, "year": 2025, "class": "ev", "position": 7}]
 type: "multi-choice"
 time_s: 300
-topic: []
+topic: ["electronics"]
 options: ["Avoiding aluminum as a housing material, as it can increase EMC problems", "Minimizing cable lengths to reduce antenna effects", "Use of shielded cables to reduce electromagnetic interference", "Use of ferrite cores at critical points in the cabling", "Installation of high-frequency filters in the control units"]
 answer: ["Minimizing cable lengths to reduce antenna effects", "Use of shielded cables to reduce electromagnetic interference", "Use of ferrite cores at critical points in the cabling", "Installation of high-frequency filters in the control units"]
 unit: null

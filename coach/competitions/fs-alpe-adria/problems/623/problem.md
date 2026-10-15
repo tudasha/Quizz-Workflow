@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 61, "year": 2023, "class": "ev", "position": 2}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["mechanics"]
 options: ["Upload is not supported (This answer is correct)"]
 answer: "Upload is not supported (This answer is correct)"
 unit: null

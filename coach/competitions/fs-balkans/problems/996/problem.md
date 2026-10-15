@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 110, "year": 2026, "class": "ev", "position": 7}, {"quiz_id": 111, "year": 2026, "class": "cv", "position": 7}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["rules"]
 options: ["Teams may freely drive cars inside the campsite, under a 5km/h restriction", "Campervans are never allowed", "Drift-style or rally-style driving on access roads is strictly prohibited", "Motorcycles may be used for commuting between pits and campsite"]
 answer: "Drift-style or rally-style driving on access roads is strictly prohibited"
 unit: null

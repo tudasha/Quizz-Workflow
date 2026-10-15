@@ -6,7 +6,7 @@ rules_year: 2022
 quizzes: [{"quiz_id": 43, "year": 2022, "class": "ev", "position": 6}, {"quiz_id": 44, "year": 2022, "class": "cv", "position": 6}]
 type: "single-choice"
 time_s: 600
-topic: []
+topic: ["mechanics"]
 options: ["1st gear", "2nd gear", "3rd gear", "4th gear", "it is not possible to do a wheelie in this configuration"]
 answer: "2nd gear"
 unit: null

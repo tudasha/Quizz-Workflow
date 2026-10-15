@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 108, "year": 2026, "class": "ev", "position": 14}, {"quiz_id": 109, "year": 2026, "class": "cv", "position": 14}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["mechanics"]
 options: ["It's a trick question, they all have very similar specific stiffness", "(1), (2), (3)", "(2), (3), (1)", "(3), (2), (1)"]
 answer: "It's a trick question, they all have very similar specific stiffness"
 unit: null

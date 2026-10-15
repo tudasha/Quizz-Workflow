@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 120, "year": 2026, "class": "ev", "position": 2}, {"quiz_id": 121, "year": 2026, "class": "cv", "position": 2}]
 type: "input"
 time_s: null
-topic: []
+topic: ["other"]
 options: []
 answer: "Modern times, Lionsgate, Golden Army, Hugo, The Amazing Spider-Man 2, The House with a Clock in Its Walls"
 unit: null

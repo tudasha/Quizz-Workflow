@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 63, "year": 2023, "class": "ev", "position": 4}, {"quiz_id": 64, "year": 2023, "class": "cv", "position": 4}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["rules"]
 options: ["The submissison may fail, because it was filmed at night, running under low visibility conditions.", "The submission may fail, because after the car stops at the end of the video, the loud cheering of the present team members is embarrassing.", "The submission may fail, because not all 4 wheels are locking, when braking at the end.", "The submission may fail, because the car is not painted yet."]
 answer: "The submissison may fail, because it was filmed at night, running under low visibility conditions."
 unit: null

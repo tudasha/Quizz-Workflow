@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 89, "year": 2024, "class": "cv", "position": 17}]
 type: "single-choice"
 time_s: 480
-topic: []
+topic: ["electronics", "rules"]
 options: ["s13p5", "s14p4", "s14p5", "s4p12", "s10p3", "s5p15", "s15p4", "s14p2"]
 answer: "s14p4"
 unit: null

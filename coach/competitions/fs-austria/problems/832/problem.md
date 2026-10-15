@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 69, "year": 2024, "class": "ev", "position": 10}, {"quiz_id": 89, "year": 2024, "class": "cv", "position": 10}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["physics"]
 options: ["Wind speed, air temperature and sea level", "Air pressure, air temperature and air humidity", "Altitude and temperature", "Nothing, because the density is constant"]
 answer: "Air pressure, air temperature and air humidity"
 unit: null

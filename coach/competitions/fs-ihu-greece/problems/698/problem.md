@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 74, "year": 2024, "class": "ev", "position": 14}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["electronics"]
 options: ["ZR = 0.2 ohms, I(t)= 20 A", "ZR = 0.4 ohms, I(t)= 25 A", "ZR = 0.02 ohms, I(t)= 100 A", "ZR = 0.1 ohms, I(t)= 500 A"]
 answer: "ZR = 0.02 ohms, I(t)= 100 A"
 unit: null

@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 69, "year": 2024, "class": "ev", "position": 13}, {"quiz_id": 89, "year": 2024, "class": "cv", "position": 13}]
 type: "single-choice"
 time_s: 300
-topic: []
+topic: ["rules", "physics"]
 options: ["No, dropped at h=7.90 m", "No, dropped at h=15.10 m", "Yes, dropped at h=7.90 m", "No, dropped at h=18.13 m", "Yes, dropped at h=15.10 m", "Yes, dropped at h=18.13 m"]
 answer: "Yes, dropped at h=18.13 m"
 unit: null

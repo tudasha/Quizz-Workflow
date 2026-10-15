@@ -6,7 +6,7 @@ rules_year: 2018
 quizzes: [{"quiz_id": 46, "year": 2018, "class": "cv", "position": 9}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["electronics", "mechanics"]
 options: ["Your sensor is mounted upside down", "You are seeing the driving resistance", "Your sensor is mounted at an angle", "You are driving through a banked turn", "Your sensor is mounted outside of the car's center of gravity"]
 answer: "Your sensor is mounted at an angle"
 unit: null
