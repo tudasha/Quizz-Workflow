@@ -1,6 +1,6 @@
 ---
 name: quiz-maker
-description: Make a practice quiz for one Formula Student competition in that competition's own style - question types, topics, time limits and answer format taken from COMPETITION.md, the handbook's quiz section and its past problems - with every answer computed in Python and checked by a blind second solve. Use when a member asks for a practice quiz, mock quiz or new questions for a competition or topic.
+description: Make a practice quiz for one Formula Student competition in that competition's own style - question types, topics, time limits and answer format taken from COMPETITION.md, the handbook's quiz section and its past problems - in English, with SVG figures where needed, every answer computed in Python and checked by a blind second solve; works with or without the app. Use when a member asks for a practice quiz, mock quiz or new questions for a competition or topic.
 ---
 
 # Making a practice quiz
@@ -10,8 +10,9 @@ A practice quiz should feel like the real one for that competition: same kinds o
 ## 1. Ask, or pick a default
 - Competition: required (a folder in `competitions/`).
 - Number of questions: default 10.
-- Topics: the ones the member names, or their weak topics from the dashboard. Otherwise the competition's usual mix (step 2).
+- Topics: the ones the member names, or their weak topics from the dashboard (without the app, ask the member). Otherwise the competition's usual mix (step 2).
 - Run: one question at a time with a timer (default), or a sheet with all questions and the answers at the end.
+- Language: questions, options and answers in English, as in the real quiz; explanations in the member's language.
 
 ## 2. Learn the competition's style
 Read, in this order, and note what you find:
@@ -32,6 +33,7 @@ for path in glob.glob("competitions/<event>/problems/*/problem.md"):
 print(types, topics, sorted(times))
 ```
 
+   No code execution (web chat): count by hand over the competition's problems file instead.
 4. Read 3 to 5 recent past problems per chosen topic, with their `solution.md`, to see how questions are worded, how much text and how many steps they take, and how the answer is asked for.
 
 Match that mix: if the competition asks mostly input questions with 2 decimals, so does your quiz.
@@ -48,6 +50,13 @@ For each question:
 - The answer, from a Python script you ran (`solving-rules`). Keep the script.
 - Choice questions: options built from real mistakes, each one a wrong path someone could take (diameter as radius, km/h left unconverted, last year's rule, per wheel instead of per axle). Use traps from the log's lessons when there are any. Single-choice: exactly one option is right. Multi-choice: judge every option.
 - Rule references, topic, and a short explanation of the right path and of the trap behind each wrong option.
+- Rules and values from this year's files (`solving-rules`, "Never break these"), never from memory.
+
+### Figures
+Many real questions carry a figure: a circuit, a free-body diagram, a track layout, a plot or a table. Draw one when the question needs it:
+- As SVG, with every value the question needs written on it, units included, and nothing that gives the answer away.
+- Terminal agent: save it as `practice/<event>-<date>-q<n>.svg` and link it in the question. Web chat: show the SVG in the answer or as an artifact, or describe the figure in words if neither works.
+- The blind second solve (step 4) gets the figure too: if it can't read a value from it, fix the figure.
 
 ## 4. Check every question
 - Blind second solve: a sub-agent (or, in a web chat, a fresh solve without looking back) gets only the question as the member will see it and solves it by `solving-rules`.
@@ -60,6 +69,10 @@ For each question:
 - Sheet: all questions first, the answers and explanations after the member hands in.
 - At the end: score, time, results per topic, and the two or three things to practise next.
 - A new trap the member fell into goes to the log as a lesson (`log-use`, `problem_id: note`).
+
+### Without the app (no MCP)
+- No session or `record_answer`: keep the score yourself, one line per question (number, topic, the member's answer, right or wrong, time).
+- At the end, print that table and the lesson entries as YAML blocks (`log-use`, "Without MCP") for the member to paste into the app later.
 
 ## Keep apart
 - Generated questions are practice only. Never add them to `competitions/<event>/problems/`: that folder holds real FS Quiz questions.

@@ -1,18 +1,21 @@
 # Competitions
 
-One folder per competition, named after the event's full FS Quiz name (`fs-alpe-adria`, `fs-germany`, ...). Which competitions are imported, and a different folder name, are set in `general/tools/config.json`.
+One folder per competition, named after the event's full FS Quiz name (`fs-alpe-adria`, `fs-germany`, ...). Which competitions are imported, and a different folder name, are set in `general/tools/config.json` in the repo (`general/tools/` is not in the zip).
 
 ```
 <event>/
   COMPETITION.md      this event's quiz: pattern of past quizzes + handbook rules (written by Claude, reviewed by Gion)
-  skills/             this event's calculation and answer rules (written by Gion)
-  handbook/current/   this year's handbook (PDF + Markdown); older years in handbook/<year>/, not in the zip
+  skills/             this event's calculation and answer rules (written by Gion; none yet)
+  handbook/current/   this year's handbook: PDF, Markdown, <name>.index.md (headings with pages) and
+                      <name>.changes.md (its changelog) when the PDF has them; older years in
+                      handbook/<year>/, not in the zip
   problems/<id>/      problem.md, images/, solution.md (imported from FS Quiz), solution.py (written by a checker)
 ```
 
 ## COMPETITION.md headings
 Written from the competition's past FS Quiz questions and its current handbook, every fact with its source:
 - When something is new: the pattern is a guide; the question, the newest handbook and the organiser's announcements win; new kinds of questions are re-checked and logged as a note
+- Differs from FS Rules: where the handbook changes FS Rules (points, formulas, runs, inspections, penalties, documents), each point checked against both texts
 - Quiz format: number of questions, separate quizzes per class, question types, open-book or not
 - Time limit: total and per question
 - Decimals and answer format: decimal places, separator, units, rounding or truncation
@@ -22,7 +25,7 @@ Written from the competition's past FS Quiz questions and its current handbook, 
 - Event specifics: anything that differs from FS Rules
 
 ## problem.md
-Front matter, checked by CI against `general/tools/problem.schema.json`:
+Front matter, checked by CI against `general/tools/problem.schema.json` (in the repo):
 - From FS Quiz: `id` (question id), `event`, `year` (first quiz year), `quizzes` (quiz id, year, class, position), `type`, `time_s`, `options`, `answer`, `source`
 - Kept as checkers set them: `topic` (suggested from FS Quiz categories), `unit`, `rule_refs`, `rules_year`, `status` (`unverified` or `verified`), `verified_by`, `locked`
 - `answer` is the FS Quiz answer: one text, or a list when several options are correct. It stays `unverified` until a topic checker confirms it and sets `verified_by`.
