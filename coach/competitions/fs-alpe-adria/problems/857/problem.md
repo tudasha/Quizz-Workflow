@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 90, "year": 2024, "class": "ev", "position": 5}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["electronics"]
 options: ["Fully utilizing winding space with more turns of thinner wire because it will result in higher operating voltage of the motor, thus less current for the same power meaning less losses and better efficiency. Battery current will also be lesser leading to less heating.", "Wire thickness in motor and battery configuration don't impact efficiency and power if winding space is fully utilized and battery connections are as short as possible.", "Fully utilizing winding space with less turns off thicker wire as it will be able to pass more current so more power will be produced, plus motor will spin faster for the same voltage."]
 answer: "Wire thickness in motor and battery configuration don't impact efficiency and power if winding space is fully utilized and battery connections are as short as possible."
 unit: null

@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 61, "year": 2023, "class": "ev", "position": 3}]
 type: "input"
 time_s: 0
-topic: []
+topic: ["scoring", "dynamic-events"]
 options: []
 answer: "61.17"
 unit: null

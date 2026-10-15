@@ -6,7 +6,7 @@ rules_year: 2018
 quizzes: [{"quiz_id": 49, "year": 2018, "class": "ev", "position": 8}, {"quiz_id": 68, "year": 2018, "class": "cv", "position": 8}]
 type: "multi-choice"
 time_s: null
-topic: []
+topic: ["mechanics"]
 options: ["This test method is also applicable for non-metallic materials", "The indenter is a ball", "The indenter is made of a diamond", "Hardness is a result of force/surface of the imprint"]
 answer: ["The indenter is made of a diamond", "Hardness is a result of force/surface of the imprint"]
 unit: null

@@ -6,7 +6,7 @@ rules_year: 2018
 quizzes: [{"quiz_id": 45, "year": 2018, "class": "ev", "position": 9}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["electronics", "mechanics"]
 options: ["You are experiencing aero balance shift and chassis pitch", "Your sensor is mounted at an angle", "Your suspension stiffens up at high speeds", "Only driven wheels grow bigger at higher speeds, jacking up the rear", "The car creates lift and therfore you measure a smaller g"]
 answer: "You are experiencing aero balance shift and chassis pitch"
 unit: null

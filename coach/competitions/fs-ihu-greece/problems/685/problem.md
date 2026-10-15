@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 74, "year": 2024, "class": "ev", "position": 1}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["rules"]
 options: ["FW 45", "Ferrari F1 1989", "Ferrari 499P", "Mazda MX-3 1985"]
 answer: "Ferrari F1 1989"
 unit: null

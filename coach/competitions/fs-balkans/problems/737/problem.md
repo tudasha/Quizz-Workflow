@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 77, "year": 2024, "class": "ev", "position": 13}, {"quiz_id": 78, "year": 2024, "class": "cv", "position": 13}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["physics"]
 options: ["only if the temperature rises fast enough", "only it the pressure rises fast enough", "only if the temperature drops fast enough", "only if the pressure drops fast enough"]
 answer: "only if the temperature rises fast enough"
 unit: null

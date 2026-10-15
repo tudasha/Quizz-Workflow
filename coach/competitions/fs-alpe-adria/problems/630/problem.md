@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 61, "year": 2023, "class": "ev", "position": 10}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["physics"]
 options: ["5%", "14%", "23%", "32%"]
 answer: "23%"
 unit: null

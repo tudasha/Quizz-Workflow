@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 116, "year": 2026, "class": "ev", "position": 5}]
 type: "multi-choice"
 time_s: 420
-topic: []
+topic: ["math"]
 options: ["fl(0.1)=0.1", "fl(2026)=2026", "There exists a floating-point number x such that x + 1 =x", "The expression 1/0 evuluates to an infinity", "fl(0.5)-0.5", "The expression 0/0 evaluates to an infinity", "Addition of floationg-point numbers is associative, i.e., (x+y)+z=x+(y+z) for all floating-point numbers x,y,z", "Addition fo floating-point numbers is commutative, ie. x+y=y+x, for all floating-point numbers x,y", "There exist integers x,yEZ with x/=y such that fl(y)/=±∞"]
 answer: ["fl(2026)=2026", "There exists a floating-point number x such that x + 1 =x", "The expression 1/0 evuluates to an infinity", "fl(0.5)-0.5", "Addition fo floating-point numbers is commutative, ie. x+y=y+x, for all floating-point numbers x,y", "There exist integers x,yEZ with x/=y such that fl(y)/=±∞"]
 unit: null

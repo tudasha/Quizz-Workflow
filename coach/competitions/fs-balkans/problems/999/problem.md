@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 110, "year": 2026, "class": "ev", "position": 10}, {"quiz_id": 111, "year": 2026, "class": "cv", "position": 10}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["scoring", "dynamic-events"]
 options: ["Car 198 - 100 points, Car HY169- 28.8 points, Car E017 - 2 points, Car E128 -23.5 points", "Car 198 - 80 points, Car HY169- 48.8 points, Car E017 - 2 points, Car E128 -100 points", "Car 198 - 100 points, Car HY169- 28.8 points, Car E017 - 2 points, Car E128 -83.5 points", "Car 198 - 70 points, Car HY169- 100 points, Car E017 - 2 points, Car E128 -43.5 points"]
 answer: "Car 198 - 100 points, Car HY169- 28.8 points, Car E017 - 2 points, Car E128 -23.5 points"
 unit: null

@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 110, "year": 2026, "class": "ev", "position": 1}, {"quiz_id": 111, "year": 2026, "class": "cv", "position": 1}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["rules", "dynamic-events"]
 options: ["Yes", "No, a laser-based timing system is used", "Only in Endurance", "Only for EV class"]
 answer: "No, a laser-based timing system is used"
 unit: null

@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 77, "year": 2024, "class": "ev", "position": 18}, {"quiz_id": 78, "year": 2024, "class": "cv", "position": 18}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["rules", "dynamic-events"]
 options: ["Make a separate pit stop in the driver change area and change to a new set of wet tires for the remaining laps. The pit stop time is added to the overall time.", "You may change to dry tires during the driver change. The pit stop time is not added to overall time if you manage to get it under 13 minutes.", "You must not change the tires. You can try driving off the ideal race line within the track boundaries to cool down the tires.", "Make a separate pit stop in the driver change area and change to dry tires. The pit stop time is added to the overall time."]
 answer: "Make a separate pit stop in the driver change area and change to dry tires. The pit stop time is added to the overall time."
 unit: null

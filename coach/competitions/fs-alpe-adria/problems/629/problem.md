@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 61, "year": 2023, "class": "ev", "position": 8}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["physics"]
 options: ["Remains Invariable", "1,365", "1,065", "None of the above"]
 answer: "1,065"
 unit: null

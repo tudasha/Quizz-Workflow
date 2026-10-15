@@ -6,7 +6,7 @@ rules_year: 2025
 quizzes: [{"quiz_id": 99, "year": 2025, "class": "ev", "position": 2}, {"quiz_id": 100, "year": 2025, "class": "cv", "position": 2}]
 type: "single-choice"
 time_s: 400
-topic: []
+topic: ["mechanics"]
 options: ["Front: 40 N/mm, Rear: 70 N/mm", "Front: 46 N/mm, Rear: 76 N/mm", "Front: 44 N/mm, Rear: 76 N/mm", "Front: 44 N/mm, Rear: 74 N/mm"]
 answer: "Front: 44 N/mm, Rear: 76 N/mm"
 unit: null

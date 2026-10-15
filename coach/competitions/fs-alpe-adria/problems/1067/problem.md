@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 120, "year": 2026, "class": "ev", "position": 10}, {"quiz_id": 121, "year": 2026, "class": "cv", "position": 10}]
 type: "single-choice"
 time_s: null
-topic: []
+topic: ["mechanics"]
 options: ["D = 6; T = ⌀0Ⓜ", "D = 6,1; T= ⌀0,1Ⓜ", "D = 6,1; T = ⌀0Ⓜ", "D = 6; T = ⌀0,1"]
 answer: "D = 6,1; T = ⌀0Ⓜ"
 unit: null

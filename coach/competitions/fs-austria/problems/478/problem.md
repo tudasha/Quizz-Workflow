@@ -6,7 +6,7 @@ rules_year: 2018
 quizzes: [{"quiz_id": 45, "year": 2018, "class": "ev", "position": 12}, {"quiz_id": 46, "year": 2018, "class": "cv", "position": 12}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["other"]
 options: ["Angry Cat", "Colonel Meow", "Tardar Sauce", "Pusheen", "Maru", "Nyan Cat", "Ceiling Cat"]
 answer: "Tardar Sauce"
 unit: null

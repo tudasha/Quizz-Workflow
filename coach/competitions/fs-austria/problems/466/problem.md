@@ -6,7 +6,7 @@ rules_year: 2022
 quizzes: [{"quiz_id": 43, "year": 2022, "class": "ev", "position": 12}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["rules"]
 options: ["A Steel bracket used to mount the TSAC to the primary structure with M6 bolts and the mounting holes on its centerline must be at least 18mm wide.", "The name of the ESO must be clearly written on the lid of each TSAC.", "The sufficient ressistance against penetration of the insulating barrier on the inside of the primary structure using steel or aluminium brackets and 2mm steel backing plates.", "A TS accumulator container made from composite materials must be fastened tothe primary structure using steel or aluminium brackets and 2mm steel bracking plates."]
 answer: "A Steel bracket used to mount the TSAC to the primary structure with M6 bolts and the mounting holes on its centerline must be at least 18mm wide."
 unit: null

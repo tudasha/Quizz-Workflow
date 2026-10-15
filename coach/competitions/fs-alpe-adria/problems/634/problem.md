@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 61, "year": 2023, "class": "ev", "position": 13}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["rules"]
 options: ["everything is according to the rules", "engine displacement is too big", "bigger track should be at least 75% of the wheelbase", "wheelbase and tracks are not according to the rulebook", "weight is under the lower limit"]
 answer: "wheelbase and tracks are not according to the rulebook"
 unit: null

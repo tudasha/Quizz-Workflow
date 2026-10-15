@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 61, "year": 2023, "class": "ev", "position": 12}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["mechanics"]
 options: ["F1 car since it has lower CoG", "It depends on the wheelbase", "It depends on the wheelbase and CoG position"]
 answer: "It depends on the wheelbase and CoG position"
 unit: null

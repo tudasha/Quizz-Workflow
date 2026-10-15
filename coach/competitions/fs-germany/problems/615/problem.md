@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 60, "year": 2023, "class": "ev", "position": 4}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["physics"]
 options: ["0.033 m/s forwards", "0.077 m/s forwards", "0.033 m/s backwards", "0.077 m/s backwards", "no answer is correct"]
 answer: "0.033 m/s forwards"
 unit: null

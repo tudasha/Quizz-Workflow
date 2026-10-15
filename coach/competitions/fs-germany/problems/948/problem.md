@@ -6,7 +6,7 @@ rules_year: 2025
 quizzes: [{"quiz_id": 105, "year": 2025, "class": "ev", "position": 8}]
 type: "multi-choice"
 time_s: 300
-topic: []
+topic: ["rules", "electronics"]
 options: ["The LVS may only be integrated into the TSAC if this is absolutely necessary for the operation of the AIRs, TS DC/DC converters and other specific components", "The LVS may be integrated into the TSAC without restrictions as long as all components comply with the safety standards", "The LVS must be fully integrated into he TSAC to simplify assembly", "The LVS must be completely disconnected from the TSAC to minimise the risk of short circuits"]
 answer: "The LVS may only be integrated into the TSAC if this is absolutely necessary for the operation of the AIRs, TS DC/DC converters and other specific components"
 unit: null

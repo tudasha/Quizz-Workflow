@@ -6,7 +6,7 @@ rules_year: 2022
 quizzes: [{"quiz_id": 41, "year": 2022, "class": "ev", "position": 8}]
 type: "input"
 time_s: 300
-topic: []
+topic: ["physics", "dynamic-events"]
 options: []
 answer: "158"
 unit: null

@@ -6,7 +6,7 @@ rules_year: 2025
 quizzes: [{"quiz_id": 99, "year": 2025, "class": "ev", "position": 10}, {"quiz_id": 100, "year": 2025, "class": "cv", "position": 10}]
 type: "single-choice"
 time_s: 700
-topic: []
+topic: ["mechanics"]
 options: ["25.4 mm", "38.1 mm", "36.0 mm", "31.8 mm"]
 answer: "36.0 mm"
 unit: null

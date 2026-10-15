@@ -6,7 +6,7 @@ rules_year: 2024
 quizzes: [{"quiz_id": 74, "year": 2024, "class": "ev", "position": 10}]
 type: "single-choice"
 time_s: 0
-topic: []
+topic: ["marketing"]
 options: ["150%", "129,38%", "172,48%", "216,38%"]
 answer: "172,48%"
 unit: null

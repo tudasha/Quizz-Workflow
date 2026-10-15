@@ -6,7 +6,7 @@ rules_year: 2022
 quizzes: [{"quiz_id": 41, "year": 2022, "class": "ev", "position": 1}]
 type: "multi-choice"
 time_s: 300
-topic: []
+topic: ["mechanics"]
 options: ["AB", "AG", "AF", "BC", "BG", "CD", "CG", "CH", "CI", "DE", "DI", "EI", "EJ", "FG", "GH", "GK", "IJ", "IK"]
 answer: ["BG", "DI", "EJ", "FG", "IJ"]
 unit: null

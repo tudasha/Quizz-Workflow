@@ -6,7 +6,7 @@ rules_year: 2023
 quizzes: [{"quiz_id": 63, "year": 2023, "class": "ev", "position": 5}, {"quiz_id": 64, "year": 2023, "class": "cv", "position": 5}]
 type: "single-choice"
 time_s: 120
-topic: []
+topic: ["rules", "static-events"]
 options: ["On the score given by the head judge", "On the sum of the scores given by each of the judges", "On the score given by the responsible BPP room judge", "On the average of the scores given by each of the judges"]
 answer: "On the average of the scores given by each of the judges"
 unit: null

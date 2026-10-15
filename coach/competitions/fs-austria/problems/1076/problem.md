@@ -6,7 +6,7 @@ rules_year: 2026
 quizzes: [{"quiz_id": 122, "year": 2026, "class": "ev", "position": 6}, {"quiz_id": 123, "year": 2026, "class": "cv", "position": 6}]
 type: "single-choice"
 time_s: 40
-topic: []
+topic: ["other"]
 options: ["Garfield", "Hirti", "Félicette", "Tardar Sauce"]
 answer: "Félicette"
 unit: null
