@@ -1,0 +1,110 @@
+# Index: Formula_IHU_2026_Competition_Handbook_v1.0
+
+Headings of Formula_IHU_2026_Competition_Handbook_v1.0.md with their PDF page, from the PDF's bookmarks. Search the .md for the number or title to read the rule.
+
+- Release Date: 14-01-2026, p. 1
+- Formula IHU Competition Handbook v.1.0, p. 2
+- 1 General Information, p. 7
+  - 1.1 Competition Goal, p. 7
+  - 1.2 Competition Overview, p. 8
+  - 1.3 Applicable Rules, p. 8
+  - 1.4 Official Communication Channels, p. 8
+  - 1.5 Event Date and Location, p. 8
+  - 1.6 Language and Time Format, p. 9
+    - 1.6.1 Official Language, p. 9
+    - 1.6.2 Date and Time Format, p. 9
+  - 1.7 Team Behaviour, p. 10
+    - 1.7.1 Testing & Work Safety, p. 10
+    - 1.7.2 Clear message of zero tolerance of all forms of violence and hate crime, p. 10
+  - 1.8 GDPR, p. 10
+  - 1.9 Event Handbook, p. 10
+- 2 Registration and Eligibility, p. 11
+  - 2.1 Teams & Participants Eligibility, p. 11
+  - 2.2 Registration Quiz, p. 12
+    - 2.2.1 Quiz Procedure, p. 12
+  - 2.3 Quiz Format and Submission Rules, p. 13
+    - 2.3.1 Answer Sheet & Protests, p. 13
+    - 2.3.2 Registration Results, p. 13
+    - 2.3.3 Pre-registered teams - Quiz, p. 13
+  - 2.4 Pre-Registered Teams, p. 14
+    - 2.4.1 Greek Teams:, p. 14
+    - 2.4.2 Cypriot Teams:, p. 14
+  - 2.5 Team Account Setup, p. 15
+  - 2.6 Fees and Payment Guidelines, p. 16
+  - 2.7 Cancellation and Refund Policy, p. 16
+- 3 Document Submissions and Deadlines, p. 17
+  - 3.1 Document Submission Dates, p. 17
+  - 3.2 Important Submission Details, p. 18
+    - 3.2.1 Use of FSG Online Tools, p. 18
+      - 3.2.1.1 For Combustion Vehicle (CV) Teams:, p. 18
+      - 3.2.1.2 For Electric Vehicle (EV) Teams:, p. 18
+    - 3.2.2 Fuel Type, p. 19
+    - 3.2.3 Electrical System Officer Qualification (ESOQ), p. 19
+    - 3.2.4 IAD, SES, ASES, SE3D, ESF, p. 19
+    - 3.2.5 Business Plan Executive & Financial Summary, p. 19
+    - 3.2.6 Technical Vehicle System Documentation (TVSD), p. 20
+    - 3.2.7 Team Member Designation, p. 20
+    - 3.2.8 CRD, p. 20
+    - 3.2.9 Vehicle Status Video, p. 21
+- 4 Technical Inspection, p. 22
+  - 4.1 Vehicle Classes and Specifications, p. 22
+  - 4.2 Inspection Order, p. 22
+    - 4.2.1 CV Class, p. 22
+    - 4.2.2 EV Class, p. 22
+    - 4.2.3 Initial Inspection Order, p. 22
+    - 4.2.4 Re-Inspection, p. 23
+  - 4.3 Technical Inspection Details, p. 23
+    - 4.3.1 Inspection Sheet, p. 23
+    - 4.3.2 Inspection sticker, p. 23
+    - 4.3.3 Pre-Inspection, p. 23
+    - 4.3.4 Accumulator & Electrical Inspection, p. 23
+    - 4.3.5 Mechanical Inspection, p. 24
+    - 4.3.6 Tilt Test, p. 24
+    - 4.3.7 Noise Test, p. 24
+    - 4.3.8 Rain Test, p. 24
+    - 4.3.9 Brake Test, p. 24
+  - 4.4 Good Engineering Practices, p. 24
+- 5 Equipment, p. 25
+  - 5.1 Data Loggers, p. 25
+  - 5.2 Transponders, p. 25
+- 6 Static Events, p. 26
+  - 6.1 Engineering Design Event, p. 26
+    - 6.1.1 Scoring and Categories, p. 26
+    - 6.1.2 General, p. 26
+    - 6.1.3 Schedule, Timeslot and Procedure, p. 27
+    - 6.1.4 Feedback, p. 27
+    - 6.1.5 Finals, p. 27
+  - 6.2 Cost and Manufacturing Event, p. 28
+    - 6.2.1 Cost and Manufacturing Objective, p. 28
+    - 6.2.2 Cost Report Rule Changes and Clarifications, p. 28
+      - 6.2.2.1 Changes relevant to Cost Report Documents (Addition to FS Rules 2026/S 3.3.2), p. 28
+      - 6.2.2.2 Costed Carbonized Bill of Material (Addition to Rules 2026/S 3.5.10), p. 28
+      - 6.2.2.3 Vehicle Condition (Addition to Rules 2026/S 1.1.1), p. 29
+    - 6.2.3 Cost and Manufacturing Scoring, p. 29
+  - 6.3 Business Plan Presentation Event, p. 30
+    - 6.3.1 Business Plan Presentation Objective, p. 30
+    - 6.3.2 Business Plan Presentation Procedure, p. 30
+    - 6.3.3 Executive & Financial Summary, p. 30
+    - 6.3.4 Business Plan Presentation Scoring, p. 31
+      - 6.3.4.1 Points Scoring, p. 31
+      - 6.3.4.2 Non-finalist Scoring, p. 32
+- 7 Dynamic Disciplines, p. 32
+  - 7.1 Dynamic Disciplines Overview, p. 32
+    - 7.1.1 No autonomous mode, p. 32
+    - 7.1.2 Acceleration & Skid Pad, p. 32
+      - 7.1.2.1 Number of Runs, p. 32
+      - 7.1.2.2 Second Run, p. 32
+    - 7.1.3 Autocross, p. 32
+      - 7.1.3.1 Number Of Runs, p. 32
+      - 7.1.3.2 Second Run, p. 32
+    - 7.1.4 Endurance, p. 33
+      - 7.1.4.1 Running Order, p. 33
+  - 7.2 Dynamic Disciplines Scoring, p. 33
+  - 7.3 Dynamic Disciplines Penalties, p. 33
+  - 7.4 Drivers, p. 33
+    - 7.4.1 Driver Eligibility, p. 33
+    - 7.4.2 Number Of Drivers, p. 33
+    - 7.4.3 Driver Runs, p. 34
+    - 7.4.4 Driver Armband, p. 34
+    - 7.4.5 Driver Measurements, p. 34
+- 8 Total Points and Scoring System, p. 35

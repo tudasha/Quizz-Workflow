@@ -1,0 +1,125 @@
+# Index: FSA-Competition-Handbook-2026-V1.1.1
+
+Headings of FSA-Competition-Handbook-2026-V1.1.1.md with their PDF page, from the PDF's bookmarks. Search the .md for the number or title to read the rule.
+
+- FSA Competition Handbook 2026, p. 1
+- AT 1 Administrative Regulations, p. 2
+  - AT 1.1 Formula Student Austria, p. 2
+    - AT 1.1.1 Inquiries regarding FS Austria, p. 2
+  - AT 1.2 Formula Student Austria 2026 Rules, p. 2
+  - AT 1.3 Competition Language, p. 2
+  - AT 1.4 Competition Date and Location, p. 3
+  - AT 1.5 Competition Time, p. 3
+  - AT 1.6 Vehicle Classes and Scoring System, p. 3
+  - AT 1.7 Distribution of Points (change of Rules 2026/A 1.2.5), p. 3
+  - AT 1.8 No Driverless Cup, p. 3
+    - AT 1.8.1 No Autonomous System Required, p. 3
+    - AT 1.8.2 Number of Drivers (Change of Rules 2026/D 1.2.1) In total, a minimum of four and ..., p. 4
+    - AT 1.8.3 No exceptions granted for DV (Change of Rules 2026/A 2.2.3) Since FS Austria ..., p. 4
+  - AT 1.9 Protests, p. 4
+  - AT 1.10 Rules 2026/A 4.2.1 is void, p. 4
+  - AT 1.11 Visitors, p. 4
+    - AT 1.11.1 Visitor Definition, p. 4
+    - AT 1.11.2 Restricted Areas for Visitors, p. 4
+  - AT 1.12 Personal Transport, p. 4
+  - AT 1.13 Unofficial Timing and Telemetry Equipment, p. 4
+    - AT 1.14 Teams using Third-Party Shipping, p. 4
+  - AT 1.15 Working on the Campsite, p. 4
+    - AT 1.15.1 Pit Definition and Possible Activities for the First Day of Competition, p. 4
+    - AT 1.15.2 Environmental Protection on the Campsite, p. 5
+    - AT 1.15.3 Working on TSACs, p. 5
+    - AT 1.16 Clearing the Team’s Box Areas, p. 5
+    - AT 1.17 Hazardous Waste Disposal as per Rules A 6.8.3, p. 5
+- AT 2 Registration & Eligibility, p. 5
+  - AT 2.1 Registration Date, p. 5
+  - AT 2.2 Registration Fee, p. 5
+    - AT 2.2.1 Cancellation and Refunds, p. 5
+    - AT 2.2.2 Additional Team Members, p. 5
+    - AT 2.2.3 Visitor Registration, p. 6
+  - AT 2.3 Registration Capacity and Waiting List, p. 6
+    - AT 2.3.1 Slots, p. 6
+    - AT 2.3.2 2025 Top Finishers, p. 6
+    - AT 2.3.3 Austrian Teams, p. 6
+    - AT 2.3.4 Wildcard & Hydrogen slots, p. 6
+- AT 3 Dates & Documents, p. 7
+  - AT 3.1 Required Documents (Change of Rules 2026/A 5.1.1), p. 7
+  - AT 3.2 Submission Dates Summary, p. 7
+  - AT 3.3 Late Submission or Non-Submission, p. 8
+  - AT 3.4 FSG Online Submissions, p. 8
+  - AT 3.5 Cost Report Documents, p. 8
+    - AT 3.5.1 CCBOM, p. 8
+  - AT 3.6 ESF, p. 8
+  - AT 3.7 SES, SE3D & IAD, p. 8
+  - AT 3.8 Document Templates, p. 9
+- AT 4 Technical Requirements and Inspections, p. 9
+  - AT 4.1 Technical Inspection Sticker, p. 9
+  - AT 4.2 Good engineering practice (addition to Rules 2026/T 2.1.1), p. 9
+  - AT 4.3 Ready-to-Drive Sound (Change of Rules 2026/EV 4.12.3), p. 9
+  - AT 4.4 [EV only] Accumulator Temperature Monitoring (Change of Rules 2026/EV 5.8.6, IN ..., p. 9
+  - AT 4.5 [EV only] Charging Requirements, p. 9
+    - AT 4.5.1 [EV only] Charging Connector (Supplement to Rules2026/EV7), p. 9
+    - AT 4.5.2 [EV only] Supervision after Charging (Supplement to Rules2026/EV7), p. 9
+  - AT 4.6 [EV only] Data Logger, p. 9
+    - AT 4.6.1 Removal of Data Logger (Change to Rules 2026/IN 12.1.10), p. 9
+  - AT 4.7 Transponder and Timekeeping, p. 9
+    - AT 4.7.1, p. 10
+    - AT 4.7.2, p. 10
+    - AT 4.7.3, p. 10
+    - AT 4.7.4, p. 10
+    - AT 4.7.5, p. 10
+    - AT 4.7.6, p. 10
+  - AT 4.8 Fans and Turbines (addition to Rules 2026/T 11.11), p. 10
+  - AT 4.9 Fire extinguishers (addition to Rules 2026/T 13.4), p. 10
+  - AT 4.10 Clarification of “Part” for Rules2026/IN 12.1.6, p. 10
+  - AT 4.11 [EV only] Allow Rule EV 5.8 from 2025 v1.1, p. 11
+  - AT 4.12 [EV only] Working on Vehicle (Change of Rules 2026/A 6.9), p. 11
+- AT 5 Business Plan Presentation, p. 11
+  - AT 5.1 Applicable Rules (Change of Rules2026/S2), p. 11
+  - AT 5.2 Business Plan Presentation Objective, p. 11
+  - AT 5.3 Business Plan Presentation Procedure, p. 11
+  - AT 5.4 Part 1: Business Pitch Video:, p. 11
+    - AT 5.4.1 Submission, p. 11
+    - AT 5.4.2 Content, p. 12
+    - AT 5.4.3 Target and Length, p. 12
+    - AT 5.4.4 Results, p. 12
+  - AT 5.5 Part 2: 10-Minute Business Plan Presentation, p. 12
+    - AT 5.5.1 Procedure, p. 12
+    - AT 5.5.2 Time Limit, p. 12
+    - AT 5.5.3 Q&A Session, p. 12
+    - AT 5.5.4 Deep Dive Topic, p. 12
+    - AT 5.5.5 Team Member Limit, p. 12
+    - AT 5.5.6 Team Member Introduction, p. 13
+    - AT 5.5.7 Presentation Equipment, p. 13
+    - The presentation equipment provided will be either a large-screen TV or a data projector ..., p. 13
+  - AT 5.6 Business Plan Presentation Finals, p. 13
+  - AT 5.7 Feedback, p. 13
+  - AT 5.8 Business Plan Presentation Scoring, p. 13
+    - AT 5.8.1, p. 13
+    - AT 5.8.2, p. 13
+    - AT 5.8.3, p. 14
+- AT 6 Cost and Manufacturing, p. 14
+  - AT 6.1 Cost Report Rule Changes and Clarifications, p. 14
+    - AT 6.1.1 No Real Case (Change of Rules 2026/S 3.2.5), p. 14
+    - AT 6.1.2 Changes relevant for Cost Report Documents (Addition to Rules 2026/S 3.3.2), p. 14
+    - AT 6.1.3 Costed Carbonized Bill of Material (Addition to Rules 2026/S 3.5.10), p. 14
+    - AT 6.1.4 Cost and Manufacturing Vehicle Condition (Addition to Rules 2026/S 1.1.1), p. 14
+  - AT 6.2 Cost and Manufacturing Scoring, p. 14
+    - AT 6.2.1 Scoring Table (Change of Rules 2026/S 3.8.2 and S 3.8.3), p. 14
+    - AT 6.2.2 Cost Finals Scoring, p. 14
+- AT 7 Engineering Design, p. 15
+  - AT 7.1 Engineering Design Scoring Criteria (change of Rules 2026/S 4.5), p. 15
+  - AT 7.2 Engineering Design Procedure, p. 15
+- AT 8 Dynamic Disciplines, p. 15
+  - AT 8.1 Skid Pad & Acceleration, p. 15
+    - AT 8.1.1 Priority (Change of Rules 2026/D 1.1.8), p. 15
+    - AT 8.1.2 Number of Runs (Change of Rules 2026/D 1.3), p. 15
+    - AT 8.1.3 Acceleration Staging (Change of Rules 2026/D 5.2.3), p. 15
+  - AT 8.2 Endurance Running Order (Addition to Rules2026/D 7.3), p. 16
+    - AT 8.2.1 Running Order Goal, p. 16
+    - AT 8.2.2 Ready-by Time, p. 16
+    - AT 8.2.3 Out-of-Order Running (OOO), p. 16
+    - AT 8.2.4 Running at a Later Slot, p. 16
+    - AT 8.2.5 OOO Running Order, p. 16
+  - AT 8.3 Data Logger, p. 16
+  - AT 8.4 Power and Voltage Violation Penalties (Change of Rules 2026/D 10.4.2), p. 17
+- AT 9 Document History, p. 17

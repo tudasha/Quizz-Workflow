@@ -1,0 +1,68 @@
+# Index: FSG26_Event_Handbook_v1.1
+
+Headings of FSG26_Event_Handbook_v1.1.md with their PDF page, from the PDF's bookmarks. Search the .md for the number or title to read the rule.
+
+- Changelog, p. 2
+- Abbreviations, p. 3
+- Formula Student Germany Event Handbook 2026, p. 4
+  - DE 1 General Information, p. 4
+    - DE 1.1 Event Dates and Place, p. 4
+    - DE 1.2 Class Availability, p. 4
+    - DE 1.3 Applicable Rules, p. 4
+    - DE 1.4 Competition Website, p. 4
+    - DE 1.5 Date and Time Format, p. 4
+  - DE 2 Emergency Information, p. 5
+    - DE 2.1 Emergency Numbers, p. 5
+    - DE 2.2 Minor Injury, p. 5
+    - DE 2.3 Severe Injury, p. 5
+    - Clear message of zero tolerance of all forms of violence and hate crime, p. 5
+  - DE 3 Registration, p. 6
+    - DE 3.1 Team Registration, p. 6
+    - DE 3.2 Registration Slots, p. 7
+    - DE 3.3 Registration Fee, p. 7
+    - DE 3.4 Waiting List & Withdrawals, p. 8
+    - No Driverless, p. 8
+    - DE 3.6 Driverless Cup, p. 8
+    - DE 3.7 Team Member Designation, p. 9
+    - DE 3.8 Visa for Participants, p. 9
+  - DE 4 Important Dates, p. 11
+    - DE 4.1 Team Registration, p. 11
+    - DE 4.2 Deadlines, p. 11
+  - DE 5 Event Site Organization, p. 13
+    - DE 5.1 On-Site Registration, p. 13
+    - DE 5.2 Entering the Event Site, p. 13
+    - DE 5.3 Announcements, p. 14
+    - DE 5.4 Protest Procedure, p. 14
+    - DE 5.5 Event Site, p. 14
+    - DE 5.6 Welding and Power Tool Area, p. 15
+    - DE 5.7 Tires, p. 15
+    - DE 5.8 Team Briefings, p. 15
+    - DE 5.9 Driver Registration, p. 15
+    - DE 5.10 Technical Inspection Time Schedule, p. 15
+    - DE 5.11 Transponders / Timekeeping, p. 15
+    - DE 5.12 Charging, p. 16
+    - DE 5.13 Accumulator Inspection, p. 16
+    - DE 5.14 Electrical Inspection, p. 17
+    - No Tilt Test, p. 17
+  - DE 6 Static Disciplines, p. 18
+    - DE 6.1 Bill of Material, p. 18
+  - DE 7 Dynamic Disciplines, p. 19
+    - DE 7.1 Dynamic Disciplines Closing Time Handling, p. 19
+    - DE 7.2 Endurance Running Order, p. 19
+    - DE 7.3 Trackdrive Running Order, p. 19
+    - DE 7.4 Behavior Inside Dynamic Area, p. 20
+    - DE 7.5 Autonomous Mode Disciplines Track Marking, p. 20
+    - [DC only] Autonomous Mode Autocross Track Walk Procedure, p. 23
+  - DE 8 Vehicle Requirements and Restrictions, p. 24
+    - DE 8.1 Technical Inspection Sticker, p. 24
+    - No Cell Temperature Monitoring Device, p. 24
+    - DE 8.3 Data Logger, p. 24
+    - DE 8.4 Remote Emergency System, p. 26
+    - DE 8.5 Maximum Sound Level, p. 29
+    - DE 8.6 Chassis Identification, p. 29
+  - DE 9 Vehicle Shipping, p. 30
+    - DE 9.1 Shipping Address, p. 30
+    - DE 9.2 Incoming Shipment, p. 30
+    - DE 9.3 Shipping Crates/Containers, p. 30
+    - DE 9.4 Outgoing Shipments, p. 30
+    - DE 9.5 Shipment Information Upload, p. 31
