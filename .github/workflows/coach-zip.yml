@@ -1,7 +1,8 @@
 name: Coach zip
 
 # Members only ever get what is on main: each push to main that changes coach/
-# rebuilds fs-quiz-coach.zip and replaces the files of the coach-latest release.
+# rebuilds fs-quiz-coach.zip and the web chat .md files and replaces the files of the
+# coach-latest release.
 on:
   push:
     branches: [main]
@@ -29,7 +30,7 @@ jobs:
           cache-dependency-path: coach/general/tools/requirements.txt
       - name: Install
         run: pip install -r coach/general/tools/requirements.txt
-      - name: Build the zip
+      - name: Build the zip and the chat files
         working-directory: coach/general/tools
         run: python build_zip.py --out "$GITHUB_WORKSPACE/dist" --version "${GITHUB_SHA::7}"
       - name: Publish as the coach-latest release
@@ -38,8 +39,8 @@ jobs:
         run: |
           # One release with a fixed tag keeps the download link the same for every version.
           gh release delete coach-latest --cleanup-tag --yes || true
-          gh release create coach-latest dist/*.zip \
+          gh release create coach-latest dist/*.zip dist/*.md \
             --target "$GITHUB_SHA" \
             --title "FS Quiz coach $(date -u +%Y-%m-%d)" \
-            --notes-file dist/VERSION.txt \
+            --notes-file dist/release-notes.txt \
             --latest=false

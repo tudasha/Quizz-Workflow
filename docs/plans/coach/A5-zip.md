@@ -24,3 +24,10 @@ Done when: e2e downloads the zip and copies the FSA prompt.
 
 ## A5.4 Size check — done
 - If the zip is bigger than `zip_split_above_mb` in `config.json` (25 MB, for agents with a small upload limit such as Claude Project knowledge), the build also makes one zip per competition
+
+## A5.5 Files for web chats — done
+Gemini and other web chats can't open a zip (review, 2026-10-15). `general/tools/chat_files.py`, run by the zip build, writes Markdown files next to the zip on the `coach-latest` release:
+- Per competition: `fs-quiz-coach-<event>-chat.md` (AGENTS.md, LOG.md, solving-rules, log-use, solve-modes, quiz-maker, COMPETITION.md, competition skills, KEY-VALUES), `fs-quiz-coach-<event>-handbook-<year>.md` (with its index) and `fs-quiz-coach-<event>-problems.md` (problems, solutions, newest first)
+- Shared: `fs-quiz-coach-rules-<year>.md` (FS Rules with index and changes)
+- No PDFs, images or third-party skills; each coach file is a section headed "File: <path>" so the paths in AGENTS.md still lead somewhere
+Done when: a web chat given the chat, rules and handbook files answers a past problem by the solving rules.

@@ -39,7 +39,7 @@ Read only the files you need; never load a whole rulebook into the answer.
 - Limits, penalties and scoring formulas: `general/rules/KEY-VALUES-<year>.md`, each with its rule and a quote. The .md rules garble formulas and tables; check those there or in the PDF.
 - Similar past problems: search `competitions/<event>/problems/` by keyword, or by `topic:` and `type:` in the front matter. With MCP: `search_problems`, then `get_problem`.
 - A problem folder holds `problem.md` (question, options, the FS Quiz answer, labels), `images/`, and when someone wrote them `solution.md` (explanation) and `solution.py` (prints the answer). An answer marked `status: unverified` has not been checked by the team yet.
-- No terminal (web chat)? Use the uploaded files and the MCP search tools; ask the member to paste a section if you can't open it.
+- No terminal (web chat)? The member uploads `fs-quiz-coach-<event>-chat.md` with the rules, handbook and problems files named at its top; search those, or use the MCP search tools if connected. Ask the member to paste a section if you can't open it.
 
 ## 5. Order of work for each question
 Every question gets both answers (`solve-modes`):
