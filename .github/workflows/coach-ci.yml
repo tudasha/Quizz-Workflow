@@ -1,7 +1,8 @@
 name: Coach CI
 
 # Checks the coach content on every PR that touches it: tool tests, problem labels,
-# every solution.py against its answer, and a preview of the zip.
+# every solution.py against its answer, the key-value quotes against the rules, and a
+# preview of the zip.
 on:
   pull_request:
     paths:
@@ -36,6 +37,8 @@ jobs:
         run: python -m pytest -q
       - name: Problems and solutions
         run: python check_problems.py
+      - name: Key values still match the rules
+        run: python check_key_values.py
       - name: Build the zip
         run: python build_zip.py --out "$GITHUB_WORKSPACE/dist" --version "${GITHUB_SHA::7}"
       - name: Keep the zip for download
