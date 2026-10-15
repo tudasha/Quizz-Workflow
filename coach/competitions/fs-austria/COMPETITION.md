@@ -1,6 +1,6 @@
 # Formula Student Austria — registration quiz
 
-Pattern from the FS Quiz history (2014, 2016–2026, 187 questions, 25 with a written solution) and the 2026 handbook (FSA-Competition-Handbook-2026-V1.1.1.md, AT 2 Registration & Eligibility). Written by Claude on 2026-10-14; reviewed by: pending.
+Pattern from the FS Quiz history (2014, 2016–2026, 187 questions, 25 with a written solution) and the 2026 handbook (FSA-Competition-Handbook-2026-V1.1.1.md, AT 2 Registration & Eligibility). Written by Claude on 2026-10-14 ("Differs from FS Rules" on 2026-10-15); reviewed by: pending.
 
 ## When something is new
 This file is the pattern of past quizzes and the 2026 handbook: a guide, not a rule.
@@ -8,6 +8,34 @@ This file is the pattern of past quizzes and the 2026 handbook: a guide, not a r
 - Live quiz: when a question is of a kind this file does not cover (new type, new topic, new answer format, a scoring or submission detail not listed here), say so, solve it from the question and the current rules and handbook, and re-check your answer once more before giving it. Then log a note (`log-use`, `problem_id: note`) naming this competition and what was new, so a maintainer updates this file.
 - Before a live quiz: check that `handbook/current/` is the newest handbook version and read the organiser's latest quiz announcement and FAQ. Where they differ from this file, they win; tell the member and log a note.
 - When the weekly import brings a new handbook or new quiz questions for this competition, re-check this file against them.
+
+## Differs from FS Rules 2026
+Where this competition's 2026 handbook changes FS Rules 2026. For these points the handbook wins; check here before applying an FS Rules rule.
+- **Points per discipline:** Skid Pad 75, Acceleration 75, Autocross 100, Endurance 325, Efficiency 100 (Pmax in D 9; no DV disciplines or Driverless Cup), instead of Skidpad 50 + DV Skidpad 75, Acceleration 50 + DV Acceleration 75, Endurance 250, Efficiency 75 [HB AT 1.7, AT 1.8; FS A 1.2.5, Table 3].
+- **BPP score:** non-finalists get 71 · Pyour / Pmin-F (Pmin-F = lowest initial-judging score of any BPP finalist), finalists 75 down to the highest non-finalist score, instead of 70 · Pteam / Pmax (best non-finalist) and finalists 75 to 71 [HB AT 5.8.2–5.8.3; FS S 2.4.6–2.4.7].
+- **BPP categories:** Part 1 pitch video 20% (General Content 5, Business Model 10, Delivery 5); Part 2 80% (Content, Finances, Demonstration, Delivery, Structure, Questions, Deep Dive Topic, General Impression, 10 each), instead of Table 6 with a 10-point BPEFS [HB AT 5.8.1; FS S 2.4.1].
+- **Cost and Manufacturing score:** Format and Accuracy of Documents 4, Knowledge of Documents and Vehicle 6, BOM discussion 40, Cost understanding 50 (no Real Case; missing BOM items max −10), instead of BOM Discussion 50, Cost Understanding 25, Real Case 25 [HB AT 6.1.1, AT 6.2.1; FS S 3.2.5, S 3.8.2–3.8.3].
+- **Cost and Manufacturing finals:** any number of finalists, scored between the best non-finalist's score and 100, instead of a cap of 80 points for non-finalists [HB AT 6.2.2; FS S 3.8.4–3.8.5].
+- **Engineering Design score:** seven criteria judged in six fields (Suspension, Frame & Body, Aero, Drivetrain, Electronic Systems, Ergonomics), max 10 points each, scaled so each class's best team gets 140, plus max 10 for the TVSD, instead of Table 7 [HB AT 7.1; FS S 4.5.3].
+- **Drivers:** 4 to 6 drivers per team, instead of 3 to 4 [HB AT 1.8.2; FS D 1.2.1].
+- **Skid Pad and Acceleration runs:** manual mode only, 4 runs each by two drivers with two runs each; only a first run with the first driver gets priority, instead of 2 manual + 2 DV runs and priority for every first run [HB AT 8.1–8.1.2; FS D 1.3.1, D 1.1.8].
+- **Endurance order and out-of-order:** order may ignore speed; teams get a ready-by time; OOO = all teams ahead ran or forfeited and the ready-by time passed (2 min penalty); announce a later run before the last car enters the track or DNA, instead of order by similar speed [HB AT 8.2; FS D 7.3.1, D 10.2.1].
+- **Power and voltage violations (EV):** group A or B time penalty as in IN 12.1.4 (e.g. Endurance 30 s or 2 min), and incomplete Endurance data = DQ in Efficiency, instead of DQ of the fastest valid run per violation [HB AT 8.4; FS D 10.4.2].
+- **Data logger:** download its data at a DLDS within 1 h after each event closes (else a D 10.4.4 violation); if officials did not remove the EV logger, return it to Event Control within 30 min after Endurance or DQ in Efficiency, instead of removal by officials [HB AT 4.6.1, AT 8.3.3–8.3.4; FS IN 12.1.11].
+- **Acceleration staging:** the car is staged so it breaks the timing beam after 0.30 m of travel, instead of its foremost part 0.30 m behind the starting line [HB AT 8.1.3; FS D 5.2.3].
+- **BPP format:** S 2 void: a pitch video of max 90 s before the event is a drop-out stage; qualifiers give a 10 min presentation + 5 min Q&A with max 3 presenters, instead of a BPEFS and a presentation by every team [HB AT 5.1, AT 5.3, AT 5.4.3, AT 5.5.3, AT 5.5.5; FS S 2.2–2.3].
+- **BPP link to the car:** a business model not based on the team's prototype or one of its components scores 0 BPP points, instead of 15 penalty points [HB AT 5.2; FS S 2.4.2].
+- **Accumulator temperature logger (EV):** the official logging device is not installed at FSA, instead of being installed at Accumulator Inspection if the event uses one [HB AT 4.4; FS IN 3.1.2, EV 5.8.9].
+- **EV 5.8 version (EV):** accumulators may comply with EV 5.8 of FS Rules 2025 v1.1 or 2026 v1.1, instead of 2026 only [HB AT 4.11; FS EV 5.8].
+- **Lost parts:** the DQ for losing a part is generally not applied to minor tape or adhesive film or insignificant bits broken off by cones or the track (e.g. a small part of a front wing endplate) [HB AT 4.10; FS IN 12.1.6].
+- **Ready-to-drive sound (EV):** the sound-type requirement is waived, instead of "easily recognizable, no animal voices, song parts or offensive sounds" [HB AT 4.3; FS EV 4.12.3].
+- **Working on an EV:** only when the ESO declares the car safe (all green-TSAL requirements met) and it is locked per EV 6.2.2; the ESO stays with an unsafe car; no "TSAL green" sign, instead of TSAL green + manual sign + HVD removed [HB AT 4.12; FS A 6.9.1–6.9.3].
+- **Cooling fans:** max 106 dB(C) at max fan speed, fast weighting, measured like the CV noise test, and fan power must be easy to check (e.g. data sheets), in addition to the 500 W limit [HB AT 4.8; FS T 11.11.1, IN 10].
+- **Charging (EV):** charger mains plug IEC 60309 (CEE) 16 A, adapters allowed; TSACs stay under officials' supervision in the charging area for at least 30 min after charging ends (LV batteries incl. HSC exempt) [HB AT 4.5.1–4.5.2; FS EV 7, A 6.12.4].
+- **Required documents:** ASF, ASRQ and SESA not required (A 5.7 does not apply) and the SES is approved by the officials; documents not in the AT 3.2 table (e.g. BPEFS) are not required, instead of SES approval by a graduated engineer plus SESA [HB AT 3.1–3.2; FS A 5.1.1, A 5.7].
+- **Late documents and templates:** a late Business Pitch Video, TVSD or Cost Report (group B) costs 10 points per overdue 24 h from that static discipline, instead of 10 overall and de-registration after 24 h; wrong template −10 (overall for A, discipline for B) [HB AT 3.2–3.3, AT 3.8; FS A 5.4.1–5.4.2].
+- **Protests:** in writing to info@fsaustria.at within 48 hours of the announcement (25-point bond), instead of within "the announced protest period" [HB AT 1.9; FS A 3.7.2].
+- **Chassis reuse:** a first-time Autonomous System does not allow reusing the chassis another year, instead of the A 2.2.3 exception [HB AT 1.8.3; FS A 2.2.3].
 
 ## Quiz format
 - Separate quizzes for EV and CV since 2017; 2014 and 2016 have only an EV quiz in the data [FS Quiz 2014–2026].
