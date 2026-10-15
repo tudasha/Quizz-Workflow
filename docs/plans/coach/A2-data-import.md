@@ -38,6 +38,7 @@ Done in `feat/coach-import` (`python -m fsquiz documents`).
 - Current year (2026) is the source agents rely on: FS Rules 2026 in `general/rules/current/`, each competition's 2026 handbook in `competitions/<event>/handbook/current/`; PDF plus a Markdown conversion
 - 2026 documents come from the API `/document` (the fs-quiz.eu GitHub repo `doc/` only goes up to 2025) or the event websites
 - Older years stay in the repo under `rules/<year>/` and `handbook/<year>/`, not in the zip; they are used only when checking an old problem whose answer depended on an older rule (`rules_year` in `problem.md`)
+- Cleaner conversion (review, 2026-10-15): no running headers, split small caps or ligatures, rule numbers written "D 9.1.1"; `<name>.index.md` from the PDF bookmarks and `<name>.changes.md` from the changelog. `python -m fsquiz convert` redoes it from the PDFs without the API
 Done when: every competition folder has its 2026 handbook in Markdown, and `general/rules/current/` holds FS Rules 2026.
 
 ## A2.8 Weekly check — done
