@@ -79,7 +79,7 @@ coach/
 - The log is in this app's PostgreSQL. Agents read lessons before each problem and write an entry after it, live, through the MCP server or REST API with a personal token; agents without MCP print the entry and the member pastes it into the app.
 - Every solve is stored in a session (member, agent, competition, year; answer, correct or not, time) and shown on a dashboard everyone can see.
 - The MCP server also offers search over rules, handbooks and past problems.
-- Made for the live quiz, where nobody knows the answers yet: members join one live session; every question gets a quick answer (one agent, logged at once) and then a team answer (sub-agents that compare with the other members' logged answers and log which is right and why, re-checking until they agree), described in `coach/general/skills/solve-modes/`.
+- Made for the live quiz, where nobody knows the answers yet: members join one live session; every question gets a quick answer (one agent, logged at once) and, started at the same time, a team answer (sub-agents that compare with the other members' logged answers and log which is right and why, re-checking until they agree), described in `coach/general/skills/solve-modes/`.
 - On request the coach makes practice quizzes in a competition's own style (`coach/general/skills/quiz-maker/`), every answer checked by a second blind solve.
 - Log entry: problem, agent, correct or not, approach, what went wrong, why, rule for next time. Entries are `unreviewed` until a topic checker confirms them; skills win over log entries.
 - Claude wrote `AGENTS.md`, the general skills and each competition's `COMPETITION.md` (from the pattern of its past quizzes and its handbook); Gion reviews them. Competition skills come from Gion's text.
