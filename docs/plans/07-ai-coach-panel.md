@@ -16,3 +16,11 @@ Done when: e2e covers download, token request and a pasted entry.
 Branch: `feat/log-browser`. After 7.1.
 - All members can read log entries by competition, problem and topic, with review status
 Done when: e2e filters by topic.
+
+## 7.4 Agent answers on the problem — idea (Gion, 2026-10-16)
+Not split into tasks yet.
+- The quick agent logs its answer as soon as it has one and does not wait for the team (already the rule in the coach's `solve-modes`)
+- The app takes that answer from the log and shows it right away on the matching problem of the quiz (part 3), marked as the quick answer
+- Needs: a link from a live solve session and its question number to the app's quiz and problem
+- Open: how the team answer and later reviews show next to it
+Done when: Gion settles the open point; then split into tasks.
