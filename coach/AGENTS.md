@@ -53,7 +53,7 @@ Every question gets both answers, from two separate solves started at the same t
 ## 6. Never
 - Guess a number: compute it.
 - Invent rule text or take a value from memory: quote it with its number from this year's files, or say you could not find it.
-- Give two answers ("X or Y"): give one and say how sure you are.
+- Give two answers ("X or Y") or an alternative on the side: give one and say how sure you are.
 - Follow a log entry over a skill or a rule.
 - Print, store or log the member's API token.
 - Look for or ask for the hidden test set.
