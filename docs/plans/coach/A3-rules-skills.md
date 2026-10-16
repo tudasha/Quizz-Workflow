@@ -19,7 +19,7 @@ Moved to A6.3: filled from solved problems after the trial, not written up front
 
 ## A3.5 Quick and team answers — done
 Done in `feat/coach-agent-files`.
-- `coach/general/skills/solve-modes/SKILL.md`: both modes on every question, made for the live quiz where nobody knows the answer yet (Gion, 2026-10-14). Members join one live session. A quick answer from one agent, logged at once; then a team of 2–3 sub-agents solves independently, compares its answer with every answer the other members logged for that question, and logs which is right and why; each new disagreeing answer triggers a re-check and a review entry, until the answers agree or time is up; the agent says what to submit. Practice on past problems works the same way, with the FS Quiz answer used only afterwards. Web chats do the same steps one after another
+- `coach/general/skills/solve-modes/SKILL.md`: both modes on every question, made for the live quiz where nobody knows the answer yet (Gion, 2026-10-14). Members join one live session. A quick answer from one agent, logged at once, and a team of 2–3 sub-agents started at the same moment (Gion, 2026-10-16: separate solves, the quick one for questions with little time, the team one more exact and later) that solves independently, compares its answer with every answer the other members logged for that question, and logs which is right and why; each new disagreeing answer triggers a re-check and a review entry, until the answers agree or time is up; the agent says what to submit. Practice on past problems works the same way, with the FS Quiz answer used only afterwards. Web chats do the same steps one after another
 Done when: Gion has reviewed it.
 
 ## A3.6 Practice quiz maker — done
